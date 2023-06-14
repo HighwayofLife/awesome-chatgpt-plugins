@@ -28,5 +28,6 @@ Click the Plugin name for detailed descriptions, usage examples, and more inform
 - [Show Me](./plugins/show-me.md) - Create and edit diagrams directly in chat.
 - [Speak](./plugins/speak.md) - Learn how to say anything in another language with Speak, your AI-powered language tutor.
 - [Video Insights](./plugins/video-insights.md) - Interact with online video platforms like Youtube or Daily Motion.
+- [WebPilot](./plugins/webpilot.md) - Browse & QA Webpage/PDF/Data. Generate articles, from one or more URLs.
 - [Wolfram](./plugins/wolfram.md) - Access computation, math, curated knowledge & real-time data through Wolfram|Alpha and Wolfram Language.
 - [Zapier](./plugins/zapier.md) - Interact with over 5,000+ apps like Google Sheets, Gmail, HubSpot, Salesforce, and thousands more.
