@@ -26,6 +26,7 @@ Click the Plugin name for detailed descriptions, usage examples, and more inform
 - [KeyMate.AI Search](./plugins/keymate-ai-search.md) Search & Browse the web by using Google Search results with KeyMate.AI, your AI-powered web crawler.
 - [Noteable](./plugins/notable.md) - Create notebooks in Python, SQL, and Markdown to explore data, visualize, and share notebooks with everyone.
 - [Prompt Perfect](./plugins/prompt-perfect.md) - Type 'perfect' to craft the perfect prompt, every time.
+- [ScholarAI](./plugins/scholarai.md) - Unleash scientific research: search 40M+ peer-reviewed papers, explore scientific PDFs, and save to reference
 - [Show Me](./plugins/show-me.md) - Create and edit diagrams directly in chat.
 - [Speak](./plugins/speak.md) - Learn how to say anything in another language with Speak, your AI-powered language tutor.
 - [Video Insights](./plugins/video-insights.md) - Interact with online video platforms like Youtube or Daily Motion.
