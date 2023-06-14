@@ -24,6 +24,7 @@ Click the Plugin name for detailed descriptions, usage examples, and more inform
 
 - [Kayak](./plugins/kayak.md) - Search flights, stays & rental cars or get recommendations where you can go on your budget.
 - [Noteable](./plugins/notable.md) - Create notebooks in Python, SQL, and Markdown to explore data, visualize, and share notebooks with everyone.
+- [Prompt Perfect](./plugins/prompt-perfect.md) - Type 'perfect' to craft the perfect prompt, every time.
 - [Show Me](./plugins/show-me.md) - Create and edit diagrams directly in chat.
 - [Speak](./plugins/speak.md) - Learn how to say anything in another language with Speak, your AI-powered language tutor.
 - [Wolfram](./plugins/wolfram.md) - Access computation, math, curated knowledge & real-time data through Wolfram|Alpha and Wolfram Language.
