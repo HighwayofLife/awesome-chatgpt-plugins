@@ -23,6 +23,7 @@ To use a ChatGPT plugin,
 Click the Plugin name for detailed descriptions, usage examples, and more information about that plugin.
 
 - [Kayak](./plugins/kayak.md) - Search flights, stays & rental cars or get recommendations where you can go on your budget.
+- [KeyMate.AI Search](./plugins/keymate-ai-search.md) Search & Browse the web by using Google Search results with KeyMate.AI, your AI-powered web crawler.
 - [Noteable](./plugins/notable.md) - Create notebooks in Python, SQL, and Markdown to explore data, visualize, and share notebooks with everyone.
 - [Prompt Perfect](./plugins/prompt-perfect.md) - Type 'perfect' to craft the perfect prompt, every time.
 - [Show Me](./plugins/show-me.md) - Create and edit diagrams directly in chat.
