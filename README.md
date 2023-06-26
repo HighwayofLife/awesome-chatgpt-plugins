@@ -29,6 +29,7 @@ Click the Plugin name for detailed descriptions, usage examples, and more inform
 - [ScholarAI](./plugins/scholarai.md) - Unleash scientific research: search 40M+ peer-reviewed papers, explore scientific PDFs, and save to reference
 - [Show Me](./plugins/show-me.md) - Create and edit diagrams directly in chat.
 - [Speak](./plugins/speak.md) - Learn how to say anything in another language with Speak, your AI-powered language tutor.
+- [SummarizeAnything.ai](./plugins/summarize-anything-ai.md) - Summarize YouTube videos, web pages, and PDF documents by providing a link. This is a free preview.
 - [Video Insights](./plugins/video-insights.md) - Interact with online video platforms like Youtube or Daily Motion.
 - [WebPilot](./plugins/webpilot.md) - Browse & QA Webpage/PDF/Data. Generate articles, from one or more URLs.
 - [Wolfram](./plugins/wolfram.md) - Access computation, math, curated knowledge & real-time data through Wolfram|Alpha and Wolfram Language.
