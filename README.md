@@ -19,37 +19,34 @@ To use a ChatGPT plugin,
 - A ChatGPT Pro subscription: Currently, only ChatGPT Pro subscribers can use plugins.
 <!-- BEGIN PLUGINS -->
 
-# Categorized Plugins
+## Categories
 
-## Plugin Categories
-* [Charts and Diagrams](#Charts-and-Diagrams)
-* [Coding](#Coding)
-* [Documents](#Documents)
-* [Earth and Space](#Earth-and-Space)
-* [Education / Learning](#Education-/-Learning)
-* [Entertainment](#Entertainment)
-* [Events](#Events)
-* [Finance](#Finance)
-* [Food & Drink](#Food-&-Drink)
-* [Health & Fitness](#Health-&-Fitness)
-* [Images](#Images)
-* [Job and Career](#Job-and-Career)
-* [Legal and Politics](#Legal-and-Politics)
-* [Marketing](#Marketing)
-* [News & Media](#News-&-Media)
-* [Productivity](#Productivity)
-* [Prompts](#Prompts)
-* [Search](#Search)
-* [Shopping](#Shopping)
-* [Social Networking](#Social-Networking)
-* [Sports](#Sports)
-* [Summarization](#Summarization)
-* [Text](#Text)
-* [Travel](#Travel)
-* [Uncategorized](#Uncategorized)
-* [Video](#Video)
-
-
+- [Charts and Diagrams](#charts-and-diagrams) - 38 plugins
+- [Coding](#coding) - 66 plugins
+- [Documents](#documents) - 15 plugins
+- [Earth and Space](#earth-and-space) - 24 plugins
+- [Education and Learning](#education-and-learning) - 29 plugins
+- [Entertainment](#entertainment) - 40 plugins
+- [Events](#events) - 9 plugins
+- [Finance](#finance) - 50 plugins
+- [Food and Drink](#food-and-drink) - 26 plugins
+- [Health and Fitness](#health-and-fitness) - 5 plugins
+- [Images](#images) - 14 plugins
+- [Job and Career](#job-and-career) - 24 plugins
+- [Legal and Politics](#legal-and-politics) - 10 plugins
+- [Marketing](#marketing) - 22 plugins
+- [New and Media](#new-and-media) - 15 plugins
+- [Productivity](#productivity) - 37 plugins
+- [Prompts](#prompts) - 7 plugins
+- [Search](#search) - 62 plugins
+- [Shopping](#shopping) - 65 plugins
+- [Social Networking](#social-networking) - 33 plugins
+- [Sports](#sports) - 8 plugins
+- [Summarization](#summarization) - 2 plugins
+- [Text](#text) - 13 plugins
+- [Travel](#travel) - 28 plugins
+- [Uncategorized](#uncategorized) - 15 plugins
+- [Video](#video) - 14 plugins
 
 ## Charts and Diagrams
 
@@ -214,7 +211,7 @@ To use a ChatGPT plugin,
 | <img src="https://metar.pluginai.ai/logo.png" alt="logo" width="64" /> | **Weather Report** | Current weather data for cities and airports using METAR aviation feeds. |
 | <img src="https://openai-plugin.xweather.com/logo.svg" alt="logo" width="64" /> | **Xweather** | XWeather gives weather information for a location.  Ask for the current weather, a 5-day forecast, or a radar image. |
 
-## Education / Learning
+## Education and Learning
 
 | Logo | Plugin Name | Description |
 | --- | --- | --- |
@@ -362,7 +359,7 @@ To use a ChatGPT plugin,
 | <img src="https://savvytrader.com/android-chrome-192x192.png" alt="logo" width="64" /> | **Savvy Trader AI** | Realtime stock, crypto and other investment data. |
 | <img src="https://portfoliopilot.com/logo.png" alt="logo" width="64" /> | **PortfolioPilot** | Your AI investing guide: portfolio assessment, recommendations, answers to all finance questions. |
 
-## Food & Drink
+## Food and Drink
 
 | Logo | Plugin Name | Description |
 | --- | --- | --- |
@@ -393,7 +390,7 @@ To use a ChatGPT plugin,
 | <img src="https://cdn.otstatic.com/third-party/images/opentable-logo-512.png" alt="logo" width="64" /> | **OpenTable** | Provides restaurant recommendations, with a direct link to book. |
 | <img src="https://www.instacart.com/assets/beetstrap/brand/2022/carrotlogo-1286c257354036d178c09e815906198eb7f012b8cdc4f6f8ec86d3e64d799a5b.png" alt="logo" width="64" /> | **Instacart** | What’s cookin'? Ask about recipes, meal plans, & more -- and get ingredients delivered from 40,000+ stores! |
 
-## Health & Fitness
+## Health and Fitness
 
 | Logo | Plugin Name | Description |
 | --- | --- | --- |
@@ -493,7 +490,7 @@ To use a ChatGPT plugin,
 | <img src="https://kalendar.ai/assets/logo-black-50c5284888eeea1d77f877d9a6736f1bf23533f975fae3939824cf429ad95e34.png" alt="logo" width="64" /> | **KalendarAI** | KalendarAI sales agents generate revenue with potential customers from 200+ million companies globally. |
 | <img src="https://biztoc.com/favicon.png" alt="logo" width="64" /> | **BizToc** | Search BizToc for business & finance news. |
 
-## News & Media
+## New and Media
 
 | Logo | Plugin Name | Description |
 | --- | --- | --- |
@@ -851,5 +848,6 @@ To use a ChatGPT plugin,
 | <img src="https://www.roshi-server.com/logo.png" alt="logo" width="64" /> | **Roshi** | Create interactive lessons from online articles or Youtube videos. |
 | <img src="https://api.vidiq.com/chatgpt-plugin/logo/logo.svg" alt="logo" width="64" /> | **vidIQ** | Discover and summarize trending videos on YouTube. |
 | <img src="https://jettel.de/logo.png" alt="logo" width="64" /> | **Video Insights** | Interact with online video platforms like Youtube or Daily Motion. |
+
 
 <!-- END PLUGINS -->
