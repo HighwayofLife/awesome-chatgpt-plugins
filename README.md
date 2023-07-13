@@ -213,8 +213,7 @@ To use a ChatGPT plugin,
 | <img src="https://uploads-ssl.webflow.com/62ea3bc0bbc782948e62e0bb/639313e510990d725bfec083_webclip.png" alt="logo" width="64" /> | **DAIZY** | ETF Research, Stocks, Cryptos, Performance, Risk, Sustainability, Investment, Portfolio Analysis. |
 | <img src="https://wikidocs.net/static/img/plugin_logo.png" alt="logo" width="64" /> | **WikiDocs** | You can search for books on Wikidocs and create books. |
 | <img src="https://storage.googleapis.com/highperplexity-desktop-video/adaptive-icon-highPerplexity.png" alt="logo" width="64" /> | **highPerplexity** | Integrates with highPerplexity and executes any prompts you need. |
-| <img src="https://api.pannous.com/logo.png" alt="logo" width="64" /> | **Jini** | Get factual, knowledge-base and real-time information. 
- Search news, images, videos, music, apps, pages and facts. |
+| <img src="https://api.pannous.com/logo.png" alt="logo" width="64" /> | **Jini** | Get factual, knowledge-base and real-time information.   Search news, images, videos, music, apps, pages and facts. |
 | <img src="https://avian.io/static/images/logomark_square.png" alt="logo" width="64" /> | **Avian** | Connect to your business data - Google Analytics, Google Ads, Facebook Ads and more. |
 | <img src="https://www.haffprice.com/favicon.png" alt="logo" width="64" /> | **HaffPrice** | Shopping all kinds of products with the lowest price in the market. |
 | <img src="https://llmplugin.indeed.com/static/icon.svg" alt="logo" width="64" /> | **Job search by Indeed** | Explore & discover the latest open jobs from the #1 job site in the world, Indeed.com. |
@@ -508,8 +507,7 @@ To use a ChatGPT plugin,
 | <img src="https://xsearchlogo.oss-us-west-1.aliyuncs.com/logo.png?x-oss-process=image/resize,w_200,l_200" alt="logo" width="64" /> | **Xpapers** | Effortlessly find real academic papers on arXiv. Dive into abstracts, references, and access public PDF URLs. |
 | <img src="https://enigmatic-journey-85840.herokuapp.com/browser_logo.png" alt="logo" width="64" /> | **ML Paper Reader** | Search for ML papers on different topics and speed up research by "talking" to the PDFs. |
 | <img src="https://www.aperiodic.io/logo.png" alt="logo" width="64" /> | **Penrose Analyst** | Search global news and research papers. Summarize Arxiv.org links. Ask me for the latest news! |
-| <img src="https://api.pannous.com/logo.png" alt="logo" width="64" /> | **Jini** | Get factual, knowledge-base and real-time information. 
- Search news, images, videos, music, apps, pages and facts. |
+| <img src="https://api.pannous.com/logo.png" alt="logo" width="64" /> | **Jini** | Get factual, knowledge-base and real-time information.   Search news, images, videos, music, apps, pages and facts. |
 | <img src="https://raw.githubusercontent.com/zichanghu/Nap/main/game-center-chatgptplugin-colorful.png" alt="logo" width="64" /> | **GameBase** | Chat and get game info, database is based on the latest gaming information in 2023, supports multiple platforms. |
 | <img src="https://plugin.askyourpdf.com/.well-known/logo.png" alt="logo" width="64" /> | **AskYourPDF** | Unlock the power of your PDFs!, dive into your documents, find answers, and bring information to your fingertips. |
 | <img src="https://openai-plugin.xweather.com/logo.svg" alt="logo" width="64" /> | **Xweather** | XWeather gives weather information for a location.  Ask for the current weather, a 5-day forecast, or a radar image. |
