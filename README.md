@@ -21,6 +21,8 @@ To use a ChatGPT plugin,
 
 ## Categories
 
+As of **July 13, 2023**, there are **671 plugins** in the ChatGPT Plugin Store.
+
 - [Charts and Diagrams](#charts-and-diagrams) - 38 plugins
 - [Coding](#coding) - 66 plugins
 - [Documents](#documents) - 15 plugins
