@@ -21,7 +21,7 @@ To use a ChatGPT plugin,
 
 ## Categories
 
-As of **July 13, 2023**, there are **685 plugins** in the ChatGPT Plugin Store.
+As of **July 14, 2023**, there are **688 plugins** in the ChatGPT Plugin Store.
 
 - [Charts and Diagrams](#charts-and-diagrams) - 35 plugins
 - [Coding](#coding) - 56 plugins
@@ -31,12 +31,12 @@ As of **July 13, 2023**, there are **685 plugins** in the ChatGPT Plugin Store.
 - [Entertainment](#entertainment) - 40 plugins
 - [Events](#events) - 8 plugins
 - [Finance](#finance) - 53 plugins
-- [Food and Drink](#food-and-drink) - 24 plugins
+- [Food and Drink](#food-and-drink) - 25 plugins
 - [Health and Fitness](#health-and-fitness) - 8 plugins
 - [Images](#images) - 14 plugins
 - [Job and Career](#job-and-career) - 24 plugins
-- [Legal and Politics](#legal-and-politics) - 9 plugins
-- [Marketing](#marketing) - 55 plugins
+- [Legal and Politics](#legal-and-politics) - 10 plugins
+- [Marketing](#marketing) - 56 plugins
 - [News and Media](#news-and-media) - 14 plugins
 - [Productivity](#productivity) - 35 plugins
 - [Prompts](#prompts) - 7 plugins
@@ -369,6 +369,7 @@ As of **July 13, 2023**, there are **685 plugins** in the ChatGPT Plugin Store.
 | <img src="https://static.mantiumai.com/assets/Social.jpeg" alt="logo" width="64" /> | **Mantium** | Fetches user-created applications from Mantium and retrieves relevant info based on user queries. |
 | <img src="https://meme-creator-production.vercel.app/.well-known/logo.png" alt="logo" width="64" /> | **Meme Creator** | Use Meme Creator to create memes on demand using the power of AI! |
 | <img src="https://cdn.otstatic.com/third-party/images/opentable-logo-512.png" alt="logo" width="64" /> | **OpenTable** | Provides restaurant recommendations, with a direct link to book. |
+| <img src="https://s.yimg.jp/images/paypaygourmet/common/images/logo/ppg_pluginlogo.png" alt="logo" width="64" /> | **PayPay gourmet** | You can find restaurants in Japan from PayPay gourmet in Japanese. Output may differ from PayPay gourmet. |
 | <img src="https://crosswordconstructor.com/logo.png" alt="logo" width="64" /> | **Puzzle Constructor** | A tool for creating crosswords. You can create crosswords from words and hints. |
 | <img src="https://sentence-beasts.thx.pw/logo.svg" alt="logo" width="64" /> | **Sentence Beasts** | Summon or create unique word monsters, engage them in thrilling battles, and record the outcomes using Word Monsters. |
 | <img src="https://shuto.io/logo_only_dark.png" alt="logo" width="64" /> | **Shuto.IO** | Shuto.IO is a multi-tool for creators and developers with SMS, Email, Wordpress and SSH Command Execution capabilities. |
@@ -448,6 +449,7 @@ As of **July 13, 2023**, there are **685 plugins** in the ChatGPT Plugin Store.
 | <img src="https://api.facethefacts-api.de/static/logo.png" alt="logo" width="64" /> | **FaceTheFacts** | Access profiles of German politicians, retrieve voting records, analyze side jobs, and monitor party donations. |
 | <img src="https://halifax-bylaws-874e9d5b302a.herokuapp.com/.well-known/logo.png" alt="logo" width="64" /> | **Halifax Bylaws** | Your Halifax Bylaw's Expert. |
 | <img src="https://lawyerpr.herokuapp.com/.well-known/logo.png" alt="logo" width="64" /> | **LawyerPR** | Matching your ideal lawyer, in Japan. Let's Start with a Preliminary Review. |
+| <img src="https://legal-qa-chatgpt-prod.azurewebsites.net/logo.jpg" alt="logo" width="64" /> | **LegalQA** | Answer any inquiries related to Chinese law in any languages. |
 | <img src="https://lincolnbot.customplugin.ai/.well-known/logo.png" alt="logo" width="64" /> | **LincolnBot** | The ultimate trusted guide for all things related to Abraham Lincoln. |
 | <img src="https://talklawbrazil.leonardodameto.repl.co/logo.png" alt="logo" width="64" /> | **Talk Law Brazil** | Interact with laws and bills in progress in the Brazilian Congress. |
 | <img src="https://politics-plugin.onrender.com/logo" alt="logo" width="64" /> | **UK Politics** | Search through UK political documents such as speeches, press releases, voting records, and candidates' profiles. |
@@ -496,6 +498,7 @@ As of **July 13, 2023**, there are **685 plugins** in the ChatGPT Plugin Store.
 | <img src="https://prayer-times-plugin.vercel.app/logo.png" alt="logo" width="64" /> | **Prayer Times** | Get Prayer Times for all over world in seconds. |
 | <img src="https://freenetworkmonitor.click/img/logo-square.png" alt="logo" width="64" /> | **Quantum Ready Check** | Check if a website is using quantum-safe key exchange. This helps ensure your website is quantum ready. |
 | <img src="https://sem.quickcreator.io/logo.png" alt="logo" width="64" /> | **QuickCreator Marketing Tools** | The generated Google campaign includes Campaign, AdGroup, Ad, and Keywords. |
+| <img src="https://3zkx41lxrx.quickcreator.io/logo.png" alt="logo" width="64" /> | **QuickPage** | Boost your marketing with fast, SEO-optimized landing pages. |
 | <img src="https://install.roboad.app/static/images/roboad_logo.png" alt="logo" width="64" /> | **RoboAd** | Your AI powered Ad Assistant! |
 | <img src="https://roboad.herokuapp.com/static/roboad_logo.png" alt="logo" width="64" /> | **RoboAd** | Your AI powered Ad Assistant! |
 | <img src="https://speedcameras.orrenprunckun.com/speed-camera.png" alt="logo" width="64" /> | **SA Speed Cameras** | See if a mobile speed camera or roadwork is on a South Australian road today! |
@@ -612,7 +615,7 @@ As of **July 13, 2023**, there are **685 plugins** in the ChatGPT Plugin Store.
 | <img src="https://server.searchweb.keymate.ai/.well-known/icon.png" alt="logo" width="64" /> | **KeyMate.AI Search** | Search&Browse the web by using Google Search results with KeyMate.AI, your AI-powered web crawler. |
 | <img src="https://lgtm.lol/logo.png" alt="logo" width="64" /> | **LGTM** | Search for LGTM Markdown. |
 | <img src="https://gochitchat.ai/linkreader/logo.png" alt="logo" width="64" /> | **Link Reader** | Read any links: webpage, youtube, PDF, PPT, image, Word doc etc; OCR image; Search & browse web. |
-| <img src="https://app.linkhouse.co/assets/images/logo_square.png" alt="logo" width="64" /> | **Linkhouse** | Easy tool for link-building campaigns. |
+| <img src="https://app.linkhouse.co/assets/images/logo_square.png" alt="logo" width="64" /> | **Linkhouse** | Linkhouse builds a ready-to-buy list of backlinks with their SEO statistics tailored to your domain. |
 | <img src="https://sheet-generator.brandzzy.com/logo.png" alt="logo" width="64" /> | **Make A Sheet** | Generate a csv file that can directly be imported into Google Sheets or MS Excel. |
 | <img src="https://api.metaphor.systems/logo.png" alt="logo" width="64" /> | **Metaphor Search** | Access the internet's highest quality content. Recommended by people, powered by neural search. |
 | <img src="https://static.mixerbox.com/chatai/chatgpt-plugin/WebSearchG_logo.png" alt="logo" width="64" /> | **MixerBox WebSearchG** | Search and summarize the web with our customized search engine powered by Google Search API! |
