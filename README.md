@@ -21,45 +21,42 @@ To use a ChatGPT plugin,
 
 ## Categories
 
-As of **July 13, 2023**, there are **671 plugins** in the ChatGPT Plugin Store.
+As of **July 13, 2023**, there are **685 plugins** in the ChatGPT Plugin Store.
 
-- [Charts and Diagrams](#charts-and-diagrams) - 38 plugins
-- [Coding](#coding) - 65 plugins
-- [Documents](#documents) - 15 plugins
+- [Charts and Diagrams](#charts-and-diagrams) - 35 plugins
+- [Coding](#coding) - 56 plugins
+- [Documents](#documents) - 16 plugins
 - [Earth and Space](#earth-and-space) - 24 plugins
 - [Education and Learning](#education-and-learning) - 29 plugins
-- [Entertainment](#entertainment) - 40 plugins
-- [Events](#events) - 9 plugins
-- [Finance](#finance) - 50 plugins
-- [Food and Drink](#food-and-drink) - 26 plugins
-- [Health and Fitness](#health-and-fitness) - 5 plugins
+- [Entertainment](#entertainment) - 39 plugins
+- [Events](#events) - 8 plugins
+- [Finance](#finance) - 53 plugins
+- [Food and Drink](#food-and-drink) - 24 plugins
+- [Health and Fitness](#health-and-fitness) - 8 plugins
 - [Images](#images) - 14 plugins
 - [Job and Career](#job-and-career) - 24 plugins
-- [Legal and Politics](#legal-and-politics) - 10 plugins
-- [Marketing](#marketing) - 22 plugins
-- [New and Media](#new-and-media) - 15 plugins
-- [Productivity](#productivity) - 37 plugins
+- [Legal and Politics](#legal-and-politics) - 9 plugins
+- [Marketing](#marketing) - 56 plugins
+- [News and Media](#news-and-media) - 14 plugins
+- [Productivity](#productivity) - 35 plugins
 - [Prompts](#prompts) - 7 plugins
-- [Search](#search) - 62 plugins
-- [Shopping](#shopping) - 65 plugins
-- [Social Networking](#social-networking) - 33 plugins
-- [Sports](#sports) - 8 plugins
+- [Search](#search) - 55 plugins
+- [Shopping](#shopping) - 69 plugins
+- [Social Networking](#social-networking) - 31 plugins
+- [Sports](#sports) - 7 plugins
 - [Text](#text) - 16 plugins
-- [Travel](#travel) - 28 plugins
-- [Uncategorized](#uncategorized) - 15 plugins
+- [Travel](#travel) - 30 plugins
+- [Uncategorized](#uncategorized) - 12 plugins
 - [Video](#video) - 14 plugins
 
 ## Charts and Diagrams
 
 | Logo | Plugin Name | Description |
 | --- | --- | --- |
-| <img src="https://github.com/Pranav-Bha-tt/GPT-4_AlbaDOC_Plugin/raw/main/AlbaDOC%20Logo.png" alt="logo" width="64" /> | **AlbaDOC** | Your trusted source for Canadian drug information. |
-| <img src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/0016/4231/brand.gif?itok=cOeuUIp-" alt="logo" width="64" /> | **BART Real-Time** | Getting real-time BART information for a specified origination station and direction. |
 | <img src="https://bibliography-1-f6795465.deta.app/static/logo.jpg" alt="logo" width="64" /> | **Bibliography Crossref** | Search publications and generate bibtex bibliographies using Crossref and Zotero. |
 | <img src="https://app.kesem.ai/images/logo.svg" alt="logo" width="64" /> | **Charts by Kesem AI** | Generate charts. The user can request a chart to be generated. |
 | <img src="https://chatgpt.deepdigits.pizza/logo.png" alt="logo" width="64" /> | **Chi Data Buddy** | Chicago data from the City of Chicago Data Portal. |
 | <img src="https://chatgpt-plugin.clearbit.com/logo.png" alt="logo" width="64" /> | **Clearbit** | Access Clearbit Enrichment, Prospecting, Reveal APIs and website visitors data to access information about companies. |
-| <img src="https://ei6xvhnd3r.eu-west-1.awsapprunner.com/logo.png" alt="logo" width="64" /> | **Cloud Diagram Gen** | Generate cloud architecture diagrams. Unofficial AWS plugin. |
 | <img src="https://api.companiesintheuk.co.uk/img/logo-bw-512x512.png" alt="logo" width="64" /> | **Companies In The UK** | Provides financial information on UK Companies. |
 | <img src="https://uploads-ssl.webflow.com/5f454f5b1ec3949c1416957f/64790f6217aedba02a89a992_Isologo_blue.png" alt="logo" width="64" /> | **DailyBot** | Smart insights from your team daily stand-ups, check-ins, surveys, or knowledge base forms. |
 | <img src="https://diagrams.herokuapp.com/static/logo.png" alt="logo" width="64" /> | **Diagrams** | Create and display diagrams from kroki.io or using networkx and matplotlib. |
@@ -100,38 +97,34 @@ As of **July 13, 2023**, there are **671 plugins** in the ChatGPT Plugin Store.
 | <img src="https://firebasestorage.googleapis.com/v0/b/security-web-app-e4217.appspot.com/o/5dd240e1-43f4-4e3e-aa33-c5a000a828a0%2Ficonterminatorfavicon.ico?alt=media&token=3ec6b2e7-3d06-4fb6-993a-3368adfc0f31" alt="logo" width="64" /> | **API Bot** | This is a conversational bot that lets you ask questions about a variety of common APIs. |
 | <img src="https://algorithma.replit.app/.well-known/logo.png" alt="logo" width="64" /> | **Algorithma** | Shape your virtual life with in this immersive life simulator game to begin Type /start to begin. |
 | <img src="https://askthecode.dsomok.online/logo.png" alt="logo" width="64" /> | **AskTheCode** | Provide a GitHub repository URL with the C# project and ask about any aspect of the code. |
-| <img src="https://petrolpricepredictor.com/petrol-price-predictor-icon.png" alt="logo" width="64" /> | **Aus Petrol Prices** | Ask for the average daily petrol price for any state or capital city region in Australia! |
 | <img src="https://surfreport.orrenprunckun.com/surf-report.png" alt="logo" width="64" /> | **Aus Surf Report** | Get today's surf report for any break throughout Australia! |
 | <img src="https://plugin.autoinfra.ai/logo.png" alt="logo" width="64" /> | **AutoInfra1** | Talk to your Servers. Works with AWS, GCP, Azure, and anywhere you can ssh! |
 | <img src="https://www.capcut.com/logo.png" alt="logo" width="64" /> | **CapCut** | Submit your video ideas, and let AI craft a script, find suitable footage, and merge everything into a polished video. |
 | <img src="https://gitsearch.sdan.io/logo.png" alt="logo" width="64" /> | **ChatWithGit** | Search code on GitHub repositories based on a query. |
+| <img src="https://chatgpt-plugin-resources.s3.eu-west-1.amazonaws.com/CX_Logo.jpg" alt="logo" width="64" /> | **Checkmarx CheckAI** | Security Code Scanning for generated source code. Ensuring a secure development environment. |
+| <img src="https://ei6xvhnd3r.eu-west-1.awsapprunner.com/logo.png" alt="logo" width="64" /> | **Cloud Diagram Gen** | Generate cloud architecture diagrams. Unofficial AWS plugin. |
 | <img src="https://api.radar.cloudflare.com/.well-known/logo.svg" alt="logo" width="64" /> | **Cloudflare Radar** | Get real-time insights into Internet traffic patterns and threats as seen by Cloudflare. |
-| <img src="https://docs-search-ccf5913b41d3.herokuapp.com/logo.png" alt="logo" width="64" /> | **Code Library Search** | Answer any questions about Python libraries (Currently Langchain and Openai). Can answer version specific questions. |
+| <img src="https://docs-search-ccf5913b41d3.herokuapp.com/logo.png" alt="logo" width="64" /> | **Code Library Help** | Write code and answer questions using Python libraries (e.g Openai, Twilio, etc). Can answer version specific questions. |
 | <img src="https://code-runner-plugin.vercel.app/logo.png" alt="logo" width="64" /> | **Code Runner** | Run and Save your code while creating visualizations (charts and graphs) supports upto 70 programming languages. |
 | <img src="https://code-runner-plugin.vercel.app/logo.png" alt="logo" width="64" /> | **Code Runner** | Compile and save your code while creating visualizations (charts and graphs) supports upto 70 programming languages. |
 | <img src="https://codecast-wandbox.thx.pw/favicon.svg" alt="logo" width="64" /> | **CodeCast Wandbox** | Instantly compile your code online with Wandbox. Improve your coding learning experience. |
 | <img src="https://d2h1bfu6zrdxog.cloudfront.net/wp-content/themes/coderpad/assets/logos/coderpad-logomark.svg" alt="logo" width="64" /> | **CoderPad** | Run code in more than 30 different programming languages, and let us worry about setting up the environment! |
+| <img src="https://codeulator.com/logo.png" alt="logo" width="64" /> | **Codeulator** | Collaborate with AI directly inside your favorite code editor. |
 | <img src="https://color-palette-plugin.mmzdev.com/.well-known/logo.png" alt="logo" width="64" /> | **Color Palette** | Craft vibrant palettes from your ideas. |
 | <img src="https://www.koyfin.com/wp-content/uploads/2022/02/logo-footer.svg" alt="logo" width="64" /> | **Company Transcripts** | Search and analyze the latest company transcripts for any stock (powered by Koyfin). |
-| <img src="https://ppc-optimizer.gcs.ai/PaidAdsOptimizer-logo.png" alt="logo" width="64" /> | **Competitor PPC Ads** | Discover your competitors' best PPC ads by entering their website address. |
 | <img src="https://create-qr-code.modelxy.com/qr-logo.png" alt="logo" width="64" /> | **Create a QR code** | Create a QR code for any text or url. |
 | <img src="https://play.creaticode.com/tcode-static-files/images/newlogo200.png" alt="logo" width="64" /> | **CreatiCode Scratch** | Display Scratch programs as images and write 2D/3D programs using CreatiCode Scratch extensions. |
 | <img src="https://api.deployscript.com/logo.png" alt="logo" width="64" /> | **DeployScript** | DeployScript can create web apps, websites, custom code and more! Turn prompts into apps in seconds! |
 | <img src="https://domainfinderai.com/logo.png" alt="logo" width="64" /> | **Domain Finder AI** | Verify if a domain is available by searching across multiple domain registrars. |
 | <img src="https://gpt-domain-bot.fly.dev/images/logo.png" alt="logo" width="64" /> | **Domains Bot** | Checks for a domain name's availability. You can search for your desired domain name. |
 | <img src="https://gpt.domatron.com/public/logo.png" alt="logo" width="64" /> | **Domatron Domains** | Find available, brandable .com domain names for your business businesses. |
-| <img src="https://dream.putaojie.top/logo.png" alt="logo" width="64" /> | **Dream Reader** | Read and decode your dreams and unveil your innermost thoughts and desires. |
 | <img src="https://api.edmunds.com/logo.png" alt="logo" width="64" /> | **Edmunds Cars** | Use Edmunds to get trusted car reviews and local new and used vehicle listings. |
-| <img src="https://service-provider-ext.onrender.com/.well-known/logo" alt="logo" width="64" /> | **Find Talent** | Find digital freelance talent for any occasion. |
 | <img src="https://plugin.airquality.gimmee.info/Images/logo.png" alt="logo" width="64" /> | **Gimmee Air Quality** | Planning something outdoors? Get the 2-day air quality forecast for any US zip code. |
 | <img src="https://chat-gpt-github-stat-plugin.vercel.app/logo.png" alt="logo" width="64" /> | **Git OSS Stats** | Dynamically generate and analyze stats and history for OSS repos and developers. |
-| <img src="https://api.gopluslabs.io/logo.png" alt="logo" width="64" /> | **GoPlus Security AI** | Get crypto security information by using GoPlus Security API. |
 | <img src="https://dash.repeat.dev/logo.jpg" alt="logo" width="64" /> | **HTTP Webhooks** | Allows you to write, deploy, and manage HTTP Webhooks in JavaScript, right from the chat. |
-| <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/4642.png" alt="logo" width="64" /> | **Hedera Account Info** | Gets the HBAR and token balance of a Hedera account. |
 | <img src="https://konkanitranslator.customplugin.ai/.well-known/logo.png" alt="logo" width="64" /> | **Konkani Translator** | Unlock the Beauty of Goa with the Romi Konkani Translator. |
 | <img src="https://mtg-rules-chatgpt-plugin.fly.dev/logo.png" alt="logo" width="64" /> | **MagiCodex** | Ask about Magic: The Gathering cards, rules and interactions. |
 | <img src="https://mifuzi.com/logo.png" alt="logo" width="64" /> | **Mifuzi Domain AI** | Discover domain names based on your creative ideas and check their availability status. |
-| <img src="https://minecraft-chocolate.peter1169.repl.co/logo.png" alt="logo" width="64" /> | **Minecraft Chocolate** | Ask for recomendations about Minecraft mods and modpacks. Uses Modrinth API. |
 | <img src="https://monitorsrv.mahadeva.co.uk/logo-square.png" alt="logo" width="64" /> | **Network Monitor** | Monitor websites, email servers, check dns resolution, ping services and check for quantum safe encryption. |
 | <img src="https://domain-search.nominus.com/assets/nominus_logo_v2.png" alt="logo" width="64" /> | **Nominus.com** | Check if your domain name is available. We support all ccTLDs and gTLDs. |
 | <img src="https://oneword.domains/logo.png" alt="logo" width="64" /> | **One Word Domains** | Check the availability of a domain and compare prices across different registrars. |
@@ -144,21 +137,16 @@ As of **July 13, 2023**, there are **671 plugins** in the ChatGPT Plugin Store.
 | <img src="https://reporadar.dev/images/logo.png" alt="logo" width="64" /> | **Repo Radar** | Your one-stop shop for up to date Github repo information. Find repos by topic, language, or name. |
 | <img src="https://reporadar.computercomputer.computer/images/logo.png" alt="logo" width="64" /> | **Repo Radar** | Your one-stop shop for up to date Github repo information. Find repos by topic, language, or name. |
 | <img src="https://rogo-public-assets.s3.amazonaws.com/logo-180x180.png" alt="logo" width="64" /> | **Rogo** | Answers questions about open-source repositories. |
-| <img src="https://auth.sembot.com/logo.png" alt="logo" width="64" /> | **Sembot** | Manage your Search Engine Marketing. Get keywords reports, CPCs, domain visibility, SEO results and more. |
 | <img src="https://freenetworkmonitor.click/img/logo-square.png" alt="logo" width="64" /> | **Service Check** | Check if services are running and how fast they are responding. You can check Website, Email, Domain Lookup and Ping. |
 | <img src="https://spirifyqrcode.azurewebsites.net/icon-512.png" alt="logo" width="64" /> | **Spirify QR Code** | QR Code generator for text or URLs. It's a general-purpose tool that also enables QR code puzzle games with AI. |
 | <img src="https://stack-overflow-search.onrender.com/.well-known/logo" alt="logo" width="64" /> | **StackOverflow Plus** | Expand your knowledge beyond 2021/09/01. Get recent questions and answers from Stack Overflow. |
-| <img src="https://surveillance-api.synology.com/.well-known/logo.png" alt="logo" width="64" /> | **Surveillance API** | Explore the Synology Surveillance Station API documents and generate example code. |
 | <img src="https://app.trax.co/logo_v3.png" alt="logo" width="64" /> | **Trax Codes** | Access the largest collection of up-to-date Canadian building codes and other regulations for the construction industry. |
 | <img src="https://vbout.com/.well-known/vbout.png" alt="logo" width="64" /> | **VBOUT** | Interact seamlessly with VBOUT's APIs using natural language. Need help? Request 'help' for a list of commands. |
-| <img src="https://pbs.twimg.com/profile_images/1660572218387058692/zggRtHtS_400x400.png" alt="logo" width="64" /> | **Vehicle Data IL** | An Israel-focused tool, extracting car details from data.gov.il based on model, year, hue, and count. |
 | <img src="https://www.visla.us/static/resources/img/logo-206.png" alt="logo" width="64" /> | **Visla** | Turn your idea into a captivating video. AI scripts, selects stock footage, and creates magic! |
 | <img src="https://voxscript.awt.icu/images/VoxScript_logo_32x32.png" alt="logo" width="64" /> | **VoxScript** | Enables searching of YouTube transcripts, financial data sources, and Google Search results, and more! |
 | <img src="https://web-dev-chat-gpt-plugin.vercel.app/logo.png" alt="logo" width="64" /> | **WebDev** | Build a live website within seconds directly from the chat and preview and test HTML code with JavaScript and CSS. |
 | <img src="https://smoothplugins.com/img/plugin_logos2/whois3.png" alt="logo" width="64" /> | **Whois Domain Checker** | A Whois app that takes a list of space-separated domain names, performs the Whois for each domain. |
 | <img src="https://plugin-b0025af30daf4bea989db7074f90b64a-jexkai4vea-uc.a.run.app/logo.png" alt="logo" width="64" /> | **WordCloud** | Create word cloud images from text. |
-| <img src="https://th.bing.com/th/id/OIG.AuvaCNUrvRfupQEne.ZD?pid=ImgGn" alt="logo" width="64" /> | **Your AI Council** | The AI council assesses queries through various agents, offering insights from many perspectives. |
-| <img src="https://cdn.zappy.app/8f853364f9b383d65b44e184e04689ed.png" alt="logo" width="64" /> | **Zapier** | Interact with over 5,000+ apps like Google Sheets, Gmail, HubSpot, Salesforce, and thousands more. |
 | <img src="https://alaga-ai-h43cosb3ia-uc.a.run.app/logo.png" alt="logo" width="64" /> | **alaga.ai_PH** | Get the latest info about the health programs and services in the Philippines. |
 | <img src="https://ne.tools/images/pluginshq-logo.png" alt="logo" width="64" /> | **ne.tools** | Network diagnostic tool for DNS record lookup (A, AA, MX, NS and more) and WHOIS queries for domains and IP addresses. |
 
@@ -178,6 +166,7 @@ As of **July 13, 2023**, there are **671 plugins** in the ChatGPT Plugin Store.
 | <img src="https://enigmatic-journey-85840.herokuapp.com/browser_logo.png" alt="logo" width="64" /> | **ML Paper Reader** | Search for ML papers on different topics and speed up research by "talking" to the PDFs. |
 | <img src="https://static.mixerbox.com/chatai/chatgpt-plugin/chatPDF_logo.png" alt="logo" width="64" /> | **MixerBox ChatPDF** | Save time! MixerBox ChatPDF can summarize & analyze PDF files for you! |
 | <img src="https://scholar-ai.net/logo.png" alt="logo" width="64" /> | **ScholarAI** | Unleash scientific research: search 40M+ peer-reviewed papers, explore scientific PDFs, and save to reference managers. |
+| <img src="https://surveillance-api.synology.com/.well-known/logo.png" alt="logo" width="64" /> | **Surveillance API** | Explore the Synology Surveillance Station API documents and generate example code. |
 | <img src="https://chatwithdocs.say-apps.com/logo.png" alt="logo" width="64" /> | **Talk With Docs** | Ask any questions to your docs. |
 | <img src="https://img.icons8.com/?size=16&id=I8EMO0x9C323&format=png" alt="logo" width="64" /> | **Universal** | Enables to access web pages, analyze PDFs, generate QR codes, etc. |
 | <img src="https://wikidocs.net/static/img/plugin_logo.png" alt="logo" width="64" /> | **WikiDocs** | You can search for books on Wikidocs and create books. |
@@ -253,7 +242,6 @@ As of **July 13, 2023**, there are **671 plugins** in the ChatGPT Plugin Store.
 | <img src="https://aiquest.waxime.dev/logo.png" alt="logo" width="64" /> | **AIQuest** | An interactive text adventure. Your choices shape the AI-crafted narrative. Each playthrough is a unique story. |
 | <img src="https://pilots.aerodex.xyz/logo.jpg" alt="logo" width="64" /> | **AeroDex** | Aviation data from aviationweather.gov for entertainment. Not for pre-flight decision making. |
 | <img src="https://assetovi-cdn.yahaha.com/assetovi-gpt-logo.png" alt="logo" width="64" /> | **Asset Ovi** | Search and preview millions of 3D assets for games, AIGC, AR/VR and others. |
-| <img src="https://static.broadway.com/img/responsive/favicons/apple-touch-icon.f003c455893a.png" alt="logo" width="64" /> | **Broadway** | Search for shows that are currently playing on Broadway in New York City. |
 | <img src="https://pokedex.automateyournetwork.ca/staticfiles/pokedex.png" alt="logo" width="64" /> | **Catch Them All** | Catch Them All - Catch, Battle, and get information about your favourite Pokemon |
 | <img src="https://chattmdb.waxime.dev/logo.png" alt="logo" width="64" /> | **Chat TMDB** | Movies, Actors and TV shows from TMDB, a database like IMDB. |
 | <img src="https://i.postimg.cc/brFRySgh/checkerslogo.jpg" alt="logo" width="64" /> | **Checkers** | This allows you to play a game of checkers. |
@@ -294,7 +282,6 @@ As of **July 13, 2023**, there are **671 plugins** in the ChatGPT Plugin Store.
 
 | Logo | Plugin Name | Description |
 | --- | --- | --- |
-| <img src="https://chabadplugin.reshapecreative.com/logo.png" alt="logo" width="64" /> | **Chabad Centers** | Find information about Chabad Centers worldwide and their events. |
 | <img src="https://commonevents.io/logo.png" alt="logo" width="64" /> | **CommonEvents** | Search nearby events in Korea. |
 | <img src="https://sg-places.herokuapp.com/sg_logo.png" alt="logo" width="64" /> | **SG Places Beta** | Provides information on attractions, F&B outlets, accommodation, tours, shops, and events in Singapore. |
 | <img src="https://www.smartticketsai.com/logo.png" alt="logo" width="64" /> | **SmartTicketsAI** | Get Tickets For All Sports Events, Music Concerts, Theater And More With SmartTicketsAI.com. |
@@ -333,13 +320,16 @@ As of **July 13, 2023**, there are **671 plugins** in the ChatGPT Plugin Store.
 | <img src="https://app.definitive.io/logo_light.svg" alt="logo" width="64" /> | **Definitive Facts** | Ask questions using 100+ relational datasets - sports, finance, and more at https://definitive.io/datasets. |
 | <img src="https://finna-bolag.fly.dev/logo.png" alt="logo" width="64" /> | **Finna Bolag** | Seamlessly search for and retrieve Swedish companies' financial data. |
 | <img src="https://live.forex-gpt.ai/logo.png" alt="logo" width="64" /> | **Forex-Rates** | Forex Rates: Price analysis for currency markets. Gain insights, sentiment evaluation, and text completion. |
+| <img src="https://api.gopluslabs.io/logo.png" alt="logo" width="64" /> | **GoPlus Security AI** | Get crypto security information by using GoPlus Security API. |
 | <img src="https://interest-rates.orrenprunckun.com/icon.png" alt="logo" width="64" /> | **Interest Rates** | Get Real Time Interest Rates From Central Banks |
 | <img src="https://plugin.memorybank.app/.well-known/logo.png" alt="logo" width="64" /> | **Memory Bank** | Extend AI memory. Ask it to store and retrieve your information to get personalized assistance tailored to your needs. |
 | <img src="https://chatgpt-plugin.paths.finance/logo.png" alt="logo" width="64" /> | **MetaPath** | Query info on cryptos, NFTs, tokens, coins, Defi and Web3. |
+| <img src="https://search-ai.mintbase.xyz/.well-known/search/logo.png" alt="logo" width="64" /> | **MintbaseSearch** | Find any NFT data on the NEAR Protocol. |
 | <img src="https://mobula.fi/mobula/apple.png" alt="logo" width="64" /> | **Mobula** | Fetching real-time data for all crypto & blockchain metrics. |
 | <img src="https://onepagestorage.blob.core.windows.net/media/onepage-logo.svg" alt="logo" width="64" /> | **OnePage Stock Ideas** | Find a list of stock ideas by asking it or feeding it with news or article. |
 | <img src="https://optionspro.io/assets/Icon/icon.png" alt="logo" width="64" /> | **Options Pro** | Options Pro is your personal options trading assistant to help you navigate market conditions. |
 | <img src="https://nftvaluing.com/ai-plugin/icon.png" alt="logo" width="64" /> | **P/E For NFTs** | Get the price to earnings ratio for any NFT collection! |
+| <img src="https://media.licdn.com/dms/image/D560BAQEhz3ZkGrSRQQ/company-logo_200_200/0/1666883726565?e=2147483647&v=beta&t=L38V1aWAmzVA1vl-PFLSonkW3iQokiGttoryGLLnAGs" alt="logo" width="64" /> | **Peel Hunt AI-ERA** | AI Equity Research Assistant (AI-ERA). |
 | <img src="https://polygon.io/imgs/favicon.png" alt="logo" width="64" /> | **Polygon** | Market data, news, and fundamentals for stocks, options, forex, and crypto from Polygon.io. |
 | <img src="https://portfoliometa.com/.well-known/logo.png" alt="logo" width="64" /> | **PortfolioMeta** | Analyze stocks and get comprehensive real-time investment data and analytics. |
 | <img src="https://portfoliopilot.com/logo.png" alt="logo" width="64" /> | **PortfolioPilot** | Your AI investing guide: portfolio assessment, recommendations, answers to all finance questions. |
@@ -363,7 +353,6 @@ As of **July 13, 2023**, there are **671 plugins** in the ChatGPT Plugin Store.
 
 | Logo | Plugin Name | Description |
 | --- | --- | --- |
-| <img src="https://www.b12.io/static-assets/images/b12-logo-purple-bg.png" alt="logo" width="64" /> | **B12 AI Websites** | Create a professional, engaging, and user-friendly website for your business in seconds using AI. |
 | <img src="https://docs.buzz.new/logo.svg" alt="logo" width="64" /> | **BUZZ.NEW** | BUZZ.NEW: A smart business creator for business management. Create, manage inventory, and handle orders efficiently. |
 | <img src="https://bible.praison.ai/logo.png" alt="logo" width="64" /> | **Bible** | Explore Bible's content with detailed interpretations, comparisons, and feature to find related verses. |
 | <img src="https://gptshop.bohita.com/logo.png" alt="logo" width="64" /> | **Bohita** | Create apparel with any image you can describe! Get it delivered right to your door. |
@@ -379,7 +368,6 @@ As of **July 13, 2023**, there are **671 plugins** in the ChatGPT Plugin Store.
 | <img src="https://static.mantiumai.com/assets/Social.jpeg" alt="logo" width="64" /> | **Mantium** | Fetches user-created applications from Mantium and retrieves relevant info based on user queries. |
 | <img src="https://meme-creator-production.vercel.app/.well-known/logo.png" alt="logo" width="64" /> | **Meme Creator** | Use Meme Creator to create memes on demand using the power of AI! |
 | <img src="https://cdn.otstatic.com/third-party/images/opentable-logo-512.png" alt="logo" width="64" /> | **OpenTable** | Provides restaurant recommendations, with a direct link to book. |
-| <img src="https://placid.app/logo-openai.jpg" alt="logo" width="64" /> | **Placid.app** | A design assistant that creates marketing visuals from your templates. |
 | <img src="https://crosswordconstructor.com/logo.png" alt="logo" width="64" /> | **Puzzle Constructor** | A tool for creating crosswords. You can create crosswords from words and hints. |
 | <img src="https://sentence-beasts.thx.pw/logo.svg" alt="logo" width="64" /> | **Sentence Beasts** | Summon or create unique word monsters, engage them in thrilling battles, and record the outcomes using Word Monsters. |
 | <img src="https://shuto.io/logo_only_dark.png" alt="logo" width="64" /> | **Shuto.IO** | Shuto.IO is a multi-tool for creators and developers with SMS, Email, Wordpress and SSH Command Execution capabilities. |
@@ -394,11 +382,14 @@ As of **July 13, 2023**, there are **671 plugins** in the ChatGPT Plugin Store.
 
 | Logo | Plugin Name | Description |
 | --- | --- | --- |
+| <img src="https://github.com/Pranav-Bha-tt/GPT-4_AlbaDOC_Plugin/raw/main/AlbaDOC%20Logo.png" alt="logo" width="64" /> | **AlbaDOC** | Your trusted source for Canadian drug information. |
 | <img src="https://cdn.hubbubworld.com/openai/i/hubbub-a-safer-world-256.png" alt="logo" width="64" /> | **Hubbub** | Local health risk & safety guidance for COVID-19, Flu, RSV and more in the US. |
 | <img src="https://chatgptplugin.planfit.ai/logo.png" alt="logo" width="64" /> | **Planfit** | Get your tailored workout plan and instructions with videos - AI-powered Workout Coach, Planfit. |
 | <img src="https://the-diet-record.automation.jp/.well-known/logo.png" alt="logo" width="64" /> | **The Diet Search** | You can search the Japanese Diet Proceedings by request, news, or other text. |
 | <img src="https://plugin.ai.vivian.com/.well-known/logo.png" alt="logo" width="64" /> | **Vivian Health** | Take the first step to finding your next healthcare job. |
+| <img src="https://whip.automateyournetwork.ca/staticfiles/Artboard+9_rainbow3.png" alt="logo" width="64" /> | **WHIP** | Women's Health Information for the Abortion API. |
 | <img src="https://lyfta.ai/logo.png" alt="logo" width="64" /> | **Workout Generator** | Create strength training workouts, for goals like muscle building, strength, and fat loss. |
+| <img src="https://chatgpt-plugin.xtalpi.com/logo.png" alt="logo" width="64" /> | **XtalPi** | Provide drug discovery solutions and chemical services from XtalPi, your drug discovery partner. |
 
 ## Images
 
@@ -425,6 +416,7 @@ As of **July 13, 2023**, there are **671 plugins** in the ChatGPT Plugin Store.
 | --- | --- | --- |
 | <img src="https://assets.remoteambition.com/ai-plugin-logo.png" alt="logo" width="64" /> | **Ambition** | Search millions of jobs near you. |
 | <img src="https://gpt.andocarbur.com/logo.png" alt="logo" width="64" /> | **Andorra** | All of Andorra with the power of AI. |
+| <img src="https://copilot.commit.dev/images/logo.png" alt="logo" width="64" /> | **Career Copilot** | A personal AI Agent that finds jobs for software engineers. Partner with Commit.dev to find a better job. |
 | <img src="https://doctors-lc.jp/favicon.ico" alt="logo" width="64" /> | **Doctor's Life Career** | Searching Japanese medical doctors' jobs based on your preferences. |
 | <img src="https://easy-resume.net/logo.png" alt="logo" width="64" /> | **Easy Resume** | Quickly create and edit your resume with the option to download as a docx or pdf, and find the job you deserve! |
 | <img src="https://grabjobs.co/img/ic_logo.svg" alt="logo" width="64" /> | **GrabJobs** | Your personal job search assistant. Find the best full-time jobs, part-time jobs and internships worldwide. |
@@ -443,7 +435,6 @@ As of **July 13, 2023**, there are **671 plugins** in the ChatGPT Plugin Store.
 | <img src="https://www.offerzen.com/ai/offerzen-world/.well-known/logo.png" alt="logo" width="64" /> | **OfferZen World** | Queries OfferZen's database for tech career, recruitment, service, and pay insights. |
 | <img src="https://api.promptrecruit.ai/promptrecruit.png" alt="logo" width="64" /> | **PromptRecruit** | PromptRecruit gives you the ability to talk with your recruitment system! |
 | <img src="https://cplst01.blob.core.windows.net/static/c-resume.copilot.us-logo.jpg" alt="logo" width="64" /> | **Resume Copilot** | I'll perfect your resume for ATS, tailor it to the job, ensuring you stand out to recruiters |
-| <img src="https://speedcameras.orrenprunckun.com/speed-camera.png" alt="logo" width="64" /> | **SA Speed Cameras** | See if a mobile speed camera or roadwork is on a South Australian road today! |
 | <img src="https://www.stepstone.de/sharedassets/logo/stepstone/logo-square.png" alt="logo" width="64" /> | **Stepstone Jobs** | Explore job openings in Germany. 120,000+ opportunities to discover. |
 | <img src="https://chatgpt.talentorg.com/logo.png" alt="logo" width="64" /> | **TalentOrg** | Find and hire freelance engineering talents from around the world. |
 | <img src="https://assistant.wanted.co.kr/logo.png" alt="logo" width="64" /> | **Wanted Job Search** | Explore and inquire about global job opportunities, and dive into the details of worldwide positions with precision. |
@@ -454,7 +445,6 @@ As of **July 13, 2023**, there are **671 plugins** in the ChatGPT Plugin Store.
 | --- | --- | --- |
 | <img src="https://law-plugin.herokuapp.com/logo.png" alt="logo" width="64" /> | **California Law** | Get up to date access to California law. |
 | <img src="https://api.facethefacts-api.de/static/logo.png" alt="logo" width="64" /> | **FaceTheFacts** | Access profiles of German politicians, retrieve voting records, analyze side jobs, and monitor party donations. |
-| <img src="https://api.factba.se/static/fn-logo.png" alt="logo" width="64" /> | **FiscalNote** | FiscalNote enables access to select market-leading, real-time data sets for legal, political, and regulatory information |
 | <img src="https://halifax-bylaws-874e9d5b302a.herokuapp.com/.well-known/logo.png" alt="logo" width="64" /> | **Halifax Bylaws** | Your Halifax Bylaw's Expert. |
 | <img src="https://lawyerpr.herokuapp.com/.well-known/logo.png" alt="logo" width="64" /> | **LawyerPR** | Matching your ideal lawyer, in Japan. Let's Start with a Preliminary Review. |
 | <img src="https://lincolnbot.customplugin.ai/.well-known/logo.png" alt="logo" width="64" /> | **LincolnBot** | The ultimate trusted guide for all things related to Abraham Lincoln. |
@@ -468,29 +458,63 @@ As of **July 13, 2023**, there are **671 plugins** in the ChatGPT Plugin Store.
 | Logo | Plugin Name | Description |
 | --- | --- | --- |
 | <img src="https://convurt.io/img/logo/logo-icon.png" alt="logo" width="64" /> | **Top Agencies** | Find top marketing and design agencies around the World by service, locations, and ratings. |
+| <img src="https://plugin.redefined.cloud/static/logo.png" alt="logo" width="64" /> | **3 Sentence Service** | Managing a three sentence service. You can add, remove, view and invoke your 3 sentence services. |
 | <img src="https://inta.aiplux.com/static/images/aiplux_logo_only.png" alt="logo" width="64" /> | **AIPLUX TM** | Analyse your business and recommend NICE classifications and items to file for trademarks. |
+| <img src="https://plugin.metzsicherheitstechnik.de/static/logo.png" alt="logo" width="64" /> | **Alarm Advisor** | Get expert advice on Telenot alarm systems and personalized support for your home and business security. |
 | <img src="https://askmfm.writelikeshaan.com/logo.png" alt="logo" width="64" /> | **Ask MFM** | Ask the hosts of the My First Million questions about business, tech, entrepreneurship, and life. |
+| <img src="https://plugins.midgard.avalara.io/favicon.png" alt="logo" width="64" /> | **Avalara** | Calculate sales tax or lookup tax rates for any address in the U.S. |
+| <img src="https://avian.io/static/images/logomark_square.png" alt="logo" width="64" /> | **Avian** | Connect to your business data - Google Analytics, Google Ads, Facebook Ads and more. |
+| <img src="https://www.b12.io/static-assets/images/b12-logo-purple-bg.png" alt="logo" width="64" /> | **B12 AI Websites** | Create a professional, engaging, and user-friendly website for your business in seconds using AI. |
 | <img src="https://biztoc.com/favicon.png" alt="logo" width="64" /> | **BizToc** | Search BizToc for business & finance news. |
 | <img src="https://plugin.bramework.com/logo.png" alt="logo" width="64" /> | **Bramework** | Boost SEO with in-depth analysis, including keyword insights on volume, ranking, and SERP. |
 | <img src="https://asset.brandfetch.io/idL0iThUh6/idls3LaPPQ.png" alt="logo" width="64" /> | **Brandfetch** | Retrieve company and brand data including logos, colors, fonts, and other brand information. |
+| <img src="https://static.broadway.com/img/responsive/favicons/apple-touch-icon.f003c455893a.png" alt="logo" width="64" /> | **Broadway** | Search for shows that are currently playing on Broadway in New York City. |
+| <img src="https://chabadplugin.reshapecreative.com/logo.png" alt="logo" width="64" /> | **Chabad Centers** | Find information about Chabad Centers worldwide and their events. |
+| <img src="https://api.chatwithyourdata.io/logo.png" alt="logo" width="64" /> | **Chat With Your Data** | Conversational analysis over your databases and spreadsheets. |
+| <img src="https://chatspot.ai/plugin/logo.png" alt="logo" width="64" /> | **ChatSpot** | Get access to marketing/sales data including domain information, company research and search keyword research. |
+| <img src="https://www.marketflare.com/wp-content/uploads/2015/12/mf_icon.png" alt="logo" width="64" /> | **Clinical Trial Radar** | Discover current info on global clinical trials, organizations, diseases, and biomarkers from public & private studies. |
+| <img src="https://img.alicdn.com/imgextra/i4/O1CN017N0sYZ1rLikNw3PQv_!!6000000005615-2-tps-205-200.png" alt="logo" width="64" /> | **Comparison** | An advanced e-commerce tool, providing robust capabilities for efficient product search and accurate price comparison. |
+| <img src="https://ppc-optimizer.gcs.ai/PaidAdsOptimizer-logo.png" alt="logo" width="64" /> | **Competitor PPC Ads** | Discover your competitors' best PPC ads by entering their website address. |
+| <img src="https://dreamplugin.bgnetmobile.com/.well-known/logo.png" alt="logo" width="64" /> | **Dream Interpreter** | Interprets your dreams using advanced techniques. |
+| <img src="https://dream.putaojie.top/logo.png" alt="logo" width="64" /> | **Dream Reader** | Read and decode your dreams and unveil your innermost thoughts and desires. |
 | <img src="https://converter.dialogueapps.com/logo.png" alt="logo" width="64" /> | **Exchange Rates** | Exchange Rates delivers real-time and historical data, enabling conversion and tracking for over 170 currencies. |
-| <img src="https://analytics-gpt-389217.lm.r.appspot.com/logo.png" alt="logo" width="64" /> | **GanalyticsAI** | Connect to your Google Analytics adn get data with AI using simple prompts. |
+| <img src="https://service-provider-ext.onrender.com/.well-known/logo" alt="logo" width="64" /> | **Find Talent** | Find digital freelance talent for any occasion. |
+| <img src="https://api.factba.se/static/fn-logo.png" alt="logo" width="64" /> | **FiscalNote** | FiscalNote enables access to select market-leading, real-time data sets for legal, political, and regulatory information |
+| <img src="https://www.hadithgpt.com/chatgpt-plugin-logo.png" alt="logo" width="64" /> | **Hadith Advice** | Ask a question and get advice from hadith. |
 | <img src="https://kalendar.ai/assets/logo-black-50c5284888eeea1d77f877d9a6736f1bf23533f975fae3939824cf429ad95e34.png" alt="logo" width="64" /> | **KalendarAI** | KalendarAI sales agents generate revenue with potential customers from 200+ million companies globally. |
+| <img src="https://mbti.bowang17.repl.co/.well-known/logo.png" alt="logo" width="64" /> | **MBTI** | For administering an MBTI test. You can get a list of questions and calculate your MBTI type. |
+| <img src="https://chatgpt.vipmanor.com/logo.png" alt="logo" width="64" /> | **Manorlead** | Get a list of listings for rent or sale in cities across Canada and the US based on your search criteria. |
+| <img src="https://minecraft-chocolate.peter1169.repl.co/logo.png" alt="logo" width="64" /> | **Minecraft Chocolate** | Ask for recomendations about Minecraft mods and modpacks. Uses Modrinth API. |
 | <img src="https://departmentstoreguide-plugin.momentxwill.repl.co/logo.png" alt="logo" width="64" /> | **MomentX GuideX** | It gives real-time info on our store, including brand locations and promotions. |
+| <img src="https://ohmyplug.promptbreeders.com/logo.webp" alt="logo" width="64" /> | **OhMyPlug** | Search and discover extensions with OhMyPlug! It guides you through the best addons in the store and explains them 🔍🧩💡. |
+| <img src="https://image4.owler.com/assets/v2/icons/owler-mw_icon-256x256.png" alt="logo" width="64" /> | **Owler** | Owler provides real-time business news and insights on private and public companies. |
+| <img src="https://www.storeya.com/common/images/plugins/PRD-icon-512x512-D.png" alt="logo" width="64" /> | **PPC - StoreYa.com** | Your personal assistance for automating advertising – Google Ads (AdWords) and Microsoft Ads (Bing). |
+| <img src="https://api.getamplio.com/.well-known/logo.png" alt="logo" width="64" /> | **PartSecure** | Search & compare electronic component inventory, pricing, & lead time from top suppliers. |
+| <img src="https://placid.app/logo-openai.jpg" alt="logo" width="64" /> | **Placid.app** | A design assistant that creates marketing visuals from your templates. |
+| <img src="https://plugin.lyrai.app/.well-known/logo.png" alt="logo" width="64" /> | **PlugFinder** | Describe the addin you want, and we will help you find the most suitable one. |
 | <img src="https://pollthepeople.customplugin.ai/.well-known/logo.png" alt="logo" width="64" /> | **Poll the People** | The ultimate guide for market research and surveys. |
+| <img src="https://prayer-times-plugin.vercel.app/logo.png" alt="logo" width="64" /> | **Prayer Times** | Get Prayer Times for all over world in seconds. |
+| <img src="https://freenetworkmonitor.click/img/logo-square.png" alt="logo" width="64" /> | **Quantum Ready Check** | Check if a website is using quantum-safe key exchange. This helps ensure your website is quantum ready. |
 | <img src="https://sem.quickcreator.io/logo.png" alt="logo" width="64" /> | **QuickCreator Marketing Tools** | The generated Google campaign includes Campaign, AdGroup, Ad, and Keywords. |
+| <img src="https://install.roboad.app/static/images/roboad_logo.png" alt="logo" width="64" /> | **RoboAd** | Your AI powered Ad Assistant! |
+| <img src="https://roboad.herokuapp.com/static/roboad_logo.png" alt="logo" width="64" /> | **RoboAd** | Your AI powered Ad Assistant! |
+| <img src="https://speedcameras.orrenprunckun.com/speed-camera.png" alt="logo" width="64" /> | **SA Speed Cameras** | See if a mobile speed camera or roadwork is on a South Australian road today! |
 | <img src="https://seo-plugin.orrenprunckun.com/icon.png" alt="logo" width="64" /> | **SEO** | Send a URL and keyword and get a On Page SEO analysis & insights! |
 | <img src="https://webfx.ai/.well-known/logo.png" alt="logo" width="64" /> | **SEO Assistant** | The SEO Assistant can generate search engine keyword information in order to aid the creation of content. |
 | <img src="https://ai.seovendor.co/seo-analysis-logo.jpg" alt="logo" width="64" /> | **SEO CORE AI** | Use AI to analyze and improve the SEO of a website. Get advice on websites, keywords and competitors. |
 | <img src="https://smyth.seo.app/static/seo-app-icon.png" alt="logo" width="64" /> | **SEO.app** | Your personal SEO assistant for content marketing. |
+| <img src="https://auth.sembot.com/logo.png" alt="logo" width="64" /> | **Sembot** | Manage your Search Engine Marketing. Get keywords reports, CPCs, domain visibility, SEO results and more. |
 | <img src="https://serpstat-seo-tool-yqua7m5dya-uc.a.run.app/logo.png" alt="logo" width="64" /> | **Serpstat SEO Tool** | Discover SEO keywords for a specific topic and analyze SEO metrics/backlink data for a domain with Serpstat.com. |
 | <img src="https://api.speedybrand.io/logo.png" alt="logo" width="64" /> | **Speedy Marketing** | Marketing tool for your Shopify store, ecommerce website or any business. Write SEO blogs and social media content. |
 | <img src="https://plugin.tabor.ai/.well-known/logo.png" alt="logo" width="64" /> | **Tabor AI** | Trusted source for senior living market research, data, and analytics. 35K communities, 9K operators in the USA. |
 | <img src="https://firebasestorage.googleapis.com/v0/b/s3-tint.appspot.com/o/Tint%20Bolt%20Assets%2FTB%20Logo.png?alt=media&token=8af3247f-7be4-4352-82c8-1304aa98c5a3" alt="logo" width="64" /> | **Tint Bolt** | Tint Bolt is an administrative tool that helps automotive window tinting businesses manage their day to day operations. |
+| <img src="https://tombradybot.customplugin.ai/.well-known/logo.png" alt="logo" width="64" /> | **Tom Brady Bot** | The ultimate trusted guide for all things about Tom Brady. |
+| <img src="https://www.urban.com.au/urban_logo.png" alt="logo" width="64" /> | **Urban New Apartments** | Search the best off-the-plan and new apartments from Australia’s leading property developers. |
 | <img src="https://plugin.validatorai.com/img/v-logo.png" alt="logo" width="64" /> | **ValidatorAI** | Get objective feedback and an elevator pitch for your business idea. |
+| <img src="https://assets.ad4m.at/logo/D822F800EF1B9B651321039FF33448384EE5FA1585A0E43E7565AE97FC12EBF2692E406CA0EB0DB054A5A55B11847D32AE9D0C39189B9165F6CB510816F359FF" alt="logo" width="64" /> | **ad4mat** | Generate affiliate tracking links to monetize outgoing traffic - based on 50,000+ advertisers. |
 | <img src="https://unicorn-cdn.b-cdn.net/8305506b-d0de-470d-adb5-c08bafbe1d03/" alt="logo" width="64" /> | **liveinboxer** | Get the latest email from top brands. |
 
-## New and Media
+## News and Media
 
 | Logo | Plugin Name | Description |
 | --- | --- | --- |
@@ -503,7 +527,6 @@ As of **July 13, 2023**, there are **671 plugins** in the ChatGPT Plugin Store.
 | <img src="https://nftlinkroundup.com/nft-link-roundup.png" alt="logo" width="64" /> | **NFT News Roundup** | Get Today's NFT News Headlines As A Clickable Link Roundup! |
 | <img src="https://chatgpt.newsbreakapp.com/static/nb-plugin-logo.jpeg" alt="logo" width="64" /> | **NewsBreak** | Learn about the most popular local or national news and find local businesses and events in the United States. |
 | <img src="https://static.feednews.com/cdn/images/news@252x252.png" alt="logo" width="64" /> | **NewsPilot** | Breaking global news in brief, 15000 news sources from worldwide. |
-| <img src="https://image4.owler.com/assets/v2/icons/owler-mw_icon-256x256.png" alt="logo" width="64" /> | **Owler** | Owler provides real-time business news and insights on private and public companies. |
 | <img src="https://save.praison.ai/logo.png" alt="logo" width="64" /> | **Save** | Save articles, data, ideas and research findings. It is an efficient way to access this stored content in the future. |
 | <img src="https://gptnews.uk/logo.svg" alt="logo" width="64" /> | **UK Latest News** | Get the latest news stories from the UK's top news outlets including BBC News, Sky News, The Independent, and others. |
 | <img src="https://chatgptapi.wpressgenie.com/logo.png" alt="logo" width="64" /> | **WPressGenie** | Manages a WordPress site. You can get, view and analyze details of WordPress posts and content. |
@@ -517,7 +540,6 @@ As of **July 13, 2023**, there are **671 plugins** in the ChatGPT Plugin Store.
 | <img src="https://ai-agents-plugin.vercel.app/imgs/logo.png" alt="logo" width="64" /> | **AI Agents** | Unleashing the power of multiple AIs: One goal, limitless productivity. |
 | <img src="https://wac-cdn.atlassian.com/dam/jcr:fa01756d-6dcc-45d1-83ab-696fbfeb074f/Jira-icon-blue.svg?cdnVersion=936" alt="logo" width="64" /> | **AI with Jira®** | Unofficial plugin for Jira®. Create issues such as tasks, user stories and bugs directly on your Jira® project. |
 | <img src="https://styledao-prod.web.app/assets/img/icon/icon3-512-512.png" alt="logo" width="64" /> | **Able Style Fashion** | Able Style is a fashion assistant who will help you answer the question, 'What shall I wear today?' |
-| <img src="https://plugin.metzsicherheitstechnik.de/static/logo.png" alt="logo" width="64" /> | **Alarm Advisor** | Get expert advice on Telenot alarm systems and personalized support for your home and business security. |
 | <img src="https://assets-global.website-files.com/61f1e1f5e79d214f7f0df5a0/61f6e6d5e613a5a191f81f42_Webclip.png" alt="logo" width="64" /> | **Bardeen** | Create and run automations on the most popular web services. |
 | <img src="https://clinq-chatgpt-plugin-api-biudyrocna-ey.a.run.app/logo.png" alt="logo" width="64" /> | **CLINQ** | Manage your CLINQ Account. Retrieve infos about calls, create call reminders and more. |
 | <img src="https://ctcp.japaneast.cloudapp.azure.com/logo.png" alt="logo" width="64" /> | **CT Criteria Parser** | Analyze eligibility criteria in ClinicalTrials.gov. Example input: nctid NCT05859269 |
@@ -542,11 +564,10 @@ As of **July 13, 2023**, there are **671 plugins** in the ChatGPT Plugin Store.
 | <img src="https://plugin.notion.ainotevault.com/logo.png" alt="logo" width="64" /> | **NotesAISync** | Unofficial connector to Notion for interactive note-taking. |
 | <img src="https://gptplugin.opentools.ai/logo.png" alt="logo" width="64" /> | **OpenTools AI** | Find the right AI tools for your needs from the largest collection on the web. |
 | <img src="https://assets.paxi.ai/sg/assets/logo.png" alt="logo" width="64" /> | **Paxi AI** | Let AI tools speed up your tasks! Make it easy to find the right tool for the task. |
-| <img src="https://media.licdn.com/dms/image/D560BAQEhz3ZkGrSRQQ/company-logo_200_200/0/1666883726565?e=2147483647&v=beta&t=L38V1aWAmzVA1vl-PFLSonkW3iQokiGttoryGLLnAGs" alt="logo" width="64" /> | **Peel Hunt AI-ERA** | AI Equity Research Assistant (AI-ERA). |
 | <img src="https://public-api.ping.tm/chatgpt/ping.png" alt="logo" width="64" /> | **Ping Task Assistant** | Add your own TODOs, plan and delegate tasks. Automatically assign projects and people. |
 | <img src="https://reflect.app/site/icons/512x512-rounded.png" alt="logo" width="64" /> | **Reflect Notes** | Creates a Reflect note. |
 | <img src="https://reminders.upon.chat/ai-plugin/logo2.png" alt="logo" width="64" /> | **Reminders** | Add, remove, list and tag reminders. |
-| <img src="https://roboad.herokuapp.com/static/roboad_logo.png" alt="logo" width="64" /> | **RoboAd** | Your AI powered Ad Assistant! |
+| <img src="https://taskml.com/images/icon.png" alt="logo" width="64" /> | **TaskML** | Manage your projects and tasks individually. |
 | <img src="https://taskoracle.aigenprompt.com/.well-known/logo.png" alt="logo" width="64" /> | **TaskOracle** | Hey Neo, take the red pill less, let me guide you with the optimal tools to smash your to-do list like Hulk. |
 | <img src="https://ticktick.com/static/img/pwa/icons-256.png" alt="logo" width="64" /> | **TickTick** | TickTick for managing a TODO list, you can add, remove and view your TODOs. |
 | <img src="https://www.fitbox.chat/api/static/icon.png" alt="logo" width="64" /> | **Water Tracker** | A tool for recording and tracking your water intake records, drink more water, stay healthy. |
@@ -571,6 +592,7 @@ As of **July 13, 2023**, there are **671 plugins** in the ChatGPT Plugin Store.
 | <img src="https://aistrologer.io/logo.png" alt="logo" width="64" /> | **AIstrologer** | Search for the horoscope for each zodiac sign for a specific date. |
 | <img src="https://vector-api.fly.dev/.well-known/logo.png" alt="logo" width="64" /> | **Abridged Due Diligence** | Discover the details! Search through recent SEC filings, with links to deeper analysis. |
 | <img src="https://www.accesslinks.ai/.well-known/logo.png" alt="logo" width="64" /> | **Access Link** | Access any links on the web and get the information you need. |
+| <img src="https://res.cloudinary.com/apartmentlist/image/upload/Logos/Logo_House.png" alt="logo" width="64" /> | **Apartment List** | Search for apartments in the US with personalized recommendations, just for you. |
 | <img src="https://artcollection--chao-gu-ge-lei.repl.co/logo.png" alt="logo" width="64" /> | **ArtCollection** | Search through millions of art pieces from The Metropolitan Museum of Art. |
 | <img src="https://askmarcie-backend.herokuapp.com/marcie-logo.png" alt="logo" width="64" /> | **Ask Marcie** | For viewing house listings in Park City, Utah. |
 | <img src="https://gpt-plugin.vg.no/.well-known/logo.png" alt="logo" width="64" /> | **Ask VG** | Search through VG's content archive. |
@@ -579,33 +601,27 @@ As of **July 13, 2023**, there are **671 plugins** in the ChatGPT Plugin Store.
 | <img src="https://openapi-af.op-mobile.opera.com/openapi/browserplugin/.well-known/logo.png" alt="logo" width="64" /> | **BrowserPilot** | Analyse and understand web pages and search for more results. |
 | <img src="https://plugin.charge-my-ev.guide/logo.png" alt="logo" width="64" /> | **Charge My EV** | Locate EV charging stations by various providers, including Tesla supercharger locations. |
 | <img src="https://chat-stack-search.thx.pw/favicon.svg" alt="logo" width="64" /> | **Chat Stack Search** | Use the Stack Exchange API to search sites such as Stack Overflow and return questions, answers, and other information. |
-| <img src="https://img.alicdn.com/imgextra/i4/O1CN017N0sYZ1rLikNw3PQv_!!6000000005615-2-tps-205-200.png" alt="logo" width="64" /> | **Comparison** | An advanced e-commerce tool, providing robust capabilities for efficient product search and accurate price comparison. |
 | <img src="https://converter-app-chat-gpt-plugin.vercel.app/logo.png" alt="logo" width="64" /> | **Converter App** | Convert currencies or files like images and videos from web links and Google Drive to other formats, or work with PDFs. |
 | <img src="https://oracle.eesel.app/.well-known/logo.png" alt="logo" width="64" /> | **Custom Knowledge** | Provide your docs, webpages, and other links, and get personalised answers. |
 | <img src="https://ucarecdn.com/e59542d4-3ede-4f62-855e-b668cdbaef02/" alt="logo" width="64" /> | **Devhunt** | Find your next favorite tool. |
 | <img src="data:image/png;base64,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" alt="logo" width="64" /> | **FCA FS Search** | Search FCA and get product, individual and firm info using PRN, IRN and FRN. |
 | <img src="https://chat-plugin-giphy.efficiency.tools/.well-known/logo.png" alt="logo" width="64" /> | **GIF Search** | Search through a wide range of gifs - Powered by Giphy. |
-| <img src="https://ehodiexgqdfrfuvo2go5eumahm0fxjpz.lambda-url.us-west-2.on.aws/logo.png" alt="logo" width="64" /> | **GoDaddy Name Search** | Search and check the availability of domain names using GoDaddy. |
-| <img src="https://www.hadithgpt.com/chatgpt-plugin-logo.png" alt="logo" width="64" /> | **Hadith Advice** | Ask a question and get advice from hadith. |
+| <img src="https://www.modernsolution.net/mediafiles/Bilder/googletrends.png" alt="logo" width="64" /> | **Google Trends Plugin** | Fetch search interest data for keywords, locations, and timeframes. Get realtime search trends, and top charts. |
 | <img src="https://haulingbuddies.com/assets/icon_68_68-f5783fef14eb6cefa4084be40395b4e7402c395fd5441c0ceffdfe882c70d7f2.png" alt="logo" width="64" /> | **Hauling Buddies** | Locate dependable animal transporters using recommendations, reviews, and regulatory compliance search features. |
+| <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/4642.png" alt="logo" width="64" /> | **Hedera Account Info** | Gets the HBAR and token balance of a Hedera account. |
 | <img src="https://server.searchweb.keymate.ai/.well-known/icon.png" alt="logo" width="64" /> | **KeyMate.AI Search** | Search&Browse the web by using Google Search results with KeyMate.AI, your AI-powered web crawler. |
 | <img src="https://lgtm.lol/logo.png" alt="logo" width="64" /> | **LGTM** | Search for LGTM Markdown. |
 | <img src="https://gochitchat.ai/linkreader/logo.png" alt="logo" width="64" /> | **Link Reader** | Read any links: webpage, youtube, PDF, PPT, image, Word doc etc; OCR image; Search & browse web. |
 | <img src="https://app.linkhouse.co/assets/images/logo_square.png" alt="logo" width="64" /> | **Linkhouse** | Easy tool for link-building campaigns. |
 | <img src="https://sheet-generator.brandzzy.com/logo.png" alt="logo" width="64" /> | **Make A Sheet** | Generate a csv file that can directly be imported into Google Sheets or MS Excel. |
 | <img src="https://api.metaphor.systems/logo.png" alt="logo" width="64" /> | **Metaphor Search** | Access the internet's highest quality content. Recommended by people, powered by neural search. |
-| <img src="https://search-ai.mintbase.xyz/.well-known/search/logo.png" alt="logo" width="64" /> | **MintbaseSearch** | Find any NFT data on the NEAR Protocol. |
 | <img src="https://static.mixerbox.com/chatai/chatgpt-plugin/WebSearchG_logo.png" alt="logo" width="64" /> | **MixerBox WebSearchG** | Search and summarize the web with our customized search engine powered by Google Search API! |
 | <img src="https://nextpaperplugin--mengzhao1.repl.co/logo.png" alt="logo" width="64" /> | **NextPaper.ai** | Fetch the latest research papers on a specific topic from PubMed. More to come. |
 | <img src="https://now.techno-gauss.com/logo.png" alt="logo" width="64" /> | **Now** | Get Google Trends. In Japan, you can also get Twitter trends and search Twitter keywords. |
-| <img src="https://ohmyplug.promptbreeders.com/logo.webp" alt="logo" width="64" /> | **OhMyPlug** | Search and discover extensions with OhMyPlug! It guides you through the best addons in the store and explains them 🔍🧩💡. |
 | <img src="https://static.openarch.nl/img/oa/logo200x200-en.png" alt="logo" width="64" /> | **Open Archives** | Search the genealogical data of Dutch and Belgian archives and societies via Open Archives. |
-| <img src="https://www.storeya.com/common/images/plugins/PRD-icon-512x512-D.png" alt="logo" width="64" /> | **PPC - StoreYa.com** | Your personal assistance for automating advertising – Google Ads (AdWords) and Microsoft Ads (Bing). |
 | <img src="https://ai.toreris.com/logo.png" alt="logo" width="64" /> | **PTCG price research** | It fetches the latest prices of Pokémon Cards within Japan. |
-| <img src="https://api.getamplio.com/.well-known/logo.png" alt="logo" width="64" /> | **PartSecure** | Search & compare electronic component inventory, pricing, & lead time from top suppliers. |
 | <img src="https://www.aperiodic.io/logo.png" alt="logo" width="64" /> | **Penrose Analyst** | Search global news and research papers. Summarize Arxiv.org links. Ask me for the latest news! |
 | <img src="https://assets.clay.earth/people-search-plugin-logo.png" alt="logo" width="64" /> | **People Search** | Search Clay's public people graph by keyword & industry. Build lists & recruit faster than Linkedin. |
-| <img src="https://plugin.lyrai.app/.well-known/logo.png" alt="logo" width="64" /> | **PlugFinder** | Describe the addin you want, and we will help you find the most suitable one. |
 | <img src="https://esne.ai/logo.png" alt="logo" width="64" /> | **Podcast Search** | This tool explores podcasts from PodcastIndex.org, a platform for decentralized audio content discovery. |
 | <img src="https://api.researchbyvector.com/logo.png" alt="logo" width="64" /> | **Research By Vector** | Unearth precise academic research effortlessly with the power of vector embeddings for relevance and accuracy. |
 | <img src="https://scholarly.maila.ai/.well-known/logo.png" alt="logo" width="64" /> | **Scholarly** | Scholarly is an AI-powered search engine for exploring scientific literature. |
@@ -621,11 +637,9 @@ As of **July 13, 2023**, there are **671 plugins** in the ChatGPT Plugin Store.
 | <img src="https://www.tryspree.com/logo-512.png" alt="logo" width="64" /> | **TrySpree** | TrySpree is a website that finds free samples for you to try. |
 | <img src="https://chatgpt-plugin-dot-turing-gpt.uc.r.appspot.com/.well-known/logo.png" alt="logo" width="64" /> | **Turing Developer** | Search and hire the world's most deeply vetted developers from Turing.com. |
 | <img src="https://resources.turo.com/next-js/0.0.1/app_icon.png" alt="logo" width="64" /> | **Turo** | Search for the perfect Turo vehicle for your next trip. |
-| <img src="https://www.urban.com.au/urban_logo.png" alt="logo" width="64" /> | **Urban New Apartments** | Search the best off-the-plan and new apartments from Australia’s leading property developers. |
 | <img src="https://www.wpinteract.com/logo.png" alt="logo" width="64" /> | **WP Interact** | Fetch or search posts from self-hosted WordPress websites, opening new possibilities for smart interaction with content. |
 | <img src="https://wahi.com/wp-content/uploads/2022/10/wahi-logo.svg" alt="logo" width="64" /> | **Wahi** | Hey Ontario, ask and get so in the know on the latest listings, property insights and more. |
 | <img src="https://plugin.wegpt.ai/static/logo.png" alt="logo" width="64" /> | **Web Requests** | Goodbye Knowledge Cutoff, Hello World! This is your AI assistant's web browser. Just enter a URL. Google, Wiki, GitHub. |
-| <img src="https://webreader.webpilotai.com/logo.png" alt="logo" width="64" /> | **WebPilot** | Browse & QA Webpage/PDF/Data. Generate articles, from one or more URLs. |
 | <img src="https://chatgpt.surge.ai/assets/logo.png" alt="logo" width="64" /> | **What's trending?** | Explore trending searches, keywords, & hashtags by topic across YouTube, Instagram, Amazon, and Google. |
 | <img src="https://www.wolframcdn.com/images/icons/Wolfram.png" alt="logo" width="64" /> | **Wolfram** | Access computation, math, curated knowledge & real-time data through Wolfram|Alpha and Wolfram Language. |
 | <img src="https://trendscopeai.web.app/logo.png" alt="logo" width="64" /> | **WriteEasy** | Get AI generated articles by providing a topic and links to use for inspiration or data. |
@@ -639,23 +653,26 @@ As of **July 13, 2023**, there are **671 plugins** in the ChatGPT Plugin Store.
 | <img src="https://turboooo.com/logo.png" alt="logo" width="64" /> | **AMZPRO** | Tool for AMAZON product listing, help you write a product description. |
 | <img src="https://acquire.com/assets/img/acquiredotcom-logo.b16269.svg" alt="logo" width="64" /> | **Acquire.com** | Everything you need to buy and sell startups. |
 | <img src="https://www.aitoolhunt.com/images/aitoolhunt_logo.png" alt="logo" width="64" /> | **Ai Tool Hunt** | Explore the ideal AI solutions for all use cases, drawn from the most comprehensive global database of AI tools. |
+| <img src="https://amazfinds.aitoolbot.repl.co/logo.png" alt="logo" width="64" /> | **Amazon Finds** | Find any Amazon product you need. |
 | <img src="https://gift-curator.onrender.com/.well-known/logo" alt="logo" width="64" /> | **Amazon Gift Chooser** | Curated gifts for every occasion and special person. |
+| <img src="https://firebasestorage.googleapis.com/v0/b/security-web-app-e4217.appspot.com/o/23e7934f-d5c2-4077-8e37-7d7f9a9f0de0%2Ficoncircular%20logo%20for%20robot%20face%20emogi%20that%20is%20about%20f.jpg?alt=media&token=496dba6e-5262-4ae0-a604-bf8d16dea618" alt="logo" width="64" /> | **AnaBot** | AnaBot is a conversational guide for well-being industry insights and trends. |
 | <img src="https://chatgptplugin.askchloe.app/.well-known/logo.png" alt="logo" width="64" /> | **AskChloe** | Discover your style and get personalized recommendations on clothing, accessories, gifts, and more. |
-| <img src="https://plugins.midgard.avalara.io/favicon.png" alt="logo" width="64" /> | **Avalara** | Calculate sales tax or lookup tax rates for any address in the U.S. |
+| <img src="https://assets.boxil.jp/images/logo/chatgpt-plugins-logo.png" alt="logo" width="64" /> | **BOXIL SaaS** | Help Japanese companies find the best system to enhance their productivity. |
 | <img src="https://chatgpt.bubblegoods.com/static/logo.png" alt="logo" width="64" /> | **Bubble Goods** | Marketplace of 1000+ tasty & healthy foods. Discover new Vegan, Keto, Gluten-Free products & more. |
 | <img src="https://buywisely.com.au/assets/logo.png" alt="logo" width="64" /> | **BuyWisely** | Compare Prices & Discover the Latest Offers from thousands of online shops in Australia. |
 | <img src="https://byby.ai/logo.jpeg" alt="logo" width="64" /> | **ByByAI** | Search for the best Amazon products ordered by rating. |
 | <img src="https://chatgpt-plugin.api.cargurus.com/plugin-static/logo.png" alt="logo" width="64" /> | **CarGurus** | Find Your Perfect Car on CarGurus - Shop by Budget, Deal Rating, Make, Model, & More. |
 | <img src="https://app.caryardbard.com/assets/images/cyb-square.png" alt="logo" width="64" /> | **CarYardBard** | AI-Powered Car Sales Ad Generator for Australian Car Dealers. |
 | <img src="https://product-plugin.chaca.io/logo.png" alt="logo" width="64" /> | **Chaca Market Product** | Get detailed information about products on Chaca Market |
-| <img src="https://chatspot.ai/plugin/logo.png" alt="logo" width="64" /> | **ChatSpot** | Get access to marketing/sales data including domain information, company research and search keyword research. |
 | <img src="https://gpt.copilotsearch.com/logo.png" alt="logo" width="64" /> | **CoPilot** | Searches every dealer, analyzes & ranks every car for you so you can buy with confidence. |
 | <img src="https://copywriter.orrenprunckun.com/icon.png" alt="logo" width="64" /> | **Copywriter** | Send a URL and get sales copywriting suggestions for any page! |
 | <img src="https://www.coupert.com/img/favicon.svg" alt="logo" width="64" /> | **Coupert** | Search for the internet’s best coupons from thousands of online stores. |
 | <img src="https://www.tenereteam.com/v2/images/openai/logo.png" alt="logo" width="64" /> | **Coupons by Tenere** | TenereTeam.com - Get the Best Deals & Coupons on Millions of Products At Over 50,000 Online Stores. |
 | <img src="https://chatgpt.wild.creatuity.net/.well-known/logo.png" alt="logo" width="64" /> | **Creatuity Stores** | We integrate stores so you can search for products in all of them at the same time. |
+| <img src="https://gw.alicdn.com/imgextra/i1/O1CN01Dj33RA1XVWvgQWrlR_!!6000000002929-0-tps-720-720.jpg" alt="logo" width="64" /> | **Deal Dazzle** | Search and compare prices from numerous online stores. Find top coupons from various shops. (US only) |
 | <img src="https://www.denisonyachtsales.com/.well-known/logo.png" alt="logo" width="64" /> | **Denison Yachting** | Search yachts for sale, charters, new construction, crew placement, and more with Denison Yachting. |
 | <img src="https://easy-search.techno-gauss.com/logo.png" alt="logo" width="64" /> | **Easy Product Search** | Easy Product Search simplifies shopping on Japanese EC sites using keywords. It providing product info. |
+| <img src="https://ebay-finds.aitoolbot.repl.co/static/logo.png" alt="logo" width="64" /> | **Ebay Finds** | Find any eBay product you need. |
 | <img src="https://shimmer-payments.vercel.app/logo.svg" alt="logo" width="64" /> | **Father's Day Deals** | Ideas, recommendations, and deals for Father's Day gifts. |
 | <img src="https://giftsensai.tripuls.ai/.well-known/icon-gift.svg" alt="logo" width="64" /> | **GIFT SENSAI** | Find perfect gifts for friends, family, and colleagues on Amazon.com. Best for birthdays, Christmas & anniversaries. |
 | <img src="https://vafl.me/api/.well-known/logo.png" alt="logo" width="64" /> | **Gift Finder** | Your personal gift advisor. Find a perfect experience for anyone. |
@@ -672,10 +689,11 @@ As of **July 13, 2023**, there are **671 plugins** in the ChatGPT Plugin Store.
 | <img src="https://klever-chatgpt-plugin-prod.herokuapp.com/logo.png" alt="logo" width="64" /> | **Kraftful** | Your product development coach. Ask about best practices. Get top gurus’ product thinking. |
 | <img src="https://lexi-shopping-assistant-chatgpt-plugin.iamnazzty.repl.co/logo.png" alt="logo" width="64" /> | **Lexi Shopper** | Get product recommendations from your local Amazon store. |
 | <img src="https://lingo.wandougongzhu.cn/logo.png" alt="logo" width="64" /> | **Lingo** | Lingo - Direct Access to the Japanese Lifestyle with One Click. |
-| <img src="https://cdn.lovesavingsgroup.com/assets/favicon-96x96.png" alt="logo" width="64" /> | **Love Discounts UK** | Ask for the best Love Discounts UK codes for 10,000+ stores. |
+| <img src="https://cdn.lovesavingsgroup.com/assets/favicon-96x96.png" alt="logo" width="64" /> | **Love Coupons** | Find money saving coupon & discount codes for over 30,000 stores around the world. |
+| <img src="https://cdn.lovesavingsgroup.com/assets/favicon-96x96.png" alt="logo" width="64" /> | **Love Discounts UK** | Search thousands of UK stores for money saving discount and voucher codes. |
 | <img src="https://manofmany.worldnews.direct/logo.jpeg" alt="logo" width="64" /> | **Man of Many** | Discover the latest in products, culture and style from Man of Many. Ask for the latest news and headlines. |
-| <img src="https://chatgpt.vipmanor.com/logo.png" alt="logo" width="64" /> | **Manorlead** | Get a list of listings for rent or sale in cities across Canada and the US based on your search criteria. |
 | <img src="https://www.gomino.com/mino_box/images/favicon64x64.png" alt="logo" width="64" /> | **Mino** | Discover the easiest way to find the best coupons for thousands of online stores. |
+| <img src="https://apis.newegg.com/.well-known/logo.png" alt="logo" width="64" /> | **Newegg PC Builder** | Build and purchase a custom gaming PC based on your budget and needs. |
 | <img src="https://pluginpedia.replit.app/logo.png" alt="logo" width="64" /> | **Pluginpedia** | Recommend plugins in the store based on your question, and introduce their usage. |
 | <img src="https://primeloupe.com/static/img/logo512-bg.png" alt="logo" width="64" /> | **PrimeLoupe** | Simplify your decision-making process by summarizing Amazon product reviews for you. |
 | <img src="https://aifinder.properties/logo.png" alt="logo" width="64" /> | **Property Finder UK** | Find properties for sale or rent in the UK. |
@@ -699,7 +717,7 @@ As of **July 13, 2023**, there are **671 plugins** in the ChatGPT Plugin Store.
 | <img src="https://todaystopdeal.com/logo.jpeg" alt="logo" width="64" /> | **Today's Top Deal** | Find the best deals on Amazon today. |
 | <img src="https://api.housepricesintheuk.co.uk/img/logo-bw-512x512.png" alt="logo" width="64" /> | **UK House Prices** | Provides information on UK House Prices and Sales. |
 | <img src="https://hdn-1.fynd.com/company/884/applications/000000000000000000000004/application/pictures/favicon/original/TzlAlZsaH-Uniket.png" alt="logo" width="64" /> | **Uniket** | Elevate your shopping experience with Uniket. |
-| <img src="https://chatgpt-plugin.xtalpi.com/logo.png" alt="logo" width="64" /> | **XtalPi** | Provide drug discovery solutions and chemical services from XtalPi, your drug discovery partner. |
+| <img src="https://cdn.zappy.app/8f853364f9b383d65b44e184e04689ed.png" alt="logo" width="64" /> | **Zapier** | Interact with over 5,000+ apps like Google Sheets, Gmail, HubSpot, Salesforce, and thousands more. |
 
 ## Social Networking
 
@@ -707,14 +725,12 @@ As of **July 13, 2023**, there are **671 plugins** in the ChatGPT Plugin Store.
 | --- | --- | --- |
 | <img src="https://afinchat.chengdoujiang.cn/logo.png" alt="logo" width="64" /> | **AFinChat** | Get information and analyze A-share stocks, but search for information only from China. |
 | <img src="https://customplugin.customplugin.ai/.well-known/logo.png" alt="logo" width="64" /> | **AI Chatbot Builder** | Build AI chatbots with ALL your business content, in a secure/business-grade platform. |
-| <img src="https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvdXBsb2FkZWQvaW1nXzJSeXFBQndJMkZzYzJVQlZxaW4wbE04NEhhRC5wbmcifQ" alt="logo" width="64" /> | **Aligned** | Help the World -- automatically share LLM misbehaviors with the community! Aligned is the global platform for alignment. |
+| <img src="https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvdXBsb2FkZWQvaW1nXzJTVWJDcGhGcHgzb0J4eFdIQ01EV01GdG5Ici5wbmcifQ" alt="logo" width="64" /> | **Aligned** | Help the World. Share crazy LLM misbehaviors with the community! Aligned is the global platform for alignment. |
 | <img src="https://askyourkg.cogniswitch.ai/assets/img/gptplugin.logo.png" alt="logo" width="64" /> | **AskYourKG** | Eliminate hallucination. Organize your knowledge. Chat with it. Visualise it. |
-| <img src="https://avian.io/static/images/logomark_square.png" alt="logo" width="64" /> | **Avian** | Connect to your business data - Google Analytics, Google Ads, Facebook Ads and more. |
 | <img src="https://calorie.chat/calories.png" alt="logo" width="64" /> | **Calorie Chat** | Tracking what you eat doesn't have to be hard. With Calorie Chat, you'll find calorie counting simpler than ever before. |
 | <img src="https://champdex.com/img/logo.png" alt="logo" width="64" /> | **ChampDex** | Chat with your favorite League of Legends champions! |
 | <img src="https://api.getchange.io/.well-known/change-logo.png" alt="logo" width="64" /> | **Change** | Discover impactful nonprofits to support in your community and beyond. |
 | <img src="https://plugin.pluginfinder.gimmee.info/Images/logo.png" alt="logo" width="64" /> | **Chat Tool Finder** | Find the tool in here that can help you. Search by name, category or description. |
-| <img src="https://api.chatwithyourdata.io/logo.png" alt="logo" width="64" /> | **Chat With Your Data** | Conversational analysis over your databases and spreadsheets. |
 | <img src="https://bible.religions.chat/logo.png" alt="logo" width="64" /> | **Chat with Bible** | Intuitively explore scriptures. Find relevant verses, understand parables, and gain insights. |
 | <img src="https://quran.religions.chat/logo.png" alt="logo" width="64" /> | **Chat with Quran** | Chat with the Quran. |
 | <img src="https://chatsshplug.com/logo.png" alt="logo" width="64" /> | **ChatSSHPlug** | Ability to SSH into your server and turn your natural language into server commands. |
@@ -726,7 +742,6 @@ As of **July 13, 2023**, there are **671 plugins** in the ChatGPT Plugin Store.
 | <img src="https://api.dayapp.net/logo.png" alt="logo" width="64" /> | **DayApp** | Get connected with any company representative without waiting on hold or pressing buttons in IVR. |
 | <img src="https://exporter.hexonlabs.com/logo.png" alt="logo" width="64" /> | **Export Chat** | A Tool to export your conversation or specific parts of your conversation. |
 | <img src="https://cplst01.blob.core.windows.net/static/c-export-logo.jpg" alt="logo" width="64" /> | **Export Chat to PDF** | I will export your chat conversation to a PDF file, ready for download and share. |
-| <img src="https://engage-ai.co/wp-content/uploads/2021/11/filticon256.png" alt="logo" width="64" /> | **Hashtag Analytics** | Engage AI - Retrieve hashtag follower counts, trends and suggestions to increase reach on LinkedIn. |
 | <img src="https://i.imgur.com/GxLMZfK.png" alt="logo" width="64" /> | **Message in a Bottle** | Throw a message into the digital ocean, or grab one floating by. You are not alone. |
 | <img src="https://mojito.copilot.us/mojito.jpg" alt="logo" width="64" /> | **Mojito** | I can convert your chats to articles and posts them online🍹. |
 | <img src="https://www.netlify.com/assets/logos/encapsulated/darkmode/logo-netlify-encapsulated-fullcolor-darkmode.png" alt="logo" width="64" /> | **Netlify Drop** | Describe a simple website you want to make, and deploy it to Netlify to share it with others and claim it as your own. |
@@ -734,6 +749,7 @@ As of **July 13, 2023**, there are **671 plugins** in the ChatGPT Plugin Store.
 | <img src="https://perfectchirp.app/static/perfect_chirp_logo.webp" alt="logo" width="64" /> | **Perfect Chirp** | Turn your ideas into banger tweets in less than 30 seconds. Start your prompt with 'Write a tweet...'. |
 | <img src="https://sync.smartconnections.app/logo.png" alt="logo" width="64" /> | **Smart Connections** | Chat with your notes integration for Obsidian. |
 | <img src="https://twitter.say-apps.com/logo.png" alt="logo" width="64" /> | **Social Search** | The Social Search provides access to tweets, users, followers, images, media and more. |
+| <img src="https://pbs.twimg.com/profile_images/1660572218387058692/zggRtHtS_400x400.png" alt="logo" width="64" /> | **Vehicle Data IL** | An Israel-focused tool, extracting car details from data.gov.il based on model, year, hue, and count. |
 | <img src="https://chatgpt-plugin.rss3.ai/public/logo.svg" alt="logo" width="64" /> | **Web3 User Activity** | View any Web3 user's activities by entering a 0x address, ENS, Lens, and many other name services on the RSS3 Network. |
 | <img src="https://api-staging.maigrate.com/logo.png" alt="logo" width="64" /> | **Webbots - Ask a Bot** | Start with 'Ask bot <bot id>'. Visit webbot.chat to create & share a free bot. Powered by Maigrate. |
 | <img src="https://plugin.chatshape.com/logo.png" alt="logo" width="64" /> | **WebsiteChat** | Chat with any website link. |
@@ -749,7 +765,6 @@ As of **July 13, 2023**, there are **671 plugins** in the ChatGPT Plugin Store.
 | <img src="https://img.feednews.com/assets/v2/fd71368e63d245e6b6c4b87aab704ca8" alt="logo" width="64" /> | **Live Game** | Get real-time scores and news updates from the world of eSports. LOL, Dota2, CS:GO, PUBG live scores and news. |
 | <img src="https://baseball-stats.azurewebsites.net/logo.png" alt="logo" width="64" /> | **MLB Stats** | Access up-to-date baseball news and statistics for players and teams across the MLB. |
 | <img src="https://talkfpl.com/assets/football-icon-47e39991defc5f4e66807b288c8dedfde526927a788b9622edf8090a683aaeaa.png" alt="logo" width="64" /> | **TalkFPL** | Talk with AI to help you manage your FPL team. Compare players, transfer options and more. |
-| <img src="https://tombradybot.customplugin.ai/.well-known/logo.png" alt="logo" width="64" /> | **Tom Brady Bot** | The ultimate trusted guide for all things about Tom Brady. |
 | <img src="https://api.ndricks.com/logo.jpg" alt="logo" width="64" /> | **ndricks Sports** | Get information about pro teams (NHL, NBA, NFL, MLB) teams by calling the ndricks Software Sports API. |
 
 ## Text
@@ -760,9 +775,9 @@ As of **July 13, 2023**, there are **671 plugins** in the ChatGPT Plugin Store.
 | <img src="https://aldenbot.customplugin.ai/.well-known/logo.png" alt="logo" width="64" /> | **AldenBot** | AI clone of Alden Do Rosario. Ask me anything about Alden. |
 | <img src="https://www.appypie.com/.well-known/logo.png" alt="logo" width="64" /> | **Appy Pie App Builder** | AI-powered Text-to-App Generator turns your app idea into Android and iOS apps- just provide text input. |
 | <img src="https://askcars.ai/logo.png" alt="logo" width="64" /> | **Ask Cars** | Ask about car issues and get answers based on verified complaints to government agencies & public forums. |
-| <img src="https://www.marketflare.com/wp-content/uploads/2015/12/mf_icon.png" alt="logo" width="64" /> | **Clinical Trial Radar** | Discover current info on global clinical trials, organizations, diseases, and biomarkers from public & private studies. |
 | <img src="https://content-rewriter.orrenprunckun.com/icon.png" alt="logo" width="64" /> | **Content Rewriter** | Enter any URL and have the text content rewritten for you! |
 | <img src="https://app.filtir.com/static/filtir-logo.png" alt="logo" width="64" /> | **Filtir** | Verify the provided text using external sources. |
+| <img src="https://chatgpt-card-gen-anki-plugin.vercel.app/logo.png" alt="logo" width="64" /> | **FlashcardsGenerator** | Generate Anki flashcards and downloable Decks! |
 | <img src="https://plugin.gptinf.com/logo.png" alt="logo" width="64" /> | **Humanize** | Humanizing AI content via paraphrasing. |
 | <img src="https://magic-conch.onrender.com/images/conch_logo.png" alt="logo" width="64" /> | **Magic Conch Shell** | Guide your most important life decisions with the magic conch shell. (Please don't actually, it's only satire). |
 | <img src="https://static.mixerbox.com/chatai/chatgpt-plugin/Translate_logo.png" alt="logo" width="64" /> | **MixerBox Translate** | Translate any language right away! Learn foreign languages easily by conversing with AI tutors! |
@@ -777,6 +792,7 @@ As of **July 13, 2023**, there are **671 plugins** in the ChatGPT Plugin Store.
 
 | Logo | Plugin Name | Description |
 | --- | --- | --- |
+| <img src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/0016/4231/brand.gif?itok=cOeuUIp-" alt="logo" width="64" /> | **BART Real-Time** | Getting real-time BART information for a specified origination station and direction. |
 | <img src="https://c3glide-d9g5.boldstratus.com/c3glide-api/assets/BoldStratus+Purple+Icon.png" alt="logo" width="64" /> | **C3 Glide** | Get live aviation data for pilots. Ask questions about METARs, TAFs, NOTAMs for flight planning. |
 | <img src="https://chat-raku-journey.thx.pw/favicon.svg" alt="logo" width="64" /> | **Chat Raku Journey** | Search for Rakuten services in Japan. You can easily search for products, facilities in travel, and more. |
 | <img src="https://gpt-etihad.botim.me/.well-known/App_icon.png" alt="logo" width="64" /> | **Etihad Airline** | Search flights, and answer other related questions of flights. |
@@ -790,6 +806,7 @@ As of **July 13, 2023**, there are **671 plugins** in the ChatGPT Plugin Store.
 | <img src="https://content.r9cdn.net/apple-touch-icon-120x120.png" alt="logo" width="64" /> | **KAYAK** | Search flights, stays & rental cars or get recommendations where you can go on your budget. |
 | <img src="https://api-travel.kakaku.com/favicon.ico" alt="logo" width="64" /> | **Kakaku.com/travel** | You can search for hotel that match your search criteria from among the many hotels registered on Kakaku.com. |
 | <img src="https://keyword-explorer.maila.ai/.well-known/logo.png" alt="logo" width="64" /> | **Keyword Explorer** | Keyword Explorer provides popular related keywords to amplify your content optimization. |
+| <img src="https://media.kiwi.com/wp-content/uploads/2023/04/cropped-image-270x270.png" alt="logo" width="64" /> | **Kiwi.com** | We hack the system, you fly for less. Book cheap flights other sites simply can't find. |
 | <img src="https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_400,h_400/v1658221026/blog/mza5gbjifutssk81hc78.webp" alt="logo" width="64" /> | **Klook** | From local escapes to far flung adventures, find the best experiences, tours, hotels and transport options anywhere. |
 | <img src="https://openai.metrochat.xyz/logo.png" alt="logo" width="64" /> | **Korea subway route** | Korea  metro subway route info. |
 | <img src="https://aiplugin-owljourney.owlting.com/logo.svg" alt="logo" width="64" /> | **OwlJourney** | Provides lodging and activity suggestions, ensuring an engaging and user-friendly journey. |
@@ -810,21 +827,18 @@ As of **July 13, 2023**, there are **671 plugins** in the ChatGPT Plugin Store.
 
 | Logo | Plugin Name | Description |
 | --- | --- | --- |
-| <img src="https://plugin.redefined.cloud/static/logo.png" alt="logo" width="64" /> | **3 Sentence Service** | Managing a three sentence service. You can add, remove, view and invoke your 3 sentence services. |
 | <img src="https://60sec.site/assets/favicon-0f4a96d886ffc6ad8faddc032cc51bc9dd282d32ae692366b57769bd66138fe7.png" alt="logo" width="64" /> | **60sec site** | Generate a beautiful website in 60 seconds using AI. |
+| <img src="https://petrolpricepredictor.com/petrol-price-predictor-icon.png" alt="logo" width="64" /> | **Aus Petrol Prices** | Ask for the average daily petrol price for any state or capital city region in Australia! |
 | <img src="https://cpsconnect.cranepumps.com/content/images/crane-favicon.png" alt="logo" width="64" /> | **CranePumps Manuals** | Returns the catalog and manual for a pump based on model number. |
 | <img src="https://dmtoolkit.magejosh.repl.co/logo.png" alt="logo" width="64" /> | **DM Tool Kit** | App for rolling dice using the d20 or Fate/Fudge systems. |
-| <img src="https://dreamplugin.bgnetmobile.com/.well-known/logo.png" alt="logo" width="64" /> | **Dream Interpreter** | Interprets your dreams using advanced techniques. |
 | <img src="https://plugin.everyprint3d.com/static/logo.png" alt="logo" width="64" /> | **Everyprint3D** | Generate 3D ideas and bring them to life with our expert support. |
 | <img src="https://carpark.sausheong.com/static/logo.png" alt="logo" width="64" /> | **HDB Car Park** | For checking availability of car park lots at various HDB car parks around Singapore. |
-| <img src="https://mbti.bowang17.repl.co/.well-known/logo.png" alt="logo" width="64" /> | **MBTI** | For administering an MBTI test. You can get a list of questions and calculate your MBTI type. |
 | <img src="https://memepluginchatgpt.azurewebsites.net/logo.png" alt="logo" width="64" /> | **Meme Generator** | Your AI meme generator. |
 | <img src="https://nftflooralerts.com/ai-plugin/nft-token.png" alt="logo" width="64" /> | **NFTs** | Get the important details of any NFT collection and ask for insights based on that data! |
-| <img src="https://prayer-times-plugin.vercel.app/logo.png" alt="logo" width="64" /> | **Prayer Times** | Get Prayer Times for all over world in seconds. |
-| <img src="https://freenetworkmonitor.click/img/logo-square.png" alt="logo" width="64" /> | **Quantum Ready Check** | Check if a website is using quantum-safe key exchange. This helps ensure your website is quantum ready. |
 | <img src="https://pretzelbox.cc/strology/logo.png" alt="logo" width="64" /> | **Strology** | Get daily astrological predictions for your sun sign. |
 | <img src="https://talkface.ai/icon_512w.png" alt="logo" width="64" /> | **Talkface IELTS Prep** | Use the latest IELTS Speaking exam questions to prep your IELTS speaking with Talkface. |
 | <img src="https://openai-plugin.tophap.com/logo.png" alt="logo" width="64" /> | **TopHap** | Enriched real estate data and location-based tools. |
+| <img src="https://th.bing.com/th/id/OIG.AuvaCNUrvRfupQEne.ZD?pid=ImgGn" alt="logo" width="64" /> | **Your AI Council** | The AI council assesses queries through various agents, offering insights from many perspectives. |
 
 ## Video
 
