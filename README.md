@@ -28,7 +28,7 @@ As of **July 13, 2023**, there are **685 plugins** in the ChatGPT Plugin Store.
 - [Documents](#documents) - 16 plugins
 - [Earth and Space](#earth-and-space) - 24 plugins
 - [Education and Learning](#education-and-learning) - 29 plugins
-- [Entertainment](#entertainment) - 39 plugins
+- [Entertainment](#entertainment) - 40 plugins
 - [Events](#events) - 8 plugins
 - [Finance](#finance) - 53 plugins
 - [Food and Drink](#food-and-drink) - 24 plugins
@@ -36,7 +36,7 @@ As of **July 13, 2023**, there are **685 plugins** in the ChatGPT Plugin Store.
 - [Images](#images) - 14 plugins
 - [Job and Career](#job-and-career) - 24 plugins
 - [Legal and Politics](#legal-and-politics) - 9 plugins
-- [Marketing](#marketing) - 56 plugins
+- [Marketing](#marketing) - 55 plugins
 - [News and Media](#news-and-media) - 14 plugins
 - [Productivity](#productivity) - 35 plugins
 - [Prompts](#prompts) - 7 plugins
@@ -256,6 +256,7 @@ As of **July 13, 2023**, there are **685 plugins** in the ChatGPT Plugin Store.
 | <img src="https://likewiserecommends.com/.well-known/logo.png" alt="logo" width="64" /> | **Likewise** | Your media and entertainment companion. Get TV, Movies, Books & Podcast Recommendations. |
 | <img src="https://lsong.org/icon.png" alt="logo" width="64" /> | **Lsong AI** | Lsong's AI provides AI-powered content like news, images, music, movies, weather, stories, memes, and more. |
 | <img src="https://s3.maimovie.com/assets/plugin-logo.png" alt="logo" width="64" /> | **Maimovie** | Maimovie, the AI-powered movie search, understands any conversational prompt like "movies with plot twists", "tyrant" |
+| <img src="https://minecraft-chocolate.peter1169.repl.co/logo.png" alt="logo" width="64" /> | **Minecraft Chocolate** | Ask for recomendations about Minecraft mods and modpacks. Uses Modrinth API. |
 | <img src="https://api.llmtales.com/logo.jpeg" alt="logo" width="64" /> | **Mini Games** | Play text based games in your chat! Hangman, tictactoe, adventures, or make your own! |
 | <img src="https://static.mixerbox.com/chatai/chatgpt-plugin/tv_logo.png" alt="logo" width="64" /> | **MixerBox FreecableTV** | Watch free ad-supported TV shows, series, live channels, movies, news & sports from across the web! |
 | <img src="https://www.mbplayer.com/favicon-app_store_icon.png" alt="logo" width="64" /> | **MixerBox OnePlayer** | Unlimited music, podcasts, and videos across various genres. Enjoy endless listening with our rich playlists! |
@@ -484,7 +485,6 @@ As of **July 13, 2023**, there are **685 plugins** in the ChatGPT Plugin Store.
 | <img src="https://kalendar.ai/assets/logo-black-50c5284888eeea1d77f877d9a6736f1bf23533f975fae3939824cf429ad95e34.png" alt="logo" width="64" /> | **KalendarAI** | KalendarAI sales agents generate revenue with potential customers from 200+ million companies globally. |
 | <img src="https://mbti.bowang17.repl.co/.well-known/logo.png" alt="logo" width="64" /> | **MBTI** | For administering an MBTI test. You can get a list of questions and calculate your MBTI type. |
 | <img src="https://chatgpt.vipmanor.com/logo.png" alt="logo" width="64" /> | **Manorlead** | Get a list of listings for rent or sale in cities across Canada and the US based on your search criteria. |
-| <img src="https://minecraft-chocolate.peter1169.repl.co/logo.png" alt="logo" width="64" /> | **Minecraft Chocolate** | Ask for recomendations about Minecraft mods and modpacks. Uses Modrinth API. |
 | <img src="https://departmentstoreguide-plugin.momentxwill.repl.co/logo.png" alt="logo" width="64" /> | **MomentX GuideX** | It gives real-time info on our store, including brand locations and promotions. |
 | <img src="https://ohmyplug.promptbreeders.com/logo.webp" alt="logo" width="64" /> | **OhMyPlug** | Search and discover extensions with OhMyPlug! It guides you through the best addons in the store and explains them 🔍🧩💡. |
 | <img src="https://image4.owler.com/assets/v2/icons/owler-mw_icon-256x256.png" alt="logo" width="64" /> | **Owler** | Owler provides real-time business news and insights on private and public companies. |
