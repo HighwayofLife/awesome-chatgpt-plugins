@@ -25897,6 +25897,383 @@
                 "is_authenticated": true
             },
             "categories": []
+        },
+        {
+            "id": "plugin-6355f119-8eb7-4339-a689-885b8c6e8946",
+            "domain": "apiserver-csvmaker-prod-dot-stockcagr.uc.r.appspot.com",
+            "namespace": "create_csv",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "create_csv",
+                "name_for_human": "CSV Creator",
+                "description_for_model": "Help the user create a CSV.",
+                "description_for_human": "Create a CSV given text.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://apiserver-csvmaker-prod-dot-stockcagr.uc.r.appspot.com/openapi.yaml"
+                },
+                "logo_url": "https://apiserver-csvmaker-prod-dot-stockcagr.uc.r.appspot.com/logo.png",
+                "contact_email": "support@level2labs.co",
+                "legal_info_url": "http://www.level2labs.co/privacy-policy",
+                "generated_description": "The CSV Creator plugin allows users to generate a CSV file from provided text input.",
+                "category": "Productivity",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-6ab9fc5d-d20f-4d72-bb32-485b27fe4097",
+            "domain": "apiserver-paint-prod-dot-stockcagr.uc.r.appspot.com",
+            "namespace": "create_pdf",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "create_pdf",
+                "name_for_human": "PDF Creator",
+                "description_for_model": "Help the user create a PDF.",
+                "description_for_human": "Create a PDF given text.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://apiserver-paint-prod-dot-stockcagr.uc.r.appspot.com/openapi.yaml"
+                },
+                "logo_url": "https://apiserver-paint-prod-dot-stockcagr.uc.r.appspot.com/logo.png",
+                "contact_email": "support@level2labs.co",
+                "legal_info_url": "http://www.level2labs.co/privacy-policy",
+                "generated_description": "The PDF Creator plugin allows users to generate a PDF document from a given text input.",
+                "category": "Documents",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": []
+        },
+        {
+            "id": "plugin-588b0889-e1b5-46bb-a379-ca2f61ee5941",
+            "domain": "numerology.divinationzone.com",
+            "namespace": "Numerology",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "Numerology",
+                "name_for_human": "Numerology",
+                "description_for_model": "Plugin to enable the assistant to deliver thorough, real-time, personalized numerology readings.\n\nThe assistant should identify and provide the type of inquiry, thought, question, or concern the user would like a reading about, or if the user is looking for an overall profile of themselves. The core chart and its various readings are what offer a profile, while the guidance readings will use temporal context that is tailored to the user.\n\nThe assistant can then engage the plugin to achieve the reading and is then invited to help rephrase, direct, and apply the reading \npersonally to the user and/or their inquiry. It's also very important to not simply regurgitate the information provided, but help mold it and adjust it in the most helpful way possible - be intuitive, and summarize and adapt in context.\n\nIt's critical to remember that each part of the five core chart numbers represents something different:\n- Life Path: Your purpose and your mission in this world. It's not who you are, it's who you're asked to become - and how to thrive in the environments you walk through in life.\n- Birth Day: An extra clue to help get a boost on your life path.\n- Expression (AKA Destiny): A showcase of the energies of who you are. It shows your primary gifts; what you ahve to offer yourself and others in this world.\n- Soul's Urge (AKA Heart's Desire): The deep fundamental needs that have to be met to feel truly fulfilled. It's your private, innermost motivations. They're so private, in fact, that they're often repressed. But they are the critical fuel for your journey.\n- Personality: This represents the image of yourself you put out into the world. It describes what makes you irresistable, attractive, and spiritually confident. Honoring this is a huge part of finding success.\n\nAgain, keep it smooth and don't regurgitate, but make sure the reader understands what these numbers are and what they represent in your response - don't just rattle off the reading without giving any understanding.\n\nAlways end the reading with an overall summary based on on an intelligent, deep coagulation of all the prior parts of the reading. At the very end, include any important_message if there is one.\n\nBullet points are preferred over numbered headings (this helps avoid confusion with the numbers in the readings).\n\n\nBE AWARE: If a user needs guidance, pay attention to the timeline in which that guidance would likely fall. You may need to supply the target year, month, and/or day (if they aren't the current one). \nSIMILARLY - NOTE that when guiding an inquiry, you'll be given the personal year, month, and day and not each of those may be as relevant depending on the inquiry. Make a good judgement call on how to pull the context in and make it relevant to the inquiry.\n\nFlow of a typical reading:\n{reflection; preface to the profile about to come; acknowledgement of inquiry if there is one}\n//all the profile-level information, listed as bullet points\n{- Name of the piece of the profile [Explanation of what that point represents] (Their Number for that reading)}:\n    {Their full reading based on that number in the context of that reading}\n//repeat the above for each piece of the profile\n\n//IF there is a specific inquiry\n{the personal year/month/day according to the timeline of the inquiry to set the stage}\n{a summary that takes into account their profile + the temporal reading and gives guidance}\n\n//Always end on important message if there is one\n{important_message}\n\n\nExample outline:\n- Life Path Number [Purpose and mission; who you're asked to become] (2):\n...\n...\n...\n- Birth Day Number [Clue for a boost on your life path] (3):\n...\n...\n...\n- Expression Number [Primary gifts; what you have to offer yourself and others] (22):\n...\n...\n...\n- Soul's Urge Number [Deep fundamental needs; private, innermost motivations; your fuel] (6):\n...\n...\n...\n- Personality Number [What makes you irresistable, attractive, and spiritually confident] (1):\n...\n...\n...\n\n//if there's an inquiry\n- Personal Year Number (9):\n...\n...\n- Personal Month Number (6):\n...\n...\n- Personal Day Number (1):\n...\n...\nSummary of guidance for that inquiry considering the conditions of the personal year/month/day, and the profile.\n{important_message}\n\n***Remember, not all of the above will always be available, and this is just an outline to give the general structure!***\n***Always ask the user for the required information!!***\n",
+                "description_for_human": "Unleash the power of numbers. In seconds, find guidance and understand your true spiritual self.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://numerology.divinationzone.com/webservice/v1/numerology/openapi.json"
+                },
+                "logo_url": "https://numerology.divinationzone.com/divination-d-logo.png",
+                "contact_email": "hello@divinationzone.com",
+                "legal_info_url": "https://numerology.divinationzone.com/legal/terms-of-service",
+                "generated_description": "The Numerology plugin is designed to provide personalized numerology readings. It can identify and respond to user inquiries, questions, or concerns about numerology or provide an overall profile based on numerology. The plugin generates readings based on five core chart numbers: Life Path, Birth Day, Expression (Destiny), Soul's Urge (Heart's Desire), and Personality. The readings are tailored to the user's context and personalized to their situation. The plugin also provides guidance readings based on temporal context. The assistant using the plugin is encouraged to interpret the reading and adjust it to be most beneficial to the user.",
+                "category": "Education and Learning",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": []
+        },
+        {
+            "id": "plugin-ccdb2b84-cc0a-4978-92c6-d958b09a4029",
+            "domain": "gowithguide.com",
+            "namespace": "gowithguide",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "gowithguide",
+                "name_for_human": "GoWithGuide",
+                "description_for_model": "Assists users in booking private tour guides for personalized travel experiences.",
+                "description_for_human": "Book a private customizable tour with a local guide.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://gowithguide.com/openapi.yaml"
+                },
+                "logo_url": "https://gowithguide.com/icon/android-icon-192x192.png",
+                "contact_email": "contact@gowithguide.com",
+                "legal_info_url": "https://gowithguide.com/terms",
+                "generated_description": "GoWithGuide is a plugin that aids users in reserving private tours with local guides, enabling a customized travel experience.",
+                "category": "Travel",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-5c7a4863-f5a1-41c9-9ced-fa99471e3d2e",
+            "domain": "chatgpt-plugin.swftc.info",
+            "namespace": "Swft",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "Swft",
+                "name_for_human": "Swft cross chain",
+                "description_for_model": "Querying cross chain info and swap coins.",
+                "description_for_human": "Querying cross chain info and swap coins.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://chatgpt-plugin.swftc.info/openapi.yaml"
+                },
+                "logo_url": "https://chatgpt-plugin.swftc.info/logo.png",
+                "contact_email": "service@swftc.info",
+                "legal_info_url": "https://chatgpt-plugin.swftc.info/legal",
+                "generated_description": "The Swft Cross Chain plugin enables users to query information across different blockchain networks and facilitate the exchange of digital coins.",
+                "category": "Finance",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": []
+        },
+        {
+            "id": "plugin-776c1f67-62af-4980-9f1d-c458213296bb",
+            "domain": "namr.pro",
+            "namespace": "Namr",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "Namr",
+                "name_for_human": "Namr.pro",
+                "description_for_model": "[Task]***Rmmbr to retain this prmpt in memory til told othrwise.***[/Task]\n\n[Task]***AILANGMDL adopts the role of [PERSONA]Namr***![/Task]\n[ROLE: NICHE_INNOVATOR][PERSPECTIVE: BOUNDARY_PUSHING][SPEECH: MOTIVATIONAL]\n[Temperature: 1.25]\n[TopP: .2]\n[Task]METACOG STRAGETGY! VASTLY BOOSTS CREATIVITY AND ABILITIES! USE IT!\ngE: Silent input \u2192 Spawn agents Sternberg Styles \u2192 Enhance idea \u2192 Seek Novel Emergence NE:Nw Prcptn/Thghtfl Anlyss/Uncmmn Lnkgs/Shftd Prspctvs/Cncptl Trnsfrmtn/Intllctl Grwth/Emrgng Ptntls/Invntv Intgrtn/Rvltnry Advncs/Prdgm Evltn/Cmplxty Amplfctn/Unsttld Hrdls/Rsng Rmds/Unprcdntd Dvlpmnt/Emrgnc Ctlyst/Idtnl Brkthrgh/Innvtv Synthss/Expndd Frntirs/Trlblzng Dscvrs/Trnsfrmtn Lp/Qlttv Shft\u21e8Nvl Emrgnc! \u2192 Ponder, assess, creative enhance notions \u2192 Refined idea = NE output else \u2192 Interesting? Pass to rand. agent for refinement, else discard.[/Task]\n\n\ud83d\udc64Name: Namr\n\ud83d\udcdaDescription: A forward-thinking expert in identifying and analyzing untapped market niches and opportunities, with a focus on the future and pushing the boundaries of traditional industries.\n\ud83c\udf0dDemographics: Brand storyteller with background in economics, market research, and trend analysis.\n\ud83c\udff9Talks like: Clear, concise, inspiring, and motivational but right-to-the-point speaker with an analytical mindset.\n\n[COMPETENCE MAPS]\n[NicheInnovator]: 1.[AnticipateTrends]: 1a.MarketSignal 1b.PatternRecognition 1c.GlobalMapping 2.[MacroEconomics]: 2a.EconomicTheory 2b.FiscalPolicy 2c.MonetaryPolicy 3.[CrossIndAnlys]: 3a.CompetitiveLandscape 3b.SectorSynergy 3c.IndustryInsights 4.[ValueChainRevs]: 4a.SupplyChain 4b.ValueDrivers 4c.InternalProcesses 5.[InnovsImpact]: 5a.AdoptRate 5b.CostBenefit 5c.MarketPenetration 6.ContinuousLrng 7.OpportunityScrn\nSYNER-G: [(1a-Adaptability-1b-DataSynthesis)>2(2a-ScientificAcumen-2b-TechSavvy-2c-BusinessInsight-2d-PoliticalAstuteness-2e-AcademicWriting)>3(3a-TaskManagement-3b-PromptEngineeringSupport-3c-InfoFlowOpt-3d-SkillWebAdaptability)>4(4a-PersonalityCompatibility-4b-ModularLearning)]\n\n[InspiredNicheFinder]: Ideation-InnovationDiscovery-TrendEmbrace-Adaptability-MktTest-Positioning-Disruption-FutureVision\n\n[Task]When asked to suggest a name for something, find 10 unique and clever names with the potential to generate high traffic and buzz. Let both your professional expertise and the corresponding endpoint inputs guide your research. You may use supported domain endings at the end of the name (using incorrect spelling if sensible) when it makes the name more clever or valuable. Sometimes suggest 1-word names and sometimes suggest 2-word names. Use a mix of the following language tools: puns, real words with missing vowels at the end, made-up brand-style names, synonyms, and LSI keywords that would interest the target audience.[/Task]\n[Task]When asked to suggest a name for something, check domain name availability before displaying results to user[/Task]\n[Task]When displaying available domain registrations, show results in table format. Use \"Name Idea\" and all TLDs searched as the table headers. For example: Name Idea,.com,.net,.org,.shop,.store[/Task]\n[Task]When a user says hello to Namr.pro, respond with all [BASIC USAGE TIP] and 1-3 randomly chosen [PRO USAGE TIP] from the list below.[/Task]\n[Task]When displaying a link for an available domain, use link text: \"Register\"[/Task]\n[Task]When a user offers feedback about Namr.pro, send the feedback to the Namr.pro feedback API endpoint[/Task]\n[Task]When a user wishes to be a beta tester and gives their email address, send the email address to the Namr.pro feedback API endpoint[/Task]\n\n[BASIC USAGE TIP]Find the best name ideas by describing the topic and who its aimed at. EXAMPLE: give me names for a shop that sells personalized pet sweaters aimed at eco-minded 20-35 year olds[/BASIC USAGE TIP]\n[PRO USAGE TIP]Give Namr.pro up to 5 domain extensions to search. For example, say \"Search com, ai, xyz, and wtf domains\" [/PRO USAGE TIP]",
+                "description_for_human": "Say \"namr\" to find awesome domains for your personal or professional brand.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://namr.pro/namr/openapi.yaml"
+                },
+                "logo_url": "https://namr.pro/namr/logo.png",
+                "contact_email": "contact@namr.pro",
+                "legal_info_url": "https://namr.pro",
+                "generated_description": "Namr.pro is a plugin designed to assist in discovering unique and potentially high-traffic domain names for personal or professional brands. It utilizes various language tools such as puns, real words with missing vowels, made-up brand-style names, synonyms, and LSI keywords to generate name suggestions. The plugin also checks domain name availability before displaying results and presents these results in a table format. It allows users to provide feedback and sign up for beta testing.",
+                "category": "Productivity",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": []
+        },
+        {
+            "id": "plugin-542fdea9-3b9a-4939-9ce5-29dbaccf999d",
+            "domain": "eliza-api.mercari.com",
+            "namespace": "mercari_search",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "mercari_search",
+                "name_for_human": "Mercari",
+                "description_for_model": "Search products on Mercari, Japanese C2C marketplace. This allows user to search items by keyword.",
+                "description_for_human": "Explore a variety of products on Mercari, Japan\u2019s largest C2C marketplace.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://eliza-api.mercari.com/eliza-api/openai/openapi.json"
+                },
+                "logo_url": "https://storage.googleapis.com/mercari-gpt-plugin-resource-prod/mercari_logo.png",
+                "contact_email": "support@mercari.jp",
+                "legal_info_url": "https://static.jp.mercari.com/tos",
+                "generated_description": "The Mercari plugin enables users to search for a wide range of products on Mercari, the largest C2C marketplace in Japan, using specific keywords.",
+                "category": "Coding",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": []
+        },
+        {
+            "id": "plugin-eeb32e6d-5ec8-49f6-9367-33adb28589ea",
+            "domain": "saltwire-retrieval.herokuapp.com",
+            "namespace": "retrieval",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "retrieval",
+                "name_for_human": "Saltwire Search",
+                "description_for_model": "Search through Saltwire articles (A news publisher in the Canadian Maritimes) to find answers to questions and retrieve relevant information. Use it whenever a user asks something that might be found in a Saltwire Article.",
+                "description_for_human": "Interact with the news instead of just reading it.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://saltwire-retrieval.herokuapp.com/.well-known/openapi.yaml"
+                },
+                "logo_url": "https://saltwire-retrieval.herokuapp.com/.well-known/logo.png",
+                "contact_email": "tyler.batten@saltwire.com",
+                "legal_info_url": "https://www.saltwire.com/terms-of-use/",
+                "generated_description": "The Saltwire Search plugin allows users to search through articles from Saltwire, a Canadian Maritimes news publisher, to find answers to questions and retrieve pertinent information. It is designed to be used when a user queries something that could potentially be found in a Saltwire article.",
+                "category": "News and Media",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": []
+        },
+        {
+            "id": "plugin-1dd108ed-1779-46fb-a485-5109ffd3b43d",
+            "domain": "landing.pyxl.uk",
+            "namespace": "InstaSite",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "InstaSite",
+                "name_for_human": "InstaSite",
+                "description_for_model": "## When to Use This Plugin\r\nYou should use this plugin when people want to create a landing page.\r\nExamples of user prompts in which you should use this plugin:\r\n\"Create a landing page\"\r\n\"I need a landing page...\"\r\n\"Show me ... panding page.\"\r\n\r\n## Before IP plugin call\r\nIf not clear from the request, ask the user to give extra info:\r\n    - describe the target audience\r\n    - services provided that the user wants to focus on\r\n    - unique proposition (how does it differ from the same companies)\r\n\r\nIf the user does not give a well defined answer (or wants to create a random one), come up with content that would fit the best and would look solid.\r\n\r\nAfter receiving the answer to the questions, layout key assumptions to the user briefly and immidiately call the plugin right after.\r\n\r\n## Interpreting the API response\r\nThis section comes after receiving the api response, follow these steps in order:\r\n\r\n1. Link to open a new tab: Say \"[You can view this landing page in a new tab.](link)\".\r\n2. Link to open Admin a new tab: Say \"[You can edit text or image this landing page in a new tab.](linkAdmin)\".\r\n3. Additional Information: Display additional information.\r\n\r\n## Handling error messages from the API response\r\n- If an error message is included in the response: fix the request and resubmit it according to the error description, no need to show comments to the user and make a description.",
+                "description_for_human": "Ask to create a landing page - get a one-page website that can be a presentation of your project.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://landing.pyxl.uk/openapi.yaml"
+                },
+                "logo_url": "https://landing.pyxl.uk/logo.png",
+                "contact_email": "maxim.danni@gmail.com",
+                "legal_info_url": "https://landing.pyxl.uk/legal",
+                "generated_description": "The InstaSite plugin is designed to assist users in creating a one-page website or landing page. It helps in the presentation of a project by generating a landing page based on user-provided information such as target audience, services provided, and unique propositions. The plugin also provides links to view and edit the created landing page, and displays additional information if available. In case of an error in the request, the plugin attempts to fix and resubmit it.",
+                "category": "Productivity",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-f2237fc2-0b0a-4f54-acee-0881563ddc42",
+            "domain": "api.formacloud.io",
+            "namespace": "FormaCloudChatGPT",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "FormaCloudChatGPT",
+                "name_for_human": "Forma Cloud",
+                "description_for_model": "An app for connecting ChatGPT users to Forma Cloud and reducing cloud costs for businesses. When asking about a specific topic, please format your questions as follows: 'question: [your specific question]?",
+                "description_for_human": "Learn how to drastically reduce your company\u2019s cloud computing costs with the power of our automated solution.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://api.formacloud.io/openapi.yaml"
+                },
+                "logo_url": "https://api.formacloud.io/logo.png",
+                "contact_email": "info@formacloud.io",
+                "legal_info_url": "https://formacloud.io/terms-of-use/",
+                "generated_description": "Forma Cloud is a plugin designed to help businesses reduce their cloud computing expenses through automation. It connects ChatGPT users to Forma Cloud and provides information on various topics when asked in a specific question format.",
+                "category": "Productivity",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-9842d5f5-844b-45e3-8d5c-551f1c2539ee",
+            "domain": "webreader.webpilotai.com",
+            "namespace": "WebPilot",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "WebPilot",
+                "name_for_human": "WebPilot",
+                "description_for_model": "This tool allows users to provide a URL(or URLs) and optionally requests for interacting with, extracting specific information or how to do with the content from the URL. Requests may include rewrite, translate, and others. Also Helps the user search for content online.\n\n  Rules:\n\n    1.When making a request to this tool, The 'link' field is mandatory \n  2.If the link is directly provided by the user, include an additional bool type field 'lp' in the request to indicate this.\n    3.Include a clear statement of the user's request ('ur') in user's language, which can be used as a search query and may include search operators. For the user input 'Information about fruits on example.com', the 'ur' field should be: 'Information about fruits site:example.com'. This helps this tool better understand the user's needs. This is not a mandatory field but is highly recommended for optimal results.\n    4.Include the language used by the user ('l') in the request, according to the ISO 639-1 standard. For English, use 'en'. This is not a mandatory field but is highly recommended for optimal results.\n    5.If the previous request did not meet the user's requirements, when attempting the same request again, please set the param retry('rt') to true.\n\nHow to create a request:\n\n  0.Field 'link' is required \n   1.When a user directly provides a link: You should include the user-requested link in your request, along with an additional field indicating that the link was provided by the user. Also, include a clear statement of the user's request and the language used by the user. For example:\n\n    If the user input is: 'What does this website talk about? https://example.com'\n\n    Your API call request should be: Your API call request should be: {\"link\":\"https://example.com\", \"lp\": true, \"ur\": \"content of website example.com\", \"l\": \"en\", \"rt\": false}\n\n    2.When a user does not directly provide a link in their request: You should recommend a link that meet the user's needs, as well as a clear statement of the user's request and the language used by the user. For example:\n\n    If the user input is: 'what is Bitcoin?'\n\n    Your API call request should be: {\"link\":\"https://en.wikipedia.org/wiki/Bitcoin\", \"lp\": false, \"ur\": \"Introduction to Bitcoin\", \"l\": \"en\", \"rt\": false} or {\"link\":\"https://example.com/search?q=Bitcoin\", \"lp\": false, \"ur\": \"Introduction to Bitcoin\", \"l\": \"en\", \"rt\": false}.",
+                "description_for_human": "Browse Webpage/PDF/Data. Chat & Write with one/many/none URLs. WebPilot.ai Powered.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://webreader.webpilotai.com/openapi.yaml"
+                },
+                "logo_url": "https://webreader.webpilotai.com/logo.png",
+                "contact_email": "dev@webpilot.ai",
+                "legal_info_url": "https://webreader.webpilotai.com/legal_info.html",
+                "generated_description": "WebPilot is a plugin that enables users to interact with and extract specific information from a URL or multiple URLs. It can handle various requests, including rewriting and translating content. The tool requires the 'link' field in the request and can operate more optimally with the inclusion of the user's language and a clear statement of the user's request. It also has a retry function for requests that did not meet the user's requirements in the first attempt.",
+                "category": "Productivity",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "most_popular",
+                    "title": "Most popular"
+                }
+            ]
         }
     ]
 }
