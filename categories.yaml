@@ -351,6 +351,7 @@ Shopping:
   - stores
   - brand
   - promotion
+  - mercari
 
 Social Networking:
   - social
@@ -434,7 +435,13 @@ Travel:
   - theme park
   - bart
 
-Uncategorized: []
+Uncategorized:
+  - aldenbot
+  - rosario
+  - plants
+  - gardening
+  - nft 
+  - nfts
 
 Video:
   - video
