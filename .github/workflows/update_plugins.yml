@@ -15,7 +15,7 @@ jobs:
 
       - name: Download plugins file
         run: |
-          curl -D - -o scripts/chatgpt_plugins.json -c cookies.txt -b cookies.txt -H "Authorization: Bearer ${{ secrets.AUTH_TOKEN }}" -H "Content-Type: application/json" -L ${{ vars.PLUGINS_FILE_URL }}
+          curl -D - -o scripts/chatgpt_plugins.json -c cookies.txt -b cookies.txt -H "Authorization: Bearer ${{ secrets.AUTH_TOKEN }}" -H "Content-Type: application/json" -H "Referer: https://chat.openai.com/?model=gpt-4-plugins" -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" -L ${{ vars.PLUGINS_FILE_URL }}
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
