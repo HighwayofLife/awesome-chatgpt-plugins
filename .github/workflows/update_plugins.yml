@@ -15,7 +15,7 @@ jobs:
 
       - name: Download plugins file
         run: |
-          curl -o scripts/chatgpt_plugins.json -H "Authorization: Bearer ${{ secrets.AUTH_TOKEN }}" -H "Content-Type: application/json" -L ${{ secrets.PLUGINS_FILE_URL }}
+          curl -o scripts/chatgpt_plugins.json -H "Authorization: Bearer ${{ secrets.AUTH_TOKEN }}" -H "Content-Type: application/json" -L ${{ vars.PLUGINS_FILE_URL }}
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
