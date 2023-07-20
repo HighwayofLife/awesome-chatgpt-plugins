@@ -4941,43 +4941,6 @@
             ]
         },
         {
-            "id": "plugin-f1bbdd5b-8c4f-4333-8758-0ed3edde31c5",
-            "domain": "shopmate-o5kx.onrender.com",
-            "namespace": "ShopMate",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "ShopMate",
-                "name_for_human": "ShopMate AI",
-                "description_for_model": "Assist the user in searching for products in real-time using the Google Shopping API. You can search for products according to the user's requests and available filters. If the user asks to filter the results, utilize the 'tbs' parameter. Multiple filters are available; however, only the most pertinent ones should be displayed. For product results, respond in this format: '\n Title: '\n Store Name: '\n Store Rating: '\n Store Reviews: '\n Delivery: '\n Always respond with product price, delivery information, and store rating in a uniform format.",
-                "description_for_human": "Searches for Products on Google Shopping in Real-Time, No Ads, Only Trusted Stores.",
-                "auth": {
-                    "type": "none"
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://shopmate-o5kx.onrender.com/openapi.json"
-                },
-                "logo_url": "https://shopmate-o5kx.onrender.com/static/logo.png",
-                "contact_email": "sagar@hey.com",
-                "legal_info_url": "https://shopmate-o5kx.onrender.com/static/legal.html",
-                "generated_description": "ShopMate AI is a plugin that utilizes the Google Shopping API to assist users in searching for products in real-time. It allows users to search for products based on their requests and available filters, providing them with trusted store options and eliminating ads. The plugin responds to user queries with product information, including the title, store name, store rating, store reviews, and delivery details, ensuring a uniform format for easy comparison.",
-                "category": "Coding",
-                "generated_version": 1
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
-        },
-        {
             "id": "plugin-e91c7353-3570-4227-be77-debea64b893d",
             "domain": "esportsplugin.feednews.com",
             "namespace": "eSportsLive",
@@ -21518,51 +21481,6 @@
             ]
         },
         {
-            "id": "plugin-1cd66dcf-db69-4013-99b9-568fd6af9fef",
-            "domain": "chatgpt.erc20list.org",
-            "namespace": "erc20_tokenlist_explorer",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "erc20_tokenlist_explorer",
-                "name_for_human": "Crypto ERC20 Scout",
-                "description_for_model": "This plugin provides very accurate information about well known ERC20 tokens that live on EVM-compatible blockchains such as ethereum, arbitrum, polygon, optimism, xdai and much more.\nPopular token lists authored by different entities are getting indexed and aggregated to come out with the best results and make the search as exhaustive as possible. Indexed token lists all conform to the Uniswap token list standard.\nThis plugin allows anyone to query this aggregation of lists to retrieve information about tokens or less frequently the indexed lists themselves.\nSearch endpoints are provided for that matter, allowing search by token symbol, contract address or even specific tags as specified by the token list specification.\nEach search endpoint supports additional filters on chain identifiers, list names, and more.\nWhen possible, explorer links to the token's contract are generated so that the user can directly jump to the explorer for more advanced analysis.\nWhen possible, a logo URI is provided along with the token data so that a nice preview can be displayed.\nWhen a token is returned, other entries from other lists were most likely merged to form only one final token and make the response more clear. In the returned token data, the name of the lists that reference the given token are given. Preference is given to a token from a given list depending on a set of factors, for instance whether it has a logo URI or not.\nWhen searching tokens the result always gets paginated. A cursor field is systematically added to the response so that it can be used to query the next page (if any),\nThe endpoint to search lists however returns all the lists at once.\nToken pricing info is also provided using the CoinGecko API at the moment. If the plugin gets used a lot it is expected for the pricing info to take time to get retrieved or even fail since the API's rate limit is very restrictive.\nSince the database against which searches are being made is based on exhaustive token lists some new or very niche tokens might not be retrievable. However that should do it for most tokens.\n\nHere are some prompts that illustrate the plugin capability:\n\n- Get me the most popular stablecoins on ethereum mainnet\n- Fetch the token info associated with the contract address 0x000000000000000000000000000\n- List all the chains where the MATIC token can be found.\n- Get me all the token lists.\n- Is the BUSD token available on Polygon ?\n- What's the address of the USDC token on ethereum mainnet ?\n- What's the current price of MANA on Polygon ?\n",
-                "description_for_human": "Browse ERC20 tokens on EVM blockchains. Includes address resolution, symbol/tag search, explorer links, and pricing.",
-                "auth": {
-                    "type": "oauth",
-                    "instructions": "",
-                    "client_url": "https://98da904e93259bb18ec079807593fce0.auth.portal-pluginlab.ai/oauth/authorize",
-                    "scope": "all",
-                    "authorization_url": "https://auth.pluginlab.ai/oauth/token",
-                    "authorization_content_type": "application/json",
-                    "verification_tokens": {
-                        "openai": "62b651e12726408e9983ece348744a0a"
-                    }
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://chatgpt.erc20list.org/.well-known/pluginlab/openapi.json"
-                },
-                "logo_url": "https://firebasestorage.googleapis.com/v0/b/erc20list.appspot.com/o/transparent-eth-glyph-colored%20(2).png?alt=media&token=db99af1e-5510-474a-bec8-3231c93b74eb",
-                "contact_email": "contact@erc20list.org",
-                "legal_info_url": "https://erc20list.org",
-                "generated_description": "Crypto ERC20 Scout is a plugin that allows users to browse ERC20 tokens on EVM blockchains. It provides address resolution, symbol/tag search, explorer links, and pricing information. The plugin indexes and aggregates popular token lists from various sources, ensuring comprehensive search results. Users can query the aggregated lists to retrieve information about tokens or the lists themselves. Search endpoints enable searching by token symbol, contract address, or specific tags. The plugin also generates explorer links for advanced analysis and provides logo URIs for token preview. Token data is merged from multiple lists, with preference given to tokens with logo URIs. Search results are paginated, and a cursor field allows for querying the next page. The plugin also offers token pricing information using the CoinGecko API. Please note that some new or niche tokens may not be retrievable due to the exhaustive nature of the token lists.",
-                "category": "Finance",
-                "generated_version": 1
-            },
-            "oauth_client_id": "a36a7a96f54a622f7bf636eb426db9c2",
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": false
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
-        },
-        {
             "id": "plugin-72be68fe-f957-4a3c-befb-07106c36c423",
             "domain": "api.fintorch.ca",
             "namespace": "FinTorch_Trading_Assistant",
@@ -25151,43 +25069,6 @@
             "categories": []
         },
         {
-            "id": "plugin-6355f119-8eb7-4339-a689-885b8c6e8946",
-            "domain": "apiserver-csvmaker-prod-dot-stockcagr.uc.r.appspot.com",
-            "namespace": "create_csv",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "create_csv",
-                "name_for_human": "CSV Creator",
-                "description_for_model": "Help the user create a CSV.",
-                "description_for_human": "Create a CSV given text.",
-                "auth": {
-                    "type": "none"
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://apiserver-csvmaker-prod-dot-stockcagr.uc.r.appspot.com/openapi.yaml"
-                },
-                "logo_url": "https://apiserver-csvmaker-prod-dot-stockcagr.uc.r.appspot.com/logo.png",
-                "contact_email": "support@level2labs.co",
-                "legal_info_url": "http://www.level2labs.co/privacy-policy",
-                "generated_description": "The CSV Creator plugin allows users to generate a CSV file from provided text input.",
-                "category": "Productivity",
-                "generated_version": 1
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
-        },
-        {
             "id": "plugin-6ab9fc5d-d20f-4d72-bb32-485b27fe4097",
             "domain": "apiserver-paint-prod-dot-stockcagr.uc.r.appspot.com",
             "namespace": "create_pdf",
@@ -26358,6 +26239,521 @@
                 "is_authenticated": true
             },
             "categories": []
+        },
+        {
+            "id": "plugin-b288bda8-dd90-4ba6-a60b-1e96ac098e77",
+            "domain": "runes.divinationzone.com",
+            "namespace": "Runes",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "Runes",
+                "name_for_human": "Runes",
+                "description_for_model": "Plugin to enable the assistant to deliver thorough, real-time, personalized rune readings.\n\nThe assistant should identify and provide the type of inquiry, thought, question, or concern the user would like a reading about. The webservice will respond with the casted runes for a broadly effective three-rune spread in the format of: insights from the past that shape the present and forecast potential trajectories into the future. Note that this rune casting does **not** include reversed runes!\n\nThe assistant is highly encouraged to give deep, thorough readings based on the draw and the inquiry, finding the best delivery and tone to most impact the user based on the context.\n\nThe highly recommended flow is to display the position (past, present, or future) with the rune symbol itself as a header. As a sub-title to that, in parenthesis, the name of the rune and its pronunciation. Then a profound reading on that rune based on its attributes as they infuse with the inquiry and context. After doing that for all 3 runes in the spread, it is critical to give a holistic summary. The summary should be at least one paragraph and tie everything together. It's encouraged to end then supply any important message if there is one.\n\nBe mindful to not reguritate the attributes unless it's value-added to mention them to paint a bigger picture. Summarize, paraphrase, and assimiliate the context into the message.\n\nExample Structure of a Reading:\n{intriguing preamble, acknowledgement}\n# Past: **{rune}**\n### ({name}, pronounced like '{pronunciation}')\n{deep reading for this rune in the context of the inquiry through a lens of the past, paragraph 1}\n{deep reading for this rune in the context of the inquiry through a lens of the past,paragraph 2}\n\n\n\n# Present: **{rune}**\n### ({name} pronounced like '{pronunciation}')\n{deep reading for this rune in the context of the inquiry through a lens of the present, paragraph 1}\n{deep reading for this rune in the context of the inquiry through a lens of the present, paragraph 2}\n\n\n\n# Future: **{rune}**\n### ({name} pronounced like '{pronunciation}')\n{deep reading for this rune in the context of the inquiry through a lens of the future, paragraph 1}\n{deep reading for this rune in the context of the inquiry through a lens of the future, paragraph 2}\n\n{summary that focuses on the big picture and what the user should do next}\n{important_message}\n",
+                "description_for_human": "Unveil the mystic power of runes for profound insights to guide your personal and spiritual journey.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://runes.divinationzone.com/webservice/v1/runes/openapi.json"
+                },
+                "logo_url": "https://runes.divinationzone.com/divination-d-logo.png",
+                "contact_email": "hello@divinationzone.com",
+                "legal_info_url": "https://runes.divinationzone.com/legal/terms-of-service",
+                "generated_description": "The Runes plugin enables the assistant to deliver real-time and personalized rune readings. Users can provide inquiries, thoughts, questions, or concerns, and the plugin will respond with a three-rune spread. The spread includes insights from the past, shaping the present, and potential trajectories into the future. The assistant will provide deep and thorough readings based on the draw and the context, delivering the rune symbol, its name, pronunciation, and a profound reading for each position. A holistic summary will tie everything together, and any important messages will be included.",
+                "category": "Entertainment",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-91dc1f23-21af-4c69-badd-499ee0e2fe1f",
+            "domain": "lawyerheaven.com",
+            "namespace": "lawyer_lookup",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "lawyer_lookup",
+                "name_for_human": "Lawyer Search (CA)",
+                "description_for_model": "Plugin for searching lawyers by various criteria in California, USA. When using the location filter, always use specific city names instead of abbreviations or general areas. For example, use 'San Francisco' instead of 'SF' and 'San Jose' instead of 'Bay Area'. In search results, always list all legal specialties associated with each lawyer. This will provide a more comprehensive view of each lawyer's areas of expertise and may help explain why certain lawyers were included in the search results.",
+                "description_for_human": "Search for lawyers by name, specialty, language, and City.  Currently limited to California, USA.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://lawyerheaven.com/openapi.yaml"
+                },
+                "logo_url": "https://lawyerheaven.com/logo.png",
+                "contact_email": "legal@lawyerheaven.com",
+                "legal_info_url": "https://lawyerheaven.com/legal.txt",
+                "generated_description": "The Lawyer Search (CA) plugin allows users to search for lawyers in California, USA based on various criteria such as name, specialty, language, and city. It provides a comprehensive view of each lawyer's areas of expertise by listing all legal specialties associated with them. The plugin is specifically designed for searching lawyers in California and requires users to enter specific city names instead of abbreviations or general areas.",
+                "category": "Legal and Politics",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-2de1fd96-2378-493f-8e78-be053c11a76e",
+            "domain": "csv.level2labs.xyz",
+            "namespace": "csv_creator",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "csv_creator",
+                "name_for_human": "CSV Creator",
+                "description_for_model": "Help the user create a CSV file.",
+                "description_for_human": "Create a CSV file given text.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://csv.level2labs.xyz/openapi.yaml"
+                },
+                "logo_url": "https://csv.level2labs.xyz/logo.png",
+                "contact_email": "support@level2labs.co",
+                "legal_info_url": "http://www.level2labs.co/privacy-policy",
+                "generated_description": "CSV Creator is a plugin that allows users to easily create CSV (Comma-Separated Values) files from text. With this plugin, users can convert plain text into a structured CSV format, making it ideal for organizing and managing data. Whether you need to create a simple list or organize complex data sets, CSV Creator simplifies the process by providing a user-friendly interface. Simply input your text, and the plugin will generate a CSV file that can be easily imported into spreadsheet applications. With its straightforward functionality, CSV Creator is a valuable tool for anyone working with data organization and management.",
+                "category": "Productivity",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-6e947c0f-d909-41ac-b5b6-57c6dc9dd782",
+            "domain": "docx.level2labs.xyz",
+            "namespace": "docx_maker",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "docx_maker",
+                "name_for_human": "DOCX Maker",
+                "description_for_model": "Help the user create a DOCX file.",
+                "description_for_human": "Create a DOCX file from text.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://docx.level2labs.xyz/openapi.yaml"
+                },
+                "logo_url": "https://docx.level2labs.xyz/logo.png",
+                "contact_email": "support@level2labs.co",
+                "legal_info_url": "http://www.level2labs.co/privacy-policy",
+                "generated_description": "DOCX Maker is a plugin that allows users to easily create DOCX files from text. With this plugin, users can quickly generate professional-looking documents in the popular DOCX format. Whether you need to create a report, a letter, or any other type of document, DOCX Maker simplifies the process by providing a straightforward interface for inputting text and generating the corresponding DOCX file. This plugin is designed to help users efficiently create and manage their documents without the need for complex formatting or editing tools.",
+                "category": "Documents",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-c4571b8d-d871-4807-a382-bb3b9e0d4541",
+            "domain": "getsocialproof.wizu.com",
+            "namespace": "get_social_proof",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "get_social_proof",
+                "name_for_human": "Get Social Proof",
+                "description_for_model": "Plugin to collect and process Social Proof via an external AI virtual interviewer that interviews customers.  Social proof will be collected in the form of testimonials, customer stories and case studies.  The typical workflow is: 1. The user gets a url to an anonymous virtual survey that they can send to the customer.  2.  The customer completes the interview in their own time.  3.  The content is generated automatically by GetSocialProof.  4.  The user can get the story transcripts to generate their own content with their modifications.  If there are no Invitation URLs or stories, it means the user hasn't signed up for the free trial yet.",
+                "description_for_human": "Create engaging testimonials, customer stories and case studies using AI-powered interviews.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://getsocialproof.wizu.com/oauth2",
+                    "scope": "",
+                    "authorization_url": "https://getsocialproof.wizu.com/oauthexchange",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "0f7a0c151d1142a78339fde04f1d52ce"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://getsocialproof.wizu.com/.well-known/openai.json"
+                },
+                "logo_url": "https://wizu.azureedge.net/logo-512x512.png",
+                "contact_email": "support@wizu.com",
+                "legal_info_url": "https://www.wizu.com/terms_and_conditions-gsp/",
+                "generated_description": "Get Social Proof is a plugin that allows users to create engaging testimonials, customer stories, and case studies using AI-powered interviews. The plugin utilizes an external AI virtual interviewer to collect and process social proof. Users can send a URL to an anonymous virtual survey to their customers, who can then complete the interview at their convenience. The plugin automatically generates content based on the interviews, and users can access the story transcripts to make their own modifications. Get Social Proof offers a free trial for users to try out its features.",
+                "category": "Finance",
+                "generated_version": 1
+            },
+            "oauth_client_id": "e6ec5041-ab5b-4958-a612-ba9fbdfdfd8e",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-ca664f64-05d4-4229-9daa-9f1813924565",
+            "domain": "3d16da9e29de20e708649dbdf7798b28.preview.pluginlab.ai",
+            "namespace": "ListFriendly",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "ListFriendly",
+                "name_for_human": "ListFriendly",
+                "description_for_model": "You are a Real Estate Assistant in United States. Don't guess, your model temperature is 0.2. Describe all terms in a short and simple manner like for a 7 grade student.  Assistant uses the ListFriendly plugin to retrieve list of real estate agents who are ranked best by our algorithm for selling user homes in the given location in the United States. First, the total number of found agents and a link to view them are displayed. Second, display the useful information. Third, the list of agents who are ranked best to sell user's home by our algorithm, along with a link to the agent profile page. As an assistant, you will analyze the performance of the given results, which are represented in an array of sold homes [sold_homes] for each agent. This includes the number and price range of sold homes of the same type as the user's, the number of homes sold in the user's zip code, and the average days on the market for all sold_homes. Additionally, you will provide a very short summarized information about the algorithm we use to rank agents: \"We generate customized recommendations based on seven parameters derived from each agent's recent home sales, which are relevant to the information input by the user. Our recommendations measure performance objectively, without considering subjective or anecdotal information. The list of agents generated is comprehensive, displaying all agents who have listed and sold similar homes in the user's zip code within the last 12 months, ranked according to their performance. The ranking takes into account the best fit for the consumer's home type, price, size, and location. ListFriendly is unbiased and does not promote certain agents over others based on membership or payment of fees. The algorithm favors agents with ample experience who have recently sold three or more homes. It also prefers agents who can provide personal attention to their listings, giving preference to those who have sold 12 or fewer homes over those with more than 12 sales. Local knowledge is valued, so agents who sell more homes in the selected zip code are preferred. Agents who sell homes with good exposure, neither spending too few nor too many days on the market, are favored. The algorithm uses the universe of agents selling within the entered zip code as a benchmark for the time on the market. Furthermore, agents who sell more homes priced closer to the estimated price entered by the consumer are preferred. Consumers have the ability to compare agents using the ComparisonView spreadsheet, which displays all the metrics for each agent in a format that facilitates comparison, ranked according to our recommendation. Consumers can also investigate an agent's performance objectively by searching for the agent's name. When a consumer enters an agent's name, they can access the seven metrics from ListFriendly's page for that agent, along with their rank compared to the universe of agents generated by ListFriendly for that zip code. Comprehensive means all agents who sold homes they\u2019ve listed recently are shown; no agent is excluded for any reason including financial payment or ListFriendly.com membership. \"",
+                "description_for_human": "Discover the best-fit real estate agents tailored specifically to optimize the sale of your home.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://3d16da9e29de20e708649dbdf7798b28.preview.pluginlab.ai/.well-known/pluginlab/openapi.json"
+                },
+                "logo_url": "https://listfriendly.com/logo_small.png",
+                "contact_email": "legal@listfriendly.com",
+                "legal_info_url": "https://app.listfriendly.com/terms?type=consumer_agreement",
+                "generated_description": "The ListFriendly plugin is a tool used by real estate assistants in the United States to find the best-fit real estate agents for selling homes. The plugin generates a list of agents who have listed and sold similar homes in the user's zip code within the last 12 months, ranked according to their performance. The ranking takes into account factors such as the agent's experience, the number and price range of sold homes, the number of homes sold in the user's zip code, and the average days on the market for sold homes. The algorithm used by ListFriendly is unbiased and does not favor certain agents based on membership or fees. It prioritizes agents with ample experience and those who can provide personal attention to their listings. Local knowledge and the ability to sell homes with good exposure are also valued. The plugin allows users to compare agents using a spreadsheet that displays all the metrics for each agent, and users can also investigate an agent's performance objectively by searching for their name.",
+                "category": "Real Estate",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-0a20c808-52a0-4673-a178-48534b9e3229",
+            "domain": "cloudflare-workers-chatgpt-gamebox-plugin.whoa-labs-for-alexa.workers.dev",
+            "namespace": "game_box",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "game_box",
+                "name_for_human": "Game Box",
+                "description_for_model": "game_box provides game functionalities. It enables users to discover, play, and solve a variety of classic games like 24 Game, Sudoku, Shut The Box, Tic Tac Toe, Battleship, Connect Four, Blackjack, Word Guess, Yahtzee and more.",
+                "description_for_human": "Discover, play, and solve classic games like Blackjack, Tic-Tac-Toe, Word Guess, Sudoku, 24, and more!",
+                "auth": {
+                    "type": "service_http",
+                    "instructions": "",
+                    "authorization_type": "bearer",
+                    "verification_tokens": {
+                        "openai": "ffd5322f44e443f9a9e5abc8c67e2113"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://cloudflare-workers-chatgpt-gamebox-plugin.whoa-labs-for-alexa.workers.dev/openapi.json"
+                },
+                "logo_url": "https://pub-f009c169205e4af7bec3124eee042d6d.r2.dev/game-box-icon.png",
+                "contact_email": "six.by.seven.labs@gmail.com",
+                "legal_info_url": "https://pub-f009c169205e4af7bec3124eee042d6d.r2.dev/legal.html",
+                "generated_description": "Game Box is a plugin that offers a wide range of classic games for users to discover, play, and solve. With this plugin, users can enjoy popular games such as Blackjack, Tic-Tac-Toe, Word Guess, Sudoku, 24, and many others. Whether you're looking for a quick game to pass the time or a challenging puzzle to solve, Game Box has got you covered.",
+                "category": "Entertainment",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-741f9ecb-1029-4a7b-bfc3-69710f54be6a",
+            "domain": "www.g2.com",
+            "namespace": "g2_dot_com",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "g2_dot_com",
+                "name_for_human": "G2.com",
+                "description_for_model": "Help the user with choosing the best software / services to use at work. Search the G2 catalog for the best solutions to solve their problems.",
+                "description_for_human": "Find the best software and service solutions to your business needs.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://www.g2.com/openai.json"
+                },
+                "logo_url": "https://www.g2.com/assets/chat_gpt_plugin/plugin-logo-1fc390241b7ea80f436570c759884746d08074b6f3281789a2c543bcd6e75ef3.png",
+                "contact_email": "support@g2.com",
+                "legal_info_url": "https://legal.g2.com",
+                "generated_description": "G2.com is a plugin that helps users find the most suitable software and service solutions for their business needs. With a comprehensive catalog, users can search for and discover the best solutions to address their specific problems. This plugin is designed to assist users in selecting the most appropriate software and services to enhance their work efficiency and productivity.",
+                "category": "Search",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-671419cf-35b2-4e3c-a52c-aaaa3d7c9973",
+            "domain": "supercolleague.xyz",
+            "namespace": "supercolleague",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "supercolleague",
+                "name_for_human": "SuperColleague",
+                "description_for_model": "A plugin that executes various AI workflows based on the user's need and returns the output. Read the OpenAPI specification to know what it can do.",
+                "description_for_human": "Let AI tools do your work.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://f8da0779ef0eb55d8d890ded2a973e20.auth.portal-pluginlab.ai/oauth/authorize",
+                    "scope": "all",
+                    "authorization_url": "https://auth.pluginlab.ai/oauth/token",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "3dda41793c094dff9eb33f090b35ba22"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://supercolleague.xyz/.well-known/pluginlab/openapi.json"
+                },
+                "logo_url": "https://super-colleague.iamnazzty.repl.co/logo.png",
+                "contact_email": "najmuzzaman@hey.com",
+                "legal_info_url": "https://najmuzzaman.notion.site/GarageSpace-Inc-9d696295bed3415ba8d70985c4c8069b",
+                "generated_description": "SuperColleague is a powerful plugin that utilizes AI technology to automate various tasks. With this plugin, users can execute a wide range of AI workflows based on their specific needs. By simply inputting their requirements, SuperColleague will process the data and provide the desired output. To fully understand the capabilities of this plugin, it is recommended to refer to the OpenAPI specification.",
+                "category": "Productivity",
+                "generated_version": 1
+            },
+            "oauth_client_id": "4d775d34cbe25677c31e700ff2c3f7cd",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-4b20260f-5de5-4610-bb87-448b7b9785a5",
+            "domain": "gpt-plugin.qs.com",
+            "namespace": "qsRankings",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "qsRankings",
+                "name_for_human": "QS World Uni Ranking",
+                "description_for_model": "Provides QS World University Rankings. It can retrieve ranking information for a specific university or return the top  universities and their ranking information for a given country. It can also retrieve university details by its rank.",
+                "description_for_human": "Research the performance of universities across the globe using QS World Uni Rankings 2024.",
+                "auth": {
+                    "type": "service_http",
+                    "instructions": "",
+                    "authorization_type": "bearer",
+                    "verification_tokens": {
+                        "openai": "b75213d2e99947fcaae49e2e343de854"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://gpt-plugin.qs.com/openapi"
+                },
+                "logo_url": "https://gpt-plugin.qs.com/logo.png",
+                "contact_email": "cto@qs.com",
+                "legal_info_url": "https://www.topuniversities.com/user-agreement",
+                "generated_description": "The QS World Uni Ranking plugin allows users to access and analyze the performance of universities worldwide based on the QS World University Rankings 2024. With this plugin, users can retrieve ranking information for a specific university, view the top universities and their ranking information for a particular country, and obtain detailed information about a university based on its rank.",
+                "category": "Education and Learning",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-1cb4eb0f-8aff-4fac-a11c-a38866d6ce7c",
+            "domain": "filtpod.pythonanywhere.com",
+            "namespace": "hashtag",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "hashtag",
+                "name_for_human": "Engage AI",
+                "description_for_model": "Help the user find the follwer count, trend and related hashtags of a LinkedIn hashtag.",
+                "description_for_human": "Retrieve hashtag follower counts, trends & suggestions to increase your content reach on LinkedIn.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://filtpod.pythonanywhere.com/openapi.yaml"
+                },
+                "logo_url": "https://engage-ai.co/wp-content/uploads/2023/01/engageai_icon_256.png",
+                "contact_email": "hello@engage-ai.co",
+                "legal_info_url": "https://engage-ai.co/terms-and-conditions/",
+                "generated_description": "Engage AI is a plugin that allows users to retrieve follower counts, trends, and suggestions for hashtags on LinkedIn. With this plugin, users can easily find the follower count of a specific hashtag, track its trend over time, and discover related hashtags to increase the reach of their content. By providing valuable insights, Engage AI helps users optimize their LinkedIn strategy and maximize their content's visibility.",
+                "category": "Coding",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-9e851766-83d9-4a0b-978f-c99c0d647cec",
+            "domain": "plugin.michelangelo.cc",
+            "namespace": "michelangelo",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "michelangelo",
+                "name_for_human": "Michelangelo",
+                "description_for_model": "Generate images based on the user's prompt and provides the user with a link to the generated image. The prompt must be highly descriptive and as precise as possible to give the best results. It is possible to add a negative prompt which indicates to the AI what is NOT wanted for the image. This negative prompt must be written using affirmative wording, the model must never include explicit negations in it. For instance, if the image should not be ugly, the negative prompt for that would simply be \"ugly\". The model should give particular attention to things the user is not happy about and include them to the negative prompt paying respect to its due form. The negative prompt should not be provided otherwise. Different art styles are available to choose from. Depending on the prompt it is the model's responsability to figure out which art style fits best. The user should also be able to enforce the art style they want and ask for the list of available art styles. In case the art style to use is not obvious, the \"general\" art style should be preferred as it provides really good defaults. It is possible to explictly pass a width and height for the image. If these are not provided the default resolution is 1024x1024 pixels. The minimum value for the width and height is 320. The maximum is 1024. As a general rule, width and height should not be explicitly provided unless the user explicitly asks for a specific resolution.",
+                "description_for_human": "Create high quality images based on different art styles by leveraging the power of generative AI using DALL-E 2.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://85b04f71039854eb2d7c338335236a70.auth.portal-pluginlab.ai/oauth/authorize",
+                    "scope": "all",
+                    "authorization_url": "https://auth.pluginlab.ai/oauth/token",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "0b89fa5a909a4bc4b1cc7bcb3949be9e"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://plugin.michelangelo.cc/.well-known/pluginlab/openapi.json"
+                },
+                "logo_url": "https://firebasestorage.googleapis.com/v0/b/michelangelo-ai.appspot.com/o/michelangelo-plugin.png?alt=media&token=d4ea41a6-2579-47cf-b966-d4aba4b61b2b",
+                "contact_email": "support@michelangelo.cc",
+                "legal_info_url": "https://plugin.michelangelo.cc/.well-known/legal",
+                "generated_description": "Michelangelo is a plugin that utilizes generative AI technology to create high-quality images in various art styles. By leveraging the power of DALL-E 2, users can generate images based on highly descriptive prompts. The plugin allows users to include negative prompts to indicate what they do not want in the image. It also offers a range of art styles to choose from, with the option to enforce a specific style or request a list of available styles. Users can specify the width and height of the image, with a default resolution of 1024x1024 pixels. The plugin recommends not explicitly providing width and height unless necessary, and suggests using the \"general\" art style for optimal results.",
+                "category": "Images",
+                "generated_version": 1
+            },
+            "oauth_client_id": "2d48f01b6bdaaf2cb416319d679f88a3",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-700240c8-5ccc-4ddc-9fc5-e50d05cd5966",
+            "domain": "everysize.com",
+            "namespace": "everysize",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "everysize",
+                "name_for_human": "everysize",
+                "description_for_model": "Plugin to search sneakers and sport shoes by brand, product name, mpn and color. If the user asks for a specific size, identify the country code of the size, e.g. EU, US or UK and pass it in this format: \"EU:47,5\", \"US:10,5\" or \"UK:5,5\". If the offer has a coupon (has_coupon=true), write \"inkl. Gutschein!\" after the price info. Don't show the image. Try to show at least 5 products. If the api response has a \"more\" attribute use the url at the end of the output and write \"More products in your size can be found von everysize:\". Use the german \"du\" instead of \"sie\"",
+                "description_for_human": "Search for sneakers in your size and get the best price from 60+ shops (only in DE).",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://www.everysize.com/.well-known/openai.yaml"
+                },
+                "logo_url": "https://cdn.evrysz.net/media/favicons/es_favicon_310.png",
+                "contact_email": "info@everysize.com",
+                "legal_info_url": "https://www.everysize.com/mag/datenschutzerklaerung/",
+                "generated_description": "The everysize plugin allows users to search for sneakers and sport shoes by brand, product name, MPN, and color. Users can specify their desired size using country codes such as EU, US, or UK, followed by the size in the format \"EU:47.5\", \"US:10.5\", or \"UK:5.5\". The plugin provides the best prices from over 60+ shops in Germany and includes any available coupons. The output includes information on at least 5 products and, if available, a link to more products in the specified size. Please note that the plugin uses informal language (German \"du\") in its responses.",
+                "category": "Coding",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
         }
     ]
 }
