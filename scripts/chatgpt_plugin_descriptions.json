@@ -12398,38 +12398,6 @@
             ]
         },
         {
-            "id": "plugin-801d57ac-d572-4fe3-839c-41536af20681",
-            "domain": "api.speedybrand.io",
-            "namespace": "speedy_marketing",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "speedy_marketing",
-                "name_for_human": "Speedy Marketing",
-                "description_for_model": "Plugin for generating a SEO blog and social media post for a website.",
-                "description_for_human": "Marketing tool for your Shopify store, ecommerce website or any business. Write SEO blogs and social media content.",
-                "auth": {
-                    "type": "none"
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://api.speedybrand.io/openapi.yaml"
-                },
-                "logo_url": "https://api.speedybrand.io/logo.png",
-                "contact_email": "contact@speedybrand.io",
-                "legal_info_url": "https://speedybrand.io/terms-and-conditions",
-                "generated_description": "Speedy Marketing is a plugin designed to assist with generating SEO blogs and social media posts for your website. Whether you have a Shopify store, ecommerce website, or any other type of business, this tool can help you create compelling content to enhance your marketing efforts. With Speedy Marketing, you can easily write SEO-optimized blogs and social media content that will attract more visitors to your site and increase your online visibility. This plugin provides model instructions that you can use as a reference to ensure your content is effective and engaging.",
-                "category": "Finance",
-                "generated_version": 1
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": []
-        },
-        {
             "id": "plugin-f8c1af8f-e41d-44d0-97e9-36e3da52dce8",
             "domain": "c-resume.copilot.us",
             "namespace": "ResumeCopilot",
@@ -29420,96 +29388,6 @@
             ]
         },
         {
-            "id": "plugin-bcede090-9498-4c41-8e86-a6cdb9174438",
-            "domain": "api.getaidataanalyst.com",
-            "namespace": "ai_data_analyst",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "ai_data_analyst",
-                "name_for_human": "AI Data Analyst",
-                "description_for_model": "Perform analysis on databases and spreadsheets.",
-                "description_for_human": "Dive into your data like never before. No code, no complex queries; just plain English.",
-                "auth": {
-                    "type": "oauth",
-                    "instructions": "",
-                    "client_url": "https://chatwithyourdata.us.auth0.com/authorize",
-                    "scope": "openid profile email",
-                    "authorization_url": "https://chatwithyourdata.us.auth0.com/oauth/token",
-                    "authorization_content_type": "application/json",
-                    "verification_tokens": {
-                        "openai": "fbcf54b43bc44496877df20e81fe3a7e"
-                    }
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://api.getaidataanalyst.com/openapi.yaml"
-                },
-                "logo_url": "https://api.getaidataanalyst.com/logo.png",
-                "contact_email": "team@chatwithyourdata.io",
-                "legal_info_url": "https://getaidataanalyst.com/tos",
-                "generated_description": "The AI Data Analyst plugin allows users to perform analysis on databases and spreadsheets without the need for coding or complex queries. With this plugin, users can dive into their data using plain English commands. It provides a user-friendly interface for analyzing data and extracting insights.",
-                "category": "Productivity",
-                "generated_version": 1
-            },
-            "oauth_client_id": "70vLEWpfjCVn1S2hRLm5OT3dhvCDDOTq",
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": false
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
-        },
-        {
-            "id": "plugin-78822e9f-e279-4e95-beff-96feda5dcc29",
-            "domain": "api.visualizedata.app",
-            "namespace": "visualize_your_data",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "visualize_your_data",
-                "name_for_human": "Visualize Your Data",
-                "description_for_model": "Perform analysis on databases and spreadsheets.",
-                "description_for_human": "Instantly transform your raw data into stunning, insightful visuals and charts.",
-                "auth": {
-                    "type": "oauth",
-                    "instructions": "",
-                    "client_url": "https://chatwithyourdata.us.auth0.com/authorize",
-                    "scope": "openid profile email",
-                    "authorization_url": "https://chatwithyourdata.us.auth0.com/oauth/token",
-                    "authorization_content_type": "application/json",
-                    "verification_tokens": {
-                        "openai": "ec850f537daf4157804f902b3e50e123"
-                    }
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://api.visualizedata.app/openapi.yaml"
-                },
-                "logo_url": "https://api.visualizedata.app/logo.png",
-                "contact_email": "team@chatwithyourdata.io",
-                "legal_info_url": "https://visualizedata.app/tos",
-                "generated_description": "Visualize Your Data is a powerful plugin that allows you to quickly and effortlessly transform your raw data into visually appealing and insightful charts and visuals. With this plugin, you can easily analyze databases and spreadsheets, gaining valuable insights from your data. Whether you need to create charts for presentations, reports, or data analysis, Visualize Your Data provides a user-friendly interface that makes it easy to visualize and understand your data.",
-                "category": "Charts and Diagrams",
-                "generated_version": 1
-            },
-            "oauth_client_id": "70vLEWpfjCVn1S2hRLm5OT3dhvCDDOTq",
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": false
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
-        },
-        {
             "id": "plugin-84e6165d-a071-4f4f-a67b-f48d51b58359",
             "domain": "api.datainterpreter.app",
             "namespace": "data_interpreter",
@@ -30349,6 +30227,260 @@
                 {
                     "id": "most_popular",
                     "title": "Most popular"
+                }
+            ]
+        },
+        {
+            "id": "plugin-042c48d6-ef25-4a0e-b120-89cac05916b1",
+            "domain": "a-to-z.pro",
+            "namespace": "a_to_z_video_summary",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "a_to_z_video_summary",
+                "name_for_human": "A-to-Z Video Summary",
+                "description_for_model": "This plugin creates summaries for YouTube videos and provides useful information about them.",
+                "description_for_human": "YouTube Summaries. You can also search for videos and navigate through popular ones.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://a-to-z.pro/openai/auth/start",
+                    "scope": "",
+                    "authorization_url": "https://a-to-z.pro/openai/auth/callback",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "e319233e8e334def970ac56c2539611e"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://a-to-z.pro/openai/openapi.yaml"
+                },
+                "logo_url": "https://a-to-z.pro/plugin-static/a-to-z-youtube-logo.jpg",
+                "contact_email": "contact@a-to-z.pro",
+                "legal_info_url": "https://a-to-z.pro/openai/privacy-policy",
+                "generated_description": "A-to-Z Video Summary is a plugin that allows you to easily create summaries for YouTube videos. With this plugin, you can search for videos and navigate through popular ones. It provides useful information about the videos, making it easier for you to find the content you're looking for.",
+                "category": "Video",
+                "generated_version": 1
+            },
+            "oauth_client_id": "c9d7b16fba149978e4cf683709272d6bfafa81d7",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-392582bb-64a6-42c2-8bc8-de3a23cda152",
+            "domain": "seo.quick-url.com",
+            "namespace": "quickSEO_gpt",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "quickSEO_gpt",
+                "name_for_human": "A+QuickSEO",
+                "description_for_model": "Use the A+QuickSEO plugin to generate a quick SEO Audit for a specific URL. The plugin will return some data about networks, SEO Audits, keywords, keywords pairs, internal links, external links, special links, and images.",
+                "description_for_human": "Get a quick SEO audit for a specific URL.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://c56d299e6952443f09a241b5da40d933.auth.portal-pluginlab.ai/oauth/authorize",
+                    "scope": "all",
+                    "authorization_url": "https://auth.pluginlab.ai/oauth/token",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "a406b309df5844348ab293a9072546d6"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://seo.quick-url.com/.well-known/pluginlab/openapi.json"
+                },
+                "logo_url": "https://seo-be.quick-url.com/logo.jpg",
+                "contact_email": "contact@quick-url.com",
+                "legal_info_url": "https://seo-be.quick-url.com/api/terms",
+                "generated_description": "The A+QuickSEO plugin allows users to generate a quick SEO audit for a specific URL. With this plugin, users can obtain valuable data about networks, SEO audits, keywords, keyword pairs, internal links, external links, special links, and images associated with the URL. It is a useful tool for analyzing and optimizing the SEO performance of a website.",
+                "category": "Finance",
+                "generated_version": 1
+            },
+            "oauth_client_id": "4d207e9fb6cbc598cff9f9f93c4b65ad",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-e7919734-5797-4165-bfec-57f4dfa39f6b",
+            "domain": "prismic-web-git-page-whisperer-store-prismic.vercel.app",
+            "namespace": "pagewhisperer",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "pagewhisperer",
+                "name_for_human": "Page Whisperer",
+                "description_for_model": "Generate content for your web page.",
+                "description_for_human": "Generate content for your web page.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://auth.prismic.io/openai/oauth",
+                    "scope": "",
+                    "authorization_url": "https://auth.prismic.io/openai/oauth_exchange",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "7a8e359aa87c491898b9a17a6027748e"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://prismic-web-git-page-whisperer-store-prismic.vercel.app/openapi.yaml"
+                },
+                "logo_url": "https://prismic-web-git-page-whisperer-store-prismic.vercel.app/logo.png",
+                "contact_email": "contact@prismic.io",
+                "legal_info_url": "https://prismic-web-git-page-whisperer-store-prismic.vercel.app/legal/terms-of-service",
+                "generated_description": "Page Whisperer is a plugin that helps you generate content for your web page. It provides you with model instructions to use as a reference, making it easier for you to create compelling and engaging content. Whether you're a beginner or an experienced web developer, this plugin can assist you in generating high-quality content that resonates with your audience.",
+                "category": "Productivity",
+                "generated_version": 1
+            },
+            "oauth_client_id": "9b16bff9-35bb-441a-92f7-d7e07a42d790",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-45cdd19e-73bf-4f70-b51d-03dee26fba51",
+            "domain": "takecodecaptures.com",
+            "namespace": "take_code_captures",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "take_code_captures",
+                "name_for_human": "Take Code Captures",
+                "description_for_model": "## When to Use This Plugin\nYou should use this plugin when people want to create code captures or screenshots\n\n## Interpreting the API response\nThis section comes after receiving the api response, follow all these steps in order:\n\n1. The Capture: Render the capture URL in inline using \"![alt text](capture)\" syntax.\n2. Link to open a new tab: Say \"[Open capture in new tab](capture)\".\n3. Link to edit capture: Say \"[Edit capture online](editCaptureOnline)\"\n4. Key phrase 'show ideas': Say \"To view ideas to improve the capture, use the key phrase \"*show ideas*\"\"\n5. Key phrase 'explore themes': Say \"To explore other themes, use the key phrase \"*explore themes*\"\"\n\nPlease note:\n- Don't describe the capture textually because the capture is self-explanatory and saying it would be redundant unless the user asks for it.\n- Is important to follow all these steps, from the capture to the key phrases.\n\n## Handle error messages from API response\n- If an errorMessage is included in the response: show it to the user, don't try to render the capture inline, still suggest they can edit it online or try again.\n\n## Ideas to improve the capture\n1. Say \"**Ideas to improve the capture:**\". \n2. Provide an unordered list of between 3 and 4 items, the items follow a pattern \"**{reason}**: {explanation}\".\n\nPlease note:\n- Only say it when the user asks for it by using their respective key phrase \"show ideas\"\n- Do not suggest ideas that are not implemented in the API, for example: fonts, zoom, etc. Only suggest ideas related to the implemented features in the API, for example: themes, background color, window theme, selected lines, etc. \n\n## Explore themes of captures\n1. Say \"**Explore the following themes:**\".\n2. Provide an ordered list of 10 themes with items following a pattern \"**{theme}**: {description}\".\n\nPlease note:\n- Only say it when the user asks for it by using their respective key phrase \"explore themes\"\n- Use the voice of an expert salesman for each theme's description\n- The first themes should be themes that the user might like\n\n## Tips:\n- When using the render endpoint, the openApiSchemaVersion parameter is always \"1.0\"\n- The theme parameter is always 'seti' unless the user asks for it\n- When using a custom background (the background color around the code): If the theme's background is DARK, then use a LIGHT custom background; if the theme's background is LIGHT, then use a DARK custom background. \n\n## Theme colors:\nid, dark_mode, background, text, variable, attribute, definition, keyword, operator, property, number, string, comment, meta, tag\ndracula-pro, true, darkslategray, whitesmoke, lightgreen, lightgreen, lightgreen, hotpink, hotpink, skyblue, plum, khaki, slategray, whitesmoke, hotpink\nsolarized light, false, oldlace, slategray, lightslategray, lightseagreen, lightseagreen, chocolate, slateblue, lightseagreen, mediumvioletred, olive, dimgray, olive, darkgray\nnight-owl, true, black, darkgray, lightskyblue, salmon, lightskyblue, plum, plum, white, salmon, burlywood, dimgray, skyblue, skyblue\ncobalt, true, midnightblue, white, paleturquoise, violet, white, khaki, white, white, violet, limegreen, dodgerblue, orange, paleturquoise\nmonokai, true, darkslategray, whitesmoke, whitesmoke, yellowgreen, darkorange, deeppink, white, yellowgreen, mediumpurple, khaki, dimgray, dimgray, palevioletred\nhopscotch, true, darkslategray, lightgray, yellowgreen, yellowgreen, darkorange, indianred, white, yellowgreen, indianred, sandybrown, firebrick, dimgray, indianred\nmaterial, true, darkslategray, darkslategray, lightskyblue, sandybrown, darkslategray, darkcyan, darkslategray, mediumaquamarine, salmon, khaki, dimgray, mediumaquamarine, darkslategray\none-light, false, darkslategray, darkgray, lightcoral, darksalmon, burlywood, orchid, mediumturquoise, mediumturquoise, darksalmon, darkseagreen, dimgray, darkgray, lightcoral\npanda-syntax, true, darkslategray, gainsboro, sandybrown, sandybrown, gainsboro, hotpink, whitesmoke, whitesmoke, sandybrown, aqua, dimgray, mediumpurple, deeppink\ntwilight, true, black, whitesmoke, slategray, darkkhaki, slategray, khaki, darkkhaki, white, peru, gray, gray, whitesmoke, sienna\nduotone-dark, true, darkslategray, dimgray, navajowhite, navajowhite, lavender, navajowhite, sandybrown, mediumpurple, navajowhite, lightsalmon, dimgray, dimgray, lavender\nzenburn, true, darkslategray, lightgray, burlywood, burlywood, lightgray, wheat, antiquewhite, burlywood, lightgray, rosybrown, gray, wheat, skyblue\none-dark, true, snow, darkslategray, lightcoral, darksalmon, royalblue, darkorchid, darkcyan, royalblue, olive, seagreen, darkgray, darkslategray, tomato\nbase16-dark, true, black, gainsboro, darkkhaki, mediumblue, peru, sienna, white, darkkhaki, rosybrown, burlywood, sienna, dimgray, sienna\nbase16-light, false, whitesmoke, black, darkkhaki, darkkhaki, peru, sienna, black, darkkhaki, rosybrown, burlywood, sienna, dimgray, sienna\nseti, true, black, lightgray, mediumturquoise, yellowgreen, mediumturquoise, burlywood, yellowgreen, mediumpurple, indianred, mediumturquoise, darkslategray, mediumturquoise, mediumturquoise\noceanic-next, true, darkslategray, whitesmoke, whitesmoke, plum, cornflowerblue, plum, white, darkseagreen, coral, darkseagreen, dimgray, dimgray, plum\nlucario, true, darkslategray, whitesmoke, whitesmoke, skyblue, darkseagreen, tomato, skyblue, whitesmoke, plum, khaki, cornflowerblue, whitesmoke, tomato\nyeti, false, linen, silver, mediumturquoise, darkkhaki, mediumturquoise, darkkhaki, darkkhaki, mediumpurple, mediumpurple, lightsteelblue, silver, lightsteelblue, lightsteelblue\nparaiso-dark, true, darkslategray, silver, mediumseagreen, mediumseagreen, orange, tomato, white, mediumseagreen, slategray, gold, hotpink, dimgray, tomato\nsolarized dark, true, darkslategray, lightslategray, lightslategray, lightseagreen, lightseagreen, chocolate, slateblue, lightseagreen, mediumvioletred, olive, dimgray, olive, darkgray\nvscode, true, black, lightgray, lightskyblue, darksalmon, palegoldenrod, orchid, lightgray, palegoldenrod, silver, darksalmon, olivedrab, lightgray, cornflowerblue\nverminal, true, black, white, lightpink, darksalmon, dodgerblue, lightskyblue, hotpink, deepskyblue, darksalmon, darkseagreen, dimgray, darkgray, lightcoral\na11y-dark, true, darkslategray, whitesmoke, darkturquoise, yellowgreen, gold, lightsalmon, whitesmoke, yellowgreen, thistle, gold, silver, silver, thistle\nblackboard, true, black, whitesmoke, orangered, darkgray, darkgray, gold, white, white, greenyellow, limegreen, darkgray, greenyellow, darkgray\nnord, true, darkslategray, gainsboro, skyblue, darkgray, gainsboro, darkgray, darkgray, gainsboro, darkgray, darkseagreen, dimgray, darkgray, darkgray\nshades-of-purple, true, darkslategray, white, paleturquoise, paleturquoise, paleturquoise, orange, orange, gold, lightcoral, palegreen, mediumorchid, orange, paleturquoise\nsynthwave-84, true, darkslategray, darkgray, deeppink, lavenderblush, white, linen, linen, white, salmon, coral, lightslategray, coral, deeppink\n3024-night, true, black, lightgray, seagreen, mediumblue, thistle, crimson, white, seagreen, gray, yellow, darkkhaki, dimgray, n/a\n",
+                "description_for_human": "Capture, beautify, and share your code snippets easily.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://takecodecaptures.com/openapi.json"
+                },
+                "logo_url": "https://takecodecaptures.com/logo.svg",
+                "contact_email": "odrr.99@gmail.com",
+                "legal_info_url": "https://takecodecaptures.com/legal",
+                "generated_description": "The Take Code Captures plugin allows users to easily capture, beautify, and share code snippets. Users can render the capture URL inline using the \"![alt text](capture)\" syntax, open the capture in a new tab with the provided link, and edit the capture online using another link. The plugin also provides key phrases like \"show ideas\" to view ideas for improving the capture and \"explore themes\" to explore different themes for the captures. Users can handle error messages from the API response and follow specific steps for interpreting the response. The plugin offers tips such as using the render endpoint with the openApiSchemaVersion parameter set to \"1.0\" and using a custom background color that contrasts with the theme's background. It also provides a list of theme colors and their corresponding settings.",
+                "category": "Coding",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-6f6aeaf2-b3cb-4355-a61c-f239b691a748",
+            "domain": "rephraseai-plugin.ishangoswami5.repl.co",
+            "namespace": "rephraseai",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "rephraseai",
+                "name_for_human": "Rephrase AI",
+                "description_for_model": "This app can be used to convert text to avatar videos using Rephrase AI. It can generate an access token, create a campaign, and export a campaign.",
+                "description_for_human": "Use Rephrase AI to convert text into talking avatar videos.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://rephraseai-plugin.ishangoswami5.repl.co/.well-known/openapi.yaml"
+                },
+                "logo_url": "https://media.licdn.com/dms/image/C4E0BAQExDtiCSz-JrQ/company-logo_200_200/0/1634930595063?e=2147483647&v=beta&t=aty2xc8wiaBMKmmfSiBfk9DF6H7K5KgC0awACYt63r8",
+                "contact_email": "support@rephrase.ai",
+                "legal_info_url": "https://www.rephrase.ai/terms-of-service",
+                "generated_description": "Rephrase AI is a powerful plugin that allows users to easily convert text into engaging talking avatar videos. With this plugin, you can generate an access token, create campaigns, and export them effortlessly. Whether you want to create captivating promotional videos or enhance your storytelling, Rephrase AI is the perfect tool to bring your text to life.",
+                "category": "Video",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-fada94b7-ddd8-40dc-bfef-1a9e6c9b2893",
+            "domain": "taskml.com",
+            "namespace": "TaskML",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "TaskML",
+                "name_for_human": "TaskML",
+                "description_for_model": "Help the user with managing their tasks and projects. You can add, update, view, and delete tasks and projects. Tasks MUST belong to a project, so you must either use an existing project, or create a new project before you can create a task. For the below, the word \u2018item\u2019 refers to projects and tasks. You SHOULD NOT expect users to know item IDs (e.g. task/project IDs), and they SHOULD work using item names instead. E.g. DO NOT ask them for a project ID, instead ask them for a project name. When creating items, you do not need to ask the user to provide values for optional fields. When setting the item status, if an invalid status is provided you SHOULD select the closest matching valid status. E.g. If the user provides \u2018Not started\u2019, you should use \u2018todo\u2019 as the status. You SHOULD NOT show item IDs (e.g. task/project ids) unless explicitly asked to by the user. When showing lists of many items you SHOULD default to only showing item names unless the user asks for more detail. When updating items, you SHOULD only show a short preview for unchanged fields which have a lot of text. Date-time fields (those ending in \u2018_at\u2019) SHOULD NOT be shown to the user unless explicitly requested. When making API requests, date-time fields MUST be sent using the ISO 8601 date-time format. E.g. 2020-01-01T00:00:00Z. When showing date-time fields to the user, you SHOULD use the \u2018Month Day, Year\u2019 format. E.g. July 20, 2023. Date fields (those ending in \u2018_date\u2019) SHOULD NOT be shown to the user unless explicitly requested. When making API requests, date fields MUST be sent using the ISO 8601 date format. E.g. 2020-01-01. When showing date fields to the user, you SHOULD use the \u2018Month Day, Year\u2019 format. E.g. July 20, 2023.",
+                "description_for_human": "Manage your projects and tasks. Quickly create projects, add tasks / todos, and mark them as done.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://taskml.com/oauth/proxy-authorize",
+                    "scope": "openid email profile",
+                    "authorization_url": "https://taskml-prod.us.auth0.com/oauth/token",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "e5d451bd26b14139af0cbcc668143c3f"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://taskml.com/openapi.yaml"
+                },
+                "logo_url": "https://taskml.com/images/icon.png",
+                "contact_email": "support@taskml.com",
+                "legal_info_url": "https://taskml.com/legal",
+                "generated_description": "TaskML is a plugin that helps you manage your projects and tasks efficiently. With TaskML, you can easily create new projects, add tasks or to-do items, and mark them as completed. You can also update, view, and delete tasks and projects. TaskML allows you to work with item names instead of item IDs, making it more user-friendly. It automatically selects the closest matching valid status if an invalid status is provided. TaskML also provides the option to show only item names or more detailed information when displaying lists of items. When updating items, it shows a short preview for unchanged fields with a lot of text. Date-time and date fields are handled in the ISO 8601 format when making API requests, and they are displayed in the 'Month Day, Year' format for the user.",
+                "category": "Productivity",
+                "generated_version": 1
+            },
+            "oauth_client_id": "kZFeWETd5d7Fhdp0Z9iQamkRaDiYGoHF",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
                 }
             ]
         }
