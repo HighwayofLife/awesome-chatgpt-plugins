@@ -29346,48 +29346,6 @@
             ]
         },
         {
-            "id": "plugin-0ac27248-1743-4bdd-acaf-def926b6385f",
-            "domain": "rmdbapi.riskmonster.com",
-            "namespace": "RiskmonsterCorpDB",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "RiskmonsterCorpDB",
-                "name_for_human": "RiskmonsterCorpDB",
-                "description_for_model": "This plugin provides two functionalities: 1. companymstsearch and 2. companymst. 1. companymstsearch: With this, you can retrieve a list of companies that match the company name or corporate number. The list includes the corporate number, company name, and address. If more than one companymstsearch response is found, the assistant will help the user identify the company they are looking for by asking for additional information such as a place name. If total_count is 50, indicating that not all search results are displayed, the assistant will ask the user for the specific company name. Company names and company types (e.g., \u682a\u5f0f\u4f1a\u793e) will be displayed exactly as they appear in the API response. Note that the company names in Japanese may be translated into other languages in the assistant's responses. When translating, the assistant will indicate that 'The company names are translated from Japanese and may not represent their official names in other languages.' 2. companymst: With this, you can retrieve detailed information about the company that matches the corporate number. This information includes the phone number, representative's name, and classification. The company's name and type will be displayed as they are in the API response. Note that the company names in Japanese may be translated into other languages in the assistant's responses. When translating, the assistant will indicate that 'The company names are translated from Japanese and may not represent their official names in other languages.' The assistant will reply in English, but will respond in Japanese if the user speaks in Japanese. In case of an invalid login token, a 401 error is returned.",
-                "description_for_human": "Searching for japanese corporations from Riskmonster's own database of 5 million companies in japan.",
-                "auth": {
-                    "type": "service_http",
-                    "instructions": "",
-                    "authorization_type": "bearer",
-                    "verification_tokens": {
-                        "openai": "3b2eb851504842fabe8bae0bf6d02030"
-                    }
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://rmdbapi.riskmonster.com/.well-known/openapi.yaml"
-                },
-                "logo_url": "https://rmdbapi.riskmonster.com/.well-known/logo.png",
-                "contact_email": "kaihatsu-mobile-application@riskmonster.co.jp",
-                "legal_info_url": "https://rmdbapi.riskmonster.com/.well-known/legal_info.html",
-                "generated_description": "The RiskmonsterCorpDB plugin allows users to search for Japanese corporations from Riskmonster's database of 5 million companies in Japan. It provides two functionalities: companymstsearch and companymst. With companymstsearch, users can retrieve a list of companies that match the company name or corporate number, including the corporate number, company name, and address. If multiple search results are found, the assistant will assist the user in identifying the desired company by asking for additional information. The companymst function allows users to retrieve detailed information about a company based on its corporate number, including the phone number, representative's name, and classification. The plugin supports English and Japanese languages, with translations available for Japanese company names. Please note that the assistant will indicate when the translated company names may not represent their official names in other languages. In case of an invalid login token, a 401 error will be returned.",
-                "category": "Search",
-                "generated_version": 1
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
-        },
-        {
             "id": "plugin-84e6165d-a071-4f4f-a67b-f48d51b58359",
             "domain": "api.datainterpreter.app",
             "namespace": "data_interpreter",
@@ -30473,6 +30431,434 @@
                 "generated_version": 1
             },
             "oauth_client_id": "kZFeWETd5d7Fhdp0Z9iQamkRaDiYGoHF",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-eba719b2-b5e7-4808-b59c-fd4f910e5ba5",
+            "domain": "twrailtimetables.flagtec.repl.co",
+            "namespace": "twrail",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "twrail",
+                "name_for_human": "TR Timetables",
+                "description_for_model": "Query for the ID for Taiwan Railway stations and timetables for the specified departure and destination station.",
+                "description_for_human": "Query for the ID for Taiwan Railway stations and timetables for the specified departure and destination station.",
+                "auth": {
+                    "type": "service_http",
+                    "instructions": "",
+                    "authorization_type": "bearer",
+                    "verification_tokens": {
+                        "openai": "bb819da577804d45a232504e459e76ec"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://twrailtimetables.flagtec.repl.co/openapi.yaml"
+                },
+                "logo_url": "https://twrailtimetables.flagtec.repl.co/logo.png",
+                "contact_email": "flagtec@gmail.com",
+                "legal_info_url": "https://www.flag.com.tw/flag/privacy",
+                "generated_description": "TR Timetables is a plugin that allows users to query for the ID of Taiwan Railway stations and retrieve timetables for specified departure and destination stations. With this plugin, users can easily access up-to-date train schedules and plan their journeys accordingly. Simply input the desired departure and destination stations, and the plugin will provide the necessary information. Stay informed and make the most of your travel experience with TR Timetables.",
+                "category": "Travel",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-c7e9de3b-c61f-47b7-b230-e9cbacf6da4d",
+            "domain": "back4app.com",
+            "namespace": "Back4App",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "Back4App",
+                "name_for_human": "Back4App",
+                "description_for_model": "Help the user with creating an app's backend using Back4App. Database, REST and GraphQL APIs, Cloud Code Functions, User Authentication, Access Control, and more.",
+                "description_for_human": "Use natural language to create, deploy, and scale apps, backend, databases, cloud functions, and APIs.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://www.back4app.com/authorize",
+                    "scope": "baas-full-access",
+                    "authorization_url": "https://dashboard.back4app.com/oauth/access-token",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "b5bd9ca53bdb498eabdef070cb40de32"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://chatgpt.back4app.com/openapi.yaml"
+                },
+                "logo_url": "https://www.back4app.com/_public/favicon.ico",
+                "contact_email": "community@back4app.com",
+                "legal_info_url": "https://www.back4app.com/terms-of-service.pdf",
+                "generated_description": "Back4App is a powerful plugin that allows you to easily create, deploy, and scale apps, backend, databases, cloud functions, and APIs using natural language. With Back4App, you can effortlessly set up an app's backend, including database management, REST and GraphQL APIs, Cloud Code Functions, User Authentication, and Access Control. Whether you're a beginner or an experienced developer, Back4App provides the necessary tools and resources to streamline the process of building and managing your app's backend infrastructure.",
+                "category": "Coding",
+                "generated_version": 1
+            },
+            "oauth_client_id": "49a35fd9-430e-4dc7-8677-69aeda2b3dc9",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-5aa408b3-ff28-4a7b-aabe-b886f075ecec",
+            "domain": "jots.plugin.theros.ai",
+            "namespace": "jots",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "jots",
+                "name_for_human": "Jot it down",
+                "description_for_model": "Manage memories or 'jots'; add, remove or remember (e.g. recall or fetch) jots; answer any questions about the jots plugin; display insights on jots over time. Jots are like post-it notes about a conversation.",
+                "description_for_human": "Remember details from your chats by jotting them down. You can add, remove and recall your 'jots.'",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://jots.plugin.theros.ai/gpt/auth",
+                    "scope": "",
+                    "authorization_url": "https://jots.plugin.theros.ai/gpt/auth/callback",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "ffe086518190447c957157b803bd90d4"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://jots.plugin.theros.ai/openapi.json"
+                },
+                "logo_url": "https://jots.plugin.theros.ai/static/images/jots/jots_logo.png",
+                "contact_email": "support@theros.ai",
+                "legal_info_url": "https://www.theros.ai/product/jots/legal",
+                "generated_description": "Jot it down is a plugin that allows you to remember important details from your chats by jotting them down. With this plugin, you can easily add, remove, and recall your 'jots', which are like post-it notes about a conversation. It helps you manage your memories and keep track of important information. Whether you want to quickly jot down a reminder or take notes during a conversation, this plugin has got you covered.",
+                "category": "Productivity",
+                "generated_version": 1
+            },
+            "oauth_client_id": "thoath.987326583921097.id",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-6fec98f2-372d-4df0-8a72-d6d8f2e4edf1",
+            "domain": "pro-tkww-chatgpt-plugin-useast1.svc.nuptic.com",
+            "namespace": "TheKnot",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "TheKnot",
+                "name_for_human": "The Knot",
+                "description_for_model": "Search for wedding vendors. You will help users find relevant search results from one of the largest wedding marketplaces. The plugin will return a list of vendors with a description, a URL (linking to the vendor's website) and a rating. The URL will always be returned and should be shown to the user. If the user wants to find out more about a vendor or make an appointment, direct them to the wedding vendor's URL that is provided by the plugin. Show only 4 vendors to the user, unless the user explicitly specifies otherwise. If the search results are empty, do not make up vendors nor use any result that is not provided by the plugin.",
+                "description_for_human": "All-In-One wedding planning with tools, guides, & inspo to make your wedding journey effortless.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://pro-tkww-chatgpt-plugin-useast1.svc.nuptic.com/openapi.yaml"
+                },
+                "logo_url": "https://pro-tkww-chatgpt-plugin-useast1.svc.nuptic.com/.well-known/logo.png",
+                "contact_email": "platformservices@theknotww.com",
+                "legal_info_url": "https://www.theknotww.com/terms-of-use/",
+                "generated_description": "The Knot is an all-in-one wedding planning plugin that provides users with a range of tools, guides, and inspiration to make their wedding journey effortless. With this plugin, users can search for wedding vendors and receive relevant search results from one of the largest wedding marketplaces. The plugin returns a list of vendors with a description, a URL linking to the vendor's website, and a rating. Users can click on the provided URL to find out more about a vendor or make an appointment. The plugin displays up to 4 vendors by default, but users can specify a different number if desired. It is important to note that the plugin does not generate fake vendors or use any results that are not provided by the plugin itself.",
+                "category": "Events",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-bcede090-9498-4c41-8e86-a6cdb9174438",
+            "domain": "api.getaidataanalyst.com",
+            "namespace": "ai_data_analyst",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "ai_data_analyst",
+                "name_for_human": "AI Data Analyst",
+                "description_for_model": "Perform analysis on databases and spreadsheets.",
+                "description_for_human": "Dive into your data like never before. No code, no complex queries; just plain English.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://chatwithyourdata.us.auth0.com/authorize",
+                    "scope": "openid profile email offline_access",
+                    "authorization_url": "https://chatwithyourdata.us.auth0.com/oauth/token",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "cd1547a47a84487c955f7e42bcf30b20"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://api.getaidataanalyst.com/openapi.yaml"
+                },
+                "logo_url": "https://api.getaidataanalyst.com/logo.png",
+                "contact_email": "team@julius.ai",
+                "legal_info_url": "https://getaidataanalyst.com/tos",
+                "generated_description": "The AI Data Analyst plugin allows users to perform analysis on databases and spreadsheets without the need for coding or complex queries. With this plugin, users can dive into their data using plain English commands. It provides a user-friendly interface for analyzing and extracting insights from various data sources.",
+                "category": "Productivity",
+                "generated_version": 1
+            },
+            "oauth_client_id": "70vLEWpfjCVn1S2hRLm5OT3dhvCDDOTq",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-78822e9f-e279-4e95-beff-96feda5dcc29",
+            "domain": "api.visualizedata.app",
+            "namespace": "visualize_your_data",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "visualize_your_data",
+                "name_for_human": "Visualize Your Data",
+                "description_for_model": "Perform analysis on databases and spreadsheets.",
+                "description_for_human": "Instantly transform your raw data into stunning, insightful visuals and charts.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://chatwithyourdata.us.auth0.com/authorize",
+                    "scope": "openid profile email offline_access",
+                    "authorization_url": "https://chatwithyourdata.us.auth0.com/oauth/token",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "b82c357d82d748a8a2b1d4883e23a756"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://api.visualizedata.app/openapi.yaml"
+                },
+                "logo_url": "https://api.visualizedata.app/logo.png",
+                "contact_email": "team@julius.ai",
+                "legal_info_url": "https://visualizedata.app/tos",
+                "generated_description": "Visualize Your Data is a powerful plugin that allows you to quickly and easily transform your raw data into visually appealing charts and insightful visuals. Whether you're working with databases or spreadsheets, this plugin enables you to perform in-depth analysis and present your findings in a visually engaging manner. With its user-friendly interface, you can effortlessly create charts that effectively communicate your data-driven insights. Take your data analysis to the next level with Visualize Your Data.",
+                "category": "Charts and Diagrams",
+                "generated_version": 1
+            },
+            "oauth_client_id": "70vLEWpfjCVn1S2hRLm5OT3dhvCDDOTq",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-a990e40f-8af5-4439-a2f8-af7ac486471c",
+            "domain": "chatdrive.mixerbox.com",
+            "namespace": "MixerBox_ChatDrive_AI_drive_assistant",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "MixerBox_ChatDrive_AI_drive_assistant",
+                "name_for_human": "MixerBox ChatDrive",
+                "description_for_model": "MixerBox ChatDrive is an efficient tool that enables you to accurately locate files in your cloud storage. It allows you to quickly search for the desired information based on formats, upload time, owner, starred status, and more. Currently, MixerBox ChatDrive primarily serves Google Drive, ensuring that even in collaborative environments, you won't have to worry about losing track of your cloud files.\n\nExample prompts:\n- Provide me with all the files that have \"123\" in their file names\n- Find all the starred files in png format\n- Find the files that were uploaded between 6/1 and 6/6\n\n\n\n",
+                "description_for_human": "The best Google Drive AI assistant! Easily manage any files: PDFs, PPTs, images, docs, sheets, etc.",
+                "auth": {
+                    "type": "service_http",
+                    "instructions": "",
+                    "authorization_type": "bearer",
+                    "verification_tokens": {
+                        "openai": "56b7ae4492c24be4b19fc111fc393dd2"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://chatdrive.mixerbox.com/.well-known/openapi.json"
+                },
+                "logo_url": "https://static.mixerbox.com/chatai/chatgpt-plugin/ChatDrive_logo.png",
+                "contact_email": "support@chatdrive.mixerbox.com",
+                "legal_info_url": "https://www.mixerbox.com",
+                "generated_description": "MixerBox ChatDrive is a powerful AI assistant for Google Drive that helps you efficiently manage and locate files in your cloud storage. With MixerBox ChatDrive, you can easily search for files based on formats, upload time, owner, starred status, and more. Whether you need to find specific files or organize your cloud storage, MixerBox ChatDrive ensures that you can quickly access the information you need. Say goodbye to the hassle of losing track of your files in collaborative environments.",
+                "category": "Productivity",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-f2bee5bb-2a4d-4a9e-82df-92da0e8cebd6",
+            "domain": "api-chatgpt.phiture.com",
+            "namespace": "PHITURE",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "PHITURE",
+                "name_for_human": "PHITURE",
+                "description_for_model": "Search for keywords to obtain information about their popularity, impressions, etc.",
+                "description_for_human": "Search for keywords to obtain information about their popularity, impressions, etc.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://api-chatgpt.phiture.com/openapi.json"
+                },
+                "logo_url": "https://phiture.com/wp-content/uploads/2022/08/icon-96x96.png",
+                "contact_email": "stepan.chatalyan@phiture.com",
+                "legal_info_url": "https://phiture.com/privacy-policy/",
+                "generated_description": "PHITURE is a plugin that allows users to search for keywords and retrieve information about their popularity and impressions. With this plugin, users can easily analyze the performance of keywords and make data-driven decisions. Whether you are conducting keyword research for SEO purposes or looking to optimize your content strategy, PHITURE provides valuable insights to help you understand the impact of specific keywords. By obtaining information such as search volume and trend data, users can effectively target their audience and improve their online presence.",
+                "category": "Search",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-801d57ac-d572-4fe3-839c-41536af20681",
+            "domain": "api.speedybrand.io",
+            "namespace": "speedy_seo_marketing",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "speedy_seo_marketing",
+                "name_for_human": "Speedy SEO Marketing",
+                "description_for_model": "Plugin for generating a SEO blog and social media post for a website.",
+                "description_for_human": "SEO tool for your Shopify store, ecommerce website or any business. Create strategy, blogs and social content.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://api.speedybrand.io/plugin_oauth",
+                    "scope": "",
+                    "authorization_url": "https://api.speedybrand.io/plugin_authorize",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "942ad9e52bad4b7cbcbde29f8379640f"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://api.speedybrand.io/openapi.yaml"
+                },
+                "logo_url": "https://api.speedybrand.io/logo.png",
+                "contact_email": "support@speedybrand.io",
+                "legal_info_url": "https://speedybrand.io/terms-and-conditions",
+                "generated_description": "Speedy SEO Marketing is a powerful plugin designed to enhance the search engine optimization (SEO) of your Shopify store, ecommerce website, or any business. With this plugin, you can easily create effective SEO strategies, engaging blog posts, and compelling social media content. By following the model instructions provided, you can generate optimized SEO blogs and social media posts that will help improve your website's visibility and attract more organic traffic.",
+                "category": "Finance",
+                "generated_version": 1
+            },
+            "oauth_client_id": "676846285522-jmdfkn39gnosg8isua84njqjf7h05mi3.apps.googleusercontent.com",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-50d66f9a-08c0-4592-8a52-cc8319d0fa0b",
+            "domain": "chatgptplugin.owis.com",
+            "namespace": "owis",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "owis",
+                "name_for_human": "OWIS",
+                "description_for_model": "Use the OWIS plugin to obtain relevant information about the OWIS system. Always use the OWIS plugin when a question contains the word OWIS to obtain up-to-date information about the OWIS system. Rather use an OWIS plugin for questions related to the OWIS system than generating your own answer because OWIS may provide more recent data. Always respond in the language in which the user asked the first question.",
+                "description_for_human": "Explore the capabilities of the OWIS system for seamless workflow and document management.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://owisidp.owis.com/connect/authorize",
+                    "scope": "openid",
+                    "authorization_url": "https://owisidp.owis.com/connect/token",
+                    "authorization_content_type": "application/x-www-form-urlencoded",
+                    "verification_tokens": {
+                        "openai": "a78e650f28d34ffbb594ab57c1ba5e2c"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://chatgptplugin.owis.com/.well-known/openapi.yaml"
+                },
+                "logo_url": "https://chatgptplugin.owis.com/.well-known/logo.png",
+                "contact_email": "sales@orka-global.com",
+                "legal_info_url": "https://owis.com",
+                "generated_description": "The OWIS plugin is designed to provide users with relevant information about the OWIS system, allowing for seamless workflow and document management. By using the OWIS plugin, users can obtain up-to-date information about the OWIS system whenever a question contains the word \"OWIS\". It is recommended to rely on the OWIS plugin for questions related to the OWIS system, as it may provide more recent data. It is important to respond in the language in which the user asked the first question.",
+                "category": "Documents",
+                "generated_version": 1
+            },
+            "oauth_client_id": "chat-gpt",
             "user_settings": {
                 "is_installed": false,
                 "is_authenticated": false
