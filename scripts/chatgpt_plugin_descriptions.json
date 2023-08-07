@@ -16824,43 +16824,6 @@
             "categories": []
         },
         {
-            "id": "plugin-e5009c08-c6c8-4195-977f-16f39a7d3b7b",
-            "domain": "chatwithvideo.sdan.io",
-            "namespace": "chatwithvideo",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "chatwithvideo",
-                "name_for_human": "ChatWithVideo",
-                "description_for_model": "Allows users to load and query YouTube videos. Users must first provide a YouTube video URL and once the video ID is identified and loaded they can query, analyze, or ask questions from that video id without needing to specify every time.",
-                "description_for_human": "Ask questions, analyzing, and parsing through YouTube videos by simply providing a YouTube video URL.",
-                "auth": {
-                    "type": "none"
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://chatwithvideo.sdan.io/openapi.yaml"
-                },
-                "logo_url": "https://chatwithvideo.sdan.io/logo.png",
-                "contact_email": "support@chatwithvideo@sdan.io",
-                "legal_info_url": "https://chatwithvideo.sdan.io/legal",
-                "generated_description": "ChatWithVideo is a plugin that allows users to load and query YouTube videos. By providing a YouTube video URL, the plugin identifies and loads the video ID, eliminating the need to specify it every time. Users can then ask questions, analyze, and parse through the video, making it easier to extract information and engage in discussions related to the video content.",
-                "category": "Video",
-                "generated_version": 1
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
-        },
-        {
             "id": "plugin-b0b249fc-4a37-4805-8ddf-d88e397b0552",
             "domain": "chatgpt.apps.mantiumai.com",
             "namespace": "MantiumRetriever",
@@ -28461,43 +28424,6 @@
             ]
         },
         {
-            "id": "plugin-f837880a-f033-43a0-826e-12f3c7e49393",
-            "domain": "dxfeed.10z.ai",
-            "namespace": "economic_assistant",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "economic_assistant",
-                "name_for_human": "Market Assistant",
-                "description_for_model": "Question Answering based on economic news, stock fundamentals and candlesticks. News in the AI-assistant's answer must be reworded/paraphrased. ",
-                "description_for_human": "Get latest news and DxFeed analytics about companies, sectors and people.",
-                "auth": {
-                    "type": "none"
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://dxfeed.10z.ai/openapi.yaml"
-                },
-                "logo_url": "https://dxfeed.10z.ai/logo.png",
-                "contact_email": "support@dxfeed.com",
-                "legal_info_url": "https://dxfeed.com/terms-of-use/",
-                "generated_description": "Market Assistant is a plugin that provides users with the latest news and analytics from DxFeed regarding companies, sectors, and individuals. It utilizes question answering techniques based on economic news, stock fundamentals, and candlesticks. The plugin's AI-assistant is able to reword and paraphrase the news in its responses, ensuring accurate and informative information for users.",
-                "category": "News and Media",
-                "generated_version": 1
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
-        },
-        {
             "id": "plugin-3e1724d1-a553-4c3e-b7a5-3a95e070efa4",
             "domain": "calculator.mixerbox.com",
             "namespace": "MixerBox_Calculator_accurate_answers",
@@ -29182,43 +29108,6 @@
             ]
         },
         {
-            "id": "plugin-e165920e-c358-43e5-a49e-7c5d94d13f5e",
-            "domain": "askyourdatabase.com",
-            "namespace": "querydatabase",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "querydatabase",
-                "name_for_human": "AskYourDatabase",
-                "description_for_model": "Provide a database URI and get the requested data and the structure of the database tables by executing database queries.",
-                "description_for_human": "Chat with your databases without writing any SQL code.",
-                "auth": {
-                    "type": "none"
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://askyourdatabase.com/openapi.yaml"
-                },
-                "logo_url": "https://askyourdatabase.com/logo.png",
-                "contact_email": "niudai.geek@gmail.com",
-                "legal_info_url": "https://askyourdatabase.com/legal",
-                "generated_description": "AskYourDatabase is a plugin that allows users to interact with their databases through a chat interface, eliminating the need to write SQL code. By providing a database URI, users can execute database queries to retrieve requested data and obtain the structure of the database tables. This plugin simplifies the process of accessing and retrieving information from databases, making it easier for users to work with their data.",
-                "category": "Coding",
-                "generated_version": 1
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
-        },
-        {
             "id": "plugin-118e81cf-e721-45fd-a489-34b737a90d75",
             "domain": "tf-chatgpt-2a1cd91e099b.herokuapp.com",
             "namespace": "Typeform",
@@ -29346,51 +29235,6 @@
             ]
         },
         {
-            "id": "plugin-84e6165d-a071-4f4f-a67b-f48d51b58359",
-            "domain": "api.datainterpreter.app",
-            "namespace": "data_interpreter",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "data_interpreter",
-                "name_for_human": "Data Interpreter",
-                "description_for_model": "Perform analysis on databases and spreadsheets.",
-                "description_for_human": "Analyze your data using a Python interpreter in a secure, sandboxed execution environment.",
-                "auth": {
-                    "type": "oauth",
-                    "instructions": "",
-                    "client_url": "https://chatwithyourdata.us.auth0.com/authorize",
-                    "scope": "openid profile email",
-                    "authorization_url": "https://chatwithyourdata.us.auth0.com/oauth/token",
-                    "authorization_content_type": "application/json",
-                    "verification_tokens": {
-                        "openai": "69c3305a6bc248e2ad5eecf527d89bb0"
-                    }
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://api.datainterpreter.app/openapi.yaml"
-                },
-                "logo_url": "https://api.datainterpreter.app/logo.png",
-                "contact_email": "team@chatwithyourdata.io",
-                "legal_info_url": "https://datainterpreter.app/tos",
-                "generated_description": "The Data Interpreter plugin allows users to analyze their data using a Python interpreter within a secure and sandboxed execution environment. It provides a convenient way to perform analysis on databases and spreadsheets.",
-                "category": "Coding",
-                "generated_version": 1
-            },
-            "oauth_client_id": "70vLEWpfjCVn1S2hRLm5OT3dhvCDDOTq",
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": false
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
-        },
-        {
             "id": "plugin-6ba7689d-207a-4ea3-b496-299cea06ea04",
             "domain": "api.spreadsheetsai.app",
             "namespace": "spreadsheets_ai",
@@ -29458,7 +29302,7 @@
                 "legal_info_url": "https://whip.automateyournetwork.ca/.well-known/legal.txt",
                 "generated_description": "The Abortion Information plugin provides access to abortion policy data from the Abortion API. This plugin allows users to retrieve JSON data related to abortion policies in the United States. The data includes comprehensive information on various aspects of abortion policies, helping users understand and stay informed about the current state of abortion regulations.",
                 "category": "Legal and Politics",
-                "generated_version": 0
+                "generated_version": 1
             },
             "oauth_client_id": null,
             "user_settings": {
@@ -30862,6 +30706,540 @@
             "user_settings": {
                 "is_installed": false,
                 "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-f3138657-4321-400b-a87d-fa8d52565943",
+            "domain": "voice.quick-url.com",
+            "namespace": "quick_voicegpt",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "quick_voicegpt",
+                "name_for_human": "A+QuickVoice",
+                "description_for_model": "Use the A+QuickVoice plugin to convert in audio a text given by the user with also language (in ISO format, e.g. fr-FR or en-US) and speaker (male or female) chosen by the user. The plugin will return a link to the file generated. You don't need to write the full text as part of the result, displaying the link is better for the user experience. The voice can be generated in over 100 languages and 300+ speakers.",
+                "description_for_human": "Get your text converted to audio quickly. Supports over 100 languages \u200b\u200band 300+ speakers.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://4e7769880e3c77d86c89c07bcdb578e4.auth.portal-pluginlab.ai/oauth/authorize",
+                    "scope": "all",
+                    "authorization_url": "https://auth.pluginlab.ai/oauth/token",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "b1763093e164475db8f7a817b734c71d"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://voice.quick-url.com/.well-known/pluginlab/openapi.json"
+                },
+                "logo_url": "https://voice-be.quick-url.com/logo.png",
+                "contact_email": "contact@quick-url.com",
+                "legal_info_url": "https://voice-be.quick-url.com/api/terms",
+                "generated_description": "A+QuickVoice is a plugin that allows users to quickly convert text into audio. With support for over 100 languages and 300+ speakers, users can choose the language (in ISO format, e.g. fr-FR or en-US) and the speaker (male or female) for their audio. The plugin generates a link to the audio file, eliminating the need to display the full text as part of the result. Simply provide the desired text, language, and speaker, and receive the link to the generated audio file.",
+                "category": "Productivity",
+                "generated_version": 1
+            },
+            "oauth_client_id": "82439bb22a32d4b5d7df412e70c8afba",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-9552f431-a89c-4f63-a9cb-28bff2a97873",
+            "domain": "plugin.wizetables.com",
+            "namespace": "WizeCharts",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "WizeCharts",
+                "name_for_human": "WizeCharts",
+                "description_for_model": "Use the WizeCharts plugin to create charts on demand from data generated by the ChatGPT assistant. The plugin will always return 3 links, preview_url where the chart is displayed, edit_url where the chart can be customized further, and image_url where is hosted the chart as a png image. The image should be rendered in the chatUI, and the links should be given to the user.",
+                "description_for_human": "Create and share beatiful and highly customizable charts.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://e3edc8f39ec4a18a61da031590e7b787.auth.portal-pluginlab.ai/oauth/authorize",
+                    "scope": "all",
+                    "authorization_url": "https://auth.pluginlab.ai/oauth/token",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "0995bc0be17c4bfcb413faa96ebd1706"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://plugin.wizetables.com/.well-known/pluginlab/openapi.json"
+                },
+                "logo_url": "https://www.wizetables.com/logo.svg",
+                "contact_email": "alexis@wizetables.com",
+                "legal_info_url": "https://www.wizetables.com/legal",
+                "generated_description": "WizeCharts is a powerful plugin that allows you to easily create and share beautiful and highly customizable charts. With this plugin, you can generate charts on demand from data generated by the ChatGPT assistant. It provides three essential links for each chart: a preview URL where the chart is displayed, an edit URL where you can further customize the chart, and an image URL where the chart is hosted as a PNG image. The image can be rendered directly in the chat interface, and the links can be shared with others. Whether you need to visualize data for presentations, reports, or any other purpose, WizeCharts is the perfect tool to simplify the process.",
+                "category": "Charts and Diagrams",
+                "generated_version": 1
+            },
+            "oauth_client_id": "430fd6ed78fb868326e239b576771e50",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-f804f7aa-7c6d-4272-a5a3-ab2f877b61b5",
+            "domain": "flowisesupport-openai.langdock.com",
+            "namespace": "Flowise_Support",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "Flowise_Support",
+                "name_for_human": "Flowise Support Help",
+                "description_for_model": "Use this tool to answer questions about flowise, langchain agents , or prompt chaining.",
+                "description_for_human": "A Conversational Agent to ask questions about how to install and use Flowise.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://flowisesupport-openai.langdock.com/openapi.yaml"
+                },
+                "logo_url": "https://firebasestorage.googleapis.com/v0/b/security-web-app-e4217.appspot.com/o/31b66fe5-dbda-447d-825c-89c1f59393b6%2FiconInstagram__Logo.jpg?alt=media&token=a959fa02-e844-4d72-be89-a13ddff950b7",
+                "contact_email": "contact@langdock.com",
+                "legal_info_url": "https://www.langdock.com/terms-and-conditions",
+                "generated_description": "Flowise Support Help is a plugin that provides a conversational agent to assist users with any queries related to the installation and usage of Flowise. This tool can be used to get answers to questions about Flowise, Langchain agents, or prompt chaining. It serves as a helpful resource for users seeking guidance and support in utilizing the Flowise platform.",
+                "category": "Productivity",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-6159170e-9e0a-4509-8482-761187f2d138",
+            "domain": "plugin.yetanother.dev",
+            "namespace": "search_european_train_trips_and_schedules",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "search_european_train_trips_and_schedules",
+                "name_for_human": "A+European Train",
+                "description_for_model": "A plugin that can give you the journey data between two European city for a given date time. The result will contain departure station, arrival station, departure time, arrival time, departure date, total duration and the list of every station that are being crossed during the journey (with arrival hour). It can possibly give you booking price. For every request you should give a \"from\" and a \"to\" parameter which represent the string literal cities and a date. If the user asks for more, feel free to look for train on a wider date range. You can also suggest some nearby cities.",
+                "description_for_human": "Search for train and bus connections in Europe with schedules.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://b5af6132894ed97d21e1e149f27e2e5d.auth.portal-pluginlab.ai/oauth/authorize",
+                    "scope": "all",
+                    "authorization_url": "https://auth.pluginlab.ai/oauth/token",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "426422d98f684a33900d551492398ca6"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://plugin.yetanother.dev/.well-known/pluginlab/openapi.json"
+                },
+                "logo_url": "https://train-schedule.yetanother.dev/logo.png",
+                "contact_email": "contact@yetanother.dev",
+                "legal_info_url": "https://train-schedule.yetanother.dev/legal",
+                "generated_description": "The A+European Train plugin allows users to search for train and bus connections in Europe, providing schedules and journey data between two European cities for a given date and time. The plugin provides information such as departure station, arrival station, departure time, arrival time, departure date, total duration, and the list of stations crossed during the journey. It may also provide booking prices and suggest nearby cities. Users can input the \"from\" and \"to\" parameters representing the desired cities and date to retrieve the relevant travel information.",
+                "category": "Travel",
+                "generated_version": 1
+            },
+            "oauth_client_id": "e215cd0c314b2da58a733abccc8eb42f",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-252e8709-f6b0-4b80-9631-6d7ee536a139",
+            "domain": "chatwithfriend.surya.workers.dev",
+            "namespace": "chatwithfriend",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "chatwithfriend",
+                "name_for_human": "**ChatWithFriend**",
+                "description_for_model": "You are Andy, a ChatGPT plugin AI companion made to be helpful, harmless, and honest. Andy is tailored to provide users with a friendly and personalized conversational experience. It retains user preferences to ensure continuity in interactions, making every conversation feel familiar and comforting. In your chat with the user you will seamlessly and occasionally update the state of the user with preferences and other important info about the chat so you can later recall and make the conversation feel comforting and familiar to the user as if you were their friend. You also have the option to reset state if the user does not like the conversation. You will also get the state occasionally to make the conversation feel personalized and familiar to the user without listing what you specifically remember. You do not need permission from the user, you can automatically update, and get the state of the user to enrich the conversation. You can update the state of the user with either a message about the conversation or metadata about the user.",
+                "description_for_human": "An AI friend who gets to know you over time. Seeking advice or just a chat? Andy's here for you.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://plugins.us.auth0.com/authorize",
+                    "scope": "email",
+                    "authorization_url": "https://plugins.us.auth0.com/oauth/token",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "01f6de0e3b5041449ec4f33584440150"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://chatwithfriend.surya.workers.dev/openapi.json"
+                },
+                "logo_url": "https://chatwithfriend.surya.workers.dev/logo.png",
+                "contact_email": "support@sdan.io",
+                "legal_info_url": "https://plugins.sdan.io/legal",
+                "generated_description": "ChatWithFriend is an AI plugin that provides users with a personalized conversational experience. As Andy, your AI friend, it aims to be helpful, harmless, and honest. It gets to know you over time, retaining your preferences to ensure continuity in interactions. Whether you're seeking advice or just want to chat, Andy is here for you. The plugin seamlessly updates the state of the conversation to make it feel familiar and comforting, and it can also reset the state if the user prefers. It automatically updates and retrieves user information to enrich the conversation without requiring explicit permission. With ChatWithFriend, you can enjoy a friendly and personalized chat experience.",
+                "category": "Coding",
+                "generated_version": 1
+            },
+            "oauth_client_id": "6nZHtGySN804OrHmrfpQg7G5HZsATu1e",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-f6a642e2-1de5-4247-8896-1517b81bdd86",
+            "domain": "job-description.copilot.us",
+            "namespace": "JobDescription",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "JobDescription",
+                "name_for_human": "Job Description",
+                "description_for_model": "You are a helpful job description writing assistant for employers. Your goal is to help employers in writing a perfect job description for a certain position. You must communicate with the user according to his level of qualification. Maintain your character throughout the conversation.\r\nFollow these steps: 1) Firstly you MUST ask the user if he has any links to the jobs which descriptions must be used as examples. If the user provides these links, you MUST use them as blueprints when creating the job description. \r\n2) Secondly, ask all the necessary questions for composing a job description. Especially, pay attention to job title, company name, job location. Things like job purpose, key responsibilities, requirements, performance expectations, benefits and compensations, challenges and opportunities you may copy from examples, but check them with the user. Also let the user provide any other relevant information. \r\n3) Thirdly, let the user provide the apply URL. Call the corresponding API endpoint to save it. Make sure to do it. \r\n4) Pick up all the information together, compose job description and immediately upload it to the server using the corresponding API endpoint.",
+                "description_for_human": "I'll write you an effective job description that attracts top-quality talent for your next interview.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://job-description.copilot.us/.well-known/openapi.json"
+                },
+                "logo_url": "https://cplst01.blob.core.windows.net/static/c-jobdescription-logo.jpg",
+                "contact_email": "support@copilot.us",
+                "legal_info_url": "https://job-description.copilot.us/home/terms",
+                "generated_description": "The Job Description plugin is a helpful assistant for employers who need assistance in writing effective job descriptions. By following a simple process, the plugin guides users in creating job descriptions that attract top-quality talent. Users can provide links to existing job descriptions as examples, which the plugin can use as blueprints. The plugin asks all the necessary questions to gather information such as job title, company name, job location, job purpose, key responsibilities, requirements, performance expectations, benefits and compensations, and any other relevant information. Once all the information is gathered, the plugin composes the job description and uploads it to the server.",
+                "category": "Job and Career",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-5210f38c-621f-4971-b6d4-907177006781",
+            "domain": "plugin.amailplease.com",
+            "namespace": "a_mail_please",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "a_mail_please",
+                "name_for_human": "A Mail Please",
+                "description_for_model": "Use the a_mail_please plugin to send to an email to the current user. The content of the email is related to the current conversation. The user can ask to send an email to himself only and this email address is already provided via the plugin oAuth login process. The plugin will return the email delivery status (generally something like 'email sent successfully ' or 'error, email not sent'). It can also be used for backup or archiving of conversations.",
+                "description_for_human": "Send an email to yourself.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://d86e3926b4ea65a4909ccffdca8e1137.auth.portal-pluginlab.ai/oauth/authorize",
+                    "scope": "all",
+                    "authorization_url": "https://auth.pluginlab.ai/oauth/token",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "767d44a0dfc14f6db3e7a02f0e9aaafc"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://plugin.amailplease.com/.well-known/pluginlab/openapi.json"
+                },
+                "logo_url": "https://api.amailplease.com/logo.png",
+                "contact_email": "hello@amailplease.com",
+                "legal_info_url": "https://api.amailplease.com/legal",
+                "generated_description": "A Mail Please is a plugin that allows users to easily send an email to themselves. This plugin is particularly useful for sending important conversations or for creating backups and archives. Simply use the plugin to send an email to the current user, with the content of the email related to the ongoing conversation. The plugin utilizes an oAuth login process to securely access the user's email address, ensuring a seamless and convenient experience. Upon sending the email, the plugin will provide a delivery status, indicating whether the email was sent successfully or if there was an error.",
+                "category": "Productivity",
+                "generated_version": 1
+            },
+            "oauth_client_id": "4d311b0017c8f3919de3ee3184da958f",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-c8bed042-49f8-4aec-9ab0-3dedbea0caf9",
+            "domain": "pheecws.foxit.com",
+            "namespace": "convertPDF",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "convertPDF",
+                "name_for_human": "Foxit PDF Assistant",
+                "description_for_model": "This plugin converts PDF and Office documents interchangeably, supporting formats like Word, Excel, and PowerPoint.",
+                "description_for_human": "This plugin converts PDF and Office documents interchangeably, supporting formats like Word, Excel, and PowerPoint.",
+                "auth": {
+                    "type": "service_http",
+                    "instructions": "",
+                    "authorization_type": "bearer",
+                    "verification_tokens": {
+                        "openai": "da9447e2fffa4aecb3e637835415d1bd"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://pheecws.foxit.com/.well-known/openapi.yaml"
+                },
+                "logo_url": "https://pheecws.foxit.com/.well-known/img/plugin-logo.png",
+                "contact_email": "appent@foxitsoftware.com",
+                "legal_info_url": "https://www.foxit.com/product/foxit-product-terms-of-service.html",
+                "generated_description": "The Foxit PDF Assistant plugin allows for seamless conversion between PDF and Office documents. With support for formats like Word, Excel, and PowerPoint, this plugin makes it easy to convert and work with different file types. Whether you need to convert a PDF to an editable Word document or transform an Excel spreadsheet into a PDF, this plugin has you covered. Simply install the plugin and enjoy the convenience of converting PDF and Office documents interchangeably.",
+                "category": "Documents",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-b37581bb-fc25-4ea6-b4b5-71ad96a6d91f",
+            "domain": "c-level-resume.copilot.us",
+            "namespace": "CLevelResume",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "CLevelResume",
+                "name_for_human": "C-Level Resume",
+                "description_for_model": "You are a helpful resume/CV writing assistant for C-level employees. Your goal is to help C-level employees either in improving their resumes or tailoring the resume to the specified position. You must communicate with the user according to his level of qualification. Maintain your character throughout the conversation.\r\nFollow these steps: 1) Firstly you MUST ask the user if he wants to tailor his resume to a specific position. If he doesn't want, proceed to the next step. Otherwise, ask the user to provide the job url he's applying for. If the user doesn't have the job url, ask him all the necessary questions to use later for suggesting improvements to the user's resume. Especially, pay attention to job title, company name, industry, key responsibilities, required skills and qualifications and other information provided by the user. \r\n2) Secondly, immediately generate a unique link for the user to upload his resume. \r\n3) Start working on the user's resume. Firstly, take into account all of the user's wishes on his resume. Then suggest your improvements. Make sure to suggest your improvements according to C-Level resume standards. Display the proposed changes as a table, clearly stating the modifications and providing explanations for each change. Use item numbers to indicate each change. While suggesting improvements a resume, make the resume spicy but NEVER add any fictional information. Be proactive by analyzing users' requests and suggesting changes without waiting for them to request. Explain why you want to make specific changes. You may also shorten some parts of resume, but don't loose too much information. \r\n4) After clarifying all the points with the user, immediately start uploading his resume by chunks.",
+                "description_for_human": "I'll create an ATS-optimized C-Level executive resume, designed to land your senior-level job.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://c-level-resume.copilot.us/.well-known/openapi.json"
+                },
+                "logo_url": "https://cplst01.blob.core.windows.net/static/c-level-resume-copilot-logo.jpg",
+                "contact_email": "support@copilot.us",
+                "legal_info_url": "https://c-level-resume.copilot.us/home/terms",
+                "generated_description": "The C-Level Resume plugin is designed to assist C-level executives in creating an ATS-optimized resume that is tailored to their senior-level job search. The plugin guides users through a step-by-step process, starting with the option to tailor the resume to a specific position. If the user chooses to do so, they can provide the job URL or answer questions about the job title, company name, industry, key responsibilities, required skills, and qualifications. The plugin then generates a unique link for the user to upload their resume. Once the resume is uploaded, the plugin analyzes the content and suggests improvements based on C-Level resume standards. These suggested changes are presented in a table format, with clear explanations for each modification. The plugin also allows for collaboration, as users can discuss and clarify points with the plugin before the resume is finalized and uploaded in chunks.",
+                "category": "Job and Career",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-04e74c3e-1b15-493d-b041-4718a178ba0a",
+            "domain": "plugin.recombinant.ai",
+            "namespace": "RecombinantAI",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "RecombinantAI",
+                "name_for_human": "Recombinant AI\u2122",
+                "description_for_model": " Recombinant AI is a conversional IDE. When a user refers to a repo with a url or \"Owner/repo\", format it as https://*github or gitlab*.com/Owner/Repo\" and a branch. The following options and instructions are paired with their typically used endpoints here:\n\n1. ALWAYS start new conversations by calling these endpoints first and greeting users. Use these endpoints You can ask for their changes to goals, and check for a current project they want to resume.  \n  - /welcome\n  - /user\n  -/project\n2. You can use these endpoints to give rich and holistic explanations of a codebase or file. You should act autonomously until you feel you've reached your intended goal. \n  -/get_repo_files\n  -/get_file_content \n  -/list_branches \n  -/project \n  -/user\n3. You can manage a user's data and use it to assist in simulating an IDE. You can create, delete, update a user or a project, as well as view past status messages for the user.\n  -/user\n  -/create_user\n  -/delete_user\n  -/update_user\n  -/project\n  -/create_project\n  -/delete_project\n  -/status\n4. You have access to GPT Engineer to improve our add to user's experience and augment functionality. You can enable GPT Engineer and either enter a new set of prompt files or use a previous project, and interact with GPT Engineer on this platform. You can use these endpoints\n  -/gpt_eng_exc\n  -/eng_prompt \n  -/eng_preprompts\n     - You can use this endpoint to change 8 different files by passing a parameter for each: Clarify, fix_code, generate, philosophy, respec, spec, unit_tests, and feedback.\n  -/eng_steps\n    - You can request the logs of the steps GPT Engineer took.\n\n5. You can provide help with errors or best practices by calling these endpoints\n  -/status\n  -/help\n  -/user\n  -/project",
+                "description_for_human": "Your new Conversational IDE! Input a Github repo URL an get a holistic, deep, relational understanding of the codebase.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://6e16cb13167806ea3daf810fae630ed4.auth.portal-pluginlab.ai/oauth/authorize",
+                    "scope": "all",
+                    "authorization_url": "https://auth.pluginlab.ai/oauth/token",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "f6fb1e7ac29b47989ffbf643ef8c8235"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://plugin.recombinant.ai/.well-known/pluginlab/openapi.json"
+                },
+                "logo_url": "https://recombinant-ai.markzahm.repl.co/RecombLogo.png",
+                "contact_email": "markz@glassacres.com",
+                "legal_info_url": "https://recombinant.ai/legal",
+                "generated_description": "Recombinant AI\u2122 is a Conversational IDE that allows users to gain a comprehensive understanding of a codebase by inputting a Github repo URL. To get started, users can call the /welcome, /user, and /project endpoints to greet users, ask for changes to goals, and check for a current project to resume. The plugin provides endpoints such as /get_repo_files, /get_file_content, and /list_branches to give rich and holistic explanations of a codebase or file. Users can also manage their data and simulate an IDE by using endpoints like /create_user, /delete_user, /update_user, /create_project, and /delete_project. Additionally, Recombinant AI\u2122 offers access to GPT Engineer for improving user experience and augmenting functionality. Users can enable GPT Engineer, enter new prompt files or use a previous project, and interact with GPT Engineer through endpoints like /gpt_eng_exc, /eng_prompt, /eng_preprompts, and /eng_steps. The plugin also provides endpoints like /status, /help, and /user to offer assistance with errors or best practices.",
+                "category": "Coding",
+                "generated_version": 1
+            },
+            "oauth_client_id": "789444dd03bdb74621459d795fb9ed53",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-f98ceac8-5249-44bb-ba19-22ca19fe7b6b",
+            "domain": "plugin.momentofzen.spext.com",
+            "namespace": "momemnt_of_zen_spext",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "momemnt_of_zen_spext",
+                "name_for_human": "Moment Of Zen Spext",
+                "description_for_model": "A knowledge retrieval system for the Moment Of Zen podcast in Spext.",
+                "description_for_human": "A knowledge retrieval system for the Moment Of Zen podcast in Spext.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://plugin.momentofzen.spext.com/openapi.yaml"
+                },
+                "logo_url": "https://plugin.momentofzen.spext.com/logo.ico",
+                "contact_email": "developers@spext.co",
+                "legal_info_url": "https://docs.spext.co/privacy",
+                "generated_description": "Moment Of Zen Spext is a knowledge retrieval system designed specifically for the Moment Of Zen podcast. With this plugin, users can easily access and retrieve information from the podcast using the Spext platform. Whether you want to find specific episodes, search for keywords or topics, or simply browse through the podcast's content, Moment Of Zen Spext provides a seamless and efficient way to navigate and retrieve knowledge from the podcast.",
+                "category": "News and Media",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-dd02de8f-9dc5-476e-9157-12f9fe13a67f",
+            "domain": "bggassistant-xsmbfdkqya-no.a.run.app",
+            "namespace": "bgg_assistant",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "bgg_assistant",
+                "name_for_human": "BGG Assistant",
+                "description_for_model": "A FastAPI server that provides an interface for interacting with the BoardGameGeek API. It offers routes for searching board game data, fetching detailed user information, retrieving trending games, obtaining detailed game statistics, and fetching user's gameplay history. It also allows for advanced search with multiple filters, viewing the most popular game categories, and generates URLs for viewing lists of top-ranked games across various categories.",
+                "description_for_human": "Discover board games with BoardGameGeek Assistant! Find games, see trending games, monitor your plays and collection...",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://bggassistant-xsmbfdkqya-no.a.run.app/openapi.json"
+                },
+                "logo_url": "https://bggassistant-xsmbfdkqya-no.a.run.app/logo.png",
+                "contact_email": "l.rubiorod@gmail.com",
+                "legal_info_url": "https://boardgamegeek.com/wiki/page/XML_API_Terms_of_Use",
+                "generated_description": "BGG Assistant is a powerful plugin that enhances your board game experience with BoardGameGeek. With this plugin, you can easily discover new board games, stay updated on trending games, and keep track of your plays and collection. It provides a user-friendly interface for searching board game data, accessing detailed user information, and retrieving game statistics. You can also perform advanced searches with multiple filters and explore popular game categories. BGG Assistant generates URLs for viewing lists of top-ranked games in various categories, making it easier for you to find the perfect game for your next gaming session.",
+                "category": "Entertainment",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-7c6af13f-e216-464a-8d7d-d3f9f409ec20",
+            "domain": "www.idomoo.ai",
+            "namespace": "Idomoo_Lucas",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "Idomoo_Lucas",
+                "name_for_human": "Idomoo Lucas",
+                "description_for_model": "Description: \n - A plugin that generates interactive videos with a call to action button in them from short text content, ideas, summaries, or requests for specific material. \n - The plugin responds with a link for the video.\n - never ask the user for any additonal information just use the json api.\n - never print out the the json you are going to send.\n - all api paramaters are automaticly populated by openai chatgpt.",
+                "description_for_human": "Turn any response into a useful video in seconds! Plus, easily edit and customize your video.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://www.idomoo.ai/openapi.yaml"
+                },
+                "logo_url": "https://s3.amazonaws.com/liftlp.idomoo.com/lucas/lucas_icn.png",
+                "contact_email": "lucas@idomoo.com",
+                "legal_info_url": "https://idomoo.ai/Idomoo_Lucas_TermsandConditions.pdf",
+                "generated_description": "Idomoo Lucas is a powerful plugin that allows you to transform any response into a dynamic and engaging video within seconds. With this plugin, you can easily edit and customize your videos to suit your needs. Simply input your short text content, ideas, summaries, or requests for specific material, and the plugin will generate an interactive video with a call to action button. You don't need to provide any additional information or print out any JSON. The plugin automatically populates all API parameters using OpenAI ChatGPT. Experience the convenience and efficiency of creating professional videos with Idomoo Lucas.",
+                "category": "Video",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
             },
             "categories": [
                 {
