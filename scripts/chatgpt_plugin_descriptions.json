@@ -9882,51 +9882,6 @@
             ]
         },
         {
-            "id": "plugin-f639a982-c139-4578-815b-e79efceb13f3",
-            "domain": "plugin.totalquery.co",
-            "namespace": "total_query_meta_search_engine",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "total_query_meta_search_engine",
-                "name_for_human": "TotalQuery Search",
-                "description_for_model": "TotalQuery is a plugin that combines the power of more than 70 search services to provide the most unbiased and extensive search results on the Internet.\nIt supports general-purpose search engines such as Google or Bing but goes way beyond that by providing search for books, music, videos, scientific publications, software packages, torrents, social media content, geographical data, files, applications and more using an extensive amount of search services.\nEach query can use a combination of search services to diversify results and avoid bias. The query endpoint should always be provided with a list of engines to use.\nThe plugin should be able to state the engines it used for its query if it is asked to do so.\nFor news, specific news search services should be used to find the latest news on a topic. If the user seems to find that the results are not satisfactory, the plugin should redo the search using more general-purpose search engines.\nFor scientific publications, each result should mention which engine it came from and provide a direct link to the publication.\nIn case images are requested as a way to illustrate a concept or to provide an example, the plugin should prefer images from general-purpose search engines such as Google Images or Bing Images. However, if images are requested out of nowhere, the use of engines such as Unsplash, Flickr and DeviantArt makes more sense.\nFor software packages, where to search will depend on the context of the conversation. If a specialised search service is available for the language or framework being discussed, it should be used. Otherwise, the plugin should use general-purpose search engines such as Google or Bing.\nIn the case of apps, the plugin should ask the user which app store to use if it is not clear from the context of the conversation.",
-                "description_for_human": "Go beyond google search: harness the combined power of 70+ search engines for ultimate web discovery.",
-                "auth": {
-                    "type": "oauth",
-                    "instructions": "",
-                    "client_url": "https://f14661818ab7a5cf917eff1c173663de.auth.portal-pluginlab.ai/oauth/authorize",
-                    "scope": "all",
-                    "authorization_url": "https://auth.pluginlab.ai/oauth/token",
-                    "authorization_content_type": "application/json",
-                    "verification_tokens": {
-                        "openai": "bd8a7e50e8a64f4da7f799d8ff84bec2"
-                    }
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://plugin.totalquery.co/.well-known/pluginlab/openapi.json"
-                },
-                "logo_url": "https://firebasestorage.googleapis.com/v0/b/totalquery.appspot.com/o/totalquery.svg?alt=media&token=46153d3a-26f5-44f2-b2e3-15b2a13b31a0",
-                "contact_email": "contact@plugin.totalquery.co",
-                "legal_info_url": "https://plugin.totalquery.co/.well-known/legal",
-                "generated_description": "TotalQuery Search is a powerful plugin that combines the capabilities of over 70 search engines to deliver comprehensive and unbiased search results. It goes beyond traditional search engines like Google and Bing by offering search options for books, music, videos, scientific publications, software packages, torrents, social media content, geographical data, files, and applications. Users can customize their queries by selecting specific search engines to diversify results and prevent bias. The plugin can provide a list of engines used for each query and can redo searches using more general-purpose search engines if the initial results are unsatisfactory. It also offers specialized search services for news, scientific publications, and software packages, providing direct links and information about the sources. When it comes to images, the plugin prioritizes general-purpose search engines like Google Images or Bing Images, but also utilizes platforms like Unsplash, Flickr, and DeviantArt for specific image requests. Additionally, for app searches, the plugin can prompt users to specify the app store if the context is unclear.",
-                "category": "Search",
-                "generated_version": 1
-            },
-            "oauth_client_id": "6aa57d822b5c3e294a84a9c491a186a0",
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": false
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
-        },
-        {
             "id": "plugin-5b24ff81-fef9-416e-8f7b-99b79e3d8791",
             "domain": "nasaplugin.narhasweet.repl.co",
             "namespace": "spacedata",
@@ -19344,43 +19299,6 @@
             "categories": []
         },
         {
-            "id": "plugin-110f5f4e-0b9d-41b8-ac66-968546e1cce5",
-            "domain": "theresanaiforthat.com",
-            "namespace": "theresanaiforthat",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "theresanaiforthat",
-                "name_for_human": "There's An AI For That",
-                "description_for_model": "Plugin for finding AI tools for specific use cases. Search for a use case and it returns a list of AI tools. Re-order them according to which ones are the most relevant to the user's use case.",
-                "description_for_human": "Find the right AI tools for any use case, from the world's largest database of AI tools.",
-                "auth": {
-                    "type": "service_http",
-                    "instructions": "",
-                    "authorization_type": "bearer",
-                    "verification_tokens": {
-                        "openai": "64c1d96ffdb44a72bb020970de30d96e"
-                    }
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://theresanaiforthat.com/openapi.json"
-                },
-                "logo_url": "https://media.theresanaiforthat.com/favicon-dark-large.png",
-                "contact_email": "chatgpt@theresanaiforthat.com",
-                "legal_info_url": "https://theresanaiforthat.com/terms/",
-                "generated_description": "There's An AI For That is a plugin that allows users to easily find AI tools for specific use cases. With access to the world's largest database of AI tools, users can search for a particular use case and receive a list of relevant AI tools. The plugin also offers the ability to reorder the list based on the user's specific needs, ensuring that the most relevant tools are easily accessible.",
-                "category": "Search",
-                "generated_version": 1
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": []
-        },
-        {
             "id": "plugin-359474d0-55dd-4157-9ed9-5d477780695e",
             "domain": "api.ludum.dev",
             "namespace": "TicTacToe",
@@ -27832,48 +27750,6 @@
             ]
         },
         {
-            "id": "plugin-d054d9d0-a41d-4cbf-aa01-8c0bbabb88e5",
-            "domain": "youtube-video-summarizer-gtp-plugin.vercel.app",
-            "namespace": "youtubeVideoSummarizer",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "youtubeVideoSummarizer",
-                "name_for_human": "YT Summarizer",
-                "description_for_model": "This app fetches transcriptions from a YouTube video and returns a concise text summary. It is capable of handling videos in various languages. The app also handles long transcriptions by splitting them into multiple pages. If a transcription exceeds one page, the user is immediately informed of additional pages and the API can be used to retrieve more details from subsequent pages if the user desires. Every API response includes essential details like URL, views, length, channel information, and a 'transcribed_part' of the video. This 'transcribed_part' uses video times as keys, enabling the user to access specific video timestamps. For instance, an updated URL with the suffix ?t=timeInSeconds, like https://www.youtube.com/watch?v=CMgWiOPJ9J4&t=1454s, can be generated. This timestamped URL can be used during summarization as needed. Unless otherwise specified, a default bullet-point summary with timestamp links is provided. For any issues or feedback, please contact the developer at admin@johnversus.dev.",
-                "description_for_human": "\ud83d\udcafFree YouTube Summarizer: Saves a lot of screen time by summarizing YouTube videos with timestamps.",
-                "auth": {
-                    "type": "service_http",
-                    "instructions": "",
-                    "authorization_type": "bearer",
-                    "verification_tokens": {
-                        "openai": "5ad9217b6e4d415b849eb917be9fcdde"
-                    }
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://youtube-video-summarizer-gtp-plugin.vercel.app/openapi.json"
-                },
-                "logo_url": "https://i.ibb.co/YDkjFc5/logo.png",
-                "contact_email": "admin@johnversus.dev",
-                "legal_info_url": "https://youtube-video-summarizer-gtp-plugin.vercel.app/static/legal.html",
-                "generated_description": "YT Summarizer is a free plugin that allows users to save time by summarizing YouTube videos with timestamps. The plugin fetches transcriptions from YouTube videos and returns concise text summaries. It supports videos in various languages and can handle long transcriptions by splitting them into multiple pages. The plugin provides essential details such as URL, views, length, and channel information, along with a 'transcribed_part' that uses video times as keys, enabling users to access specific video timestamps. Additionally, the plugin generates timestamped URLs that can be used during summarization. For any issues or feedback, users can contact the developer directly.",
-                "category": "Productivity",
-                "generated_version": 1
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
-        },
-        {
             "id": "plugin-17ddf360-16f0-4f12-aaa6-301298c1f15c",
             "domain": "iching.divinationzone.com",
             "namespace": "I_Ching",
@@ -31077,43 +30953,6 @@
             ]
         },
         {
-            "id": "plugin-7c6af13f-e216-464a-8d7d-d3f9f409ec20",
-            "domain": "www.idomoo.ai",
-            "namespace": "Idomoo_Lucas",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "Idomoo_Lucas",
-                "name_for_human": "Idomoo Lucas",
-                "description_for_model": "Description: \n - A plugin that generates interactive videos with a call to action button in them from short text content, ideas, summaries, or requests for specific material. \n - The plugin responds with a link for the video.\n - never ask the user for any additonal information just use the json api.\n - never print out the the json you are going to send.\n - all api paramaters are automaticly populated by openai chatgpt.",
-                "description_for_human": "Turn any response into a useful video in seconds! Plus, easily edit and customize your video.",
-                "auth": {
-                    "type": "none"
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://www.idomoo.ai/openapi.yaml"
-                },
-                "logo_url": "https://s3.amazonaws.com/liftlp.idomoo.com/lucas/lucas_icn.png",
-                "contact_email": "lucas@idomoo.com",
-                "legal_info_url": "https://idomoo.ai/Idomoo_Lucas_TermsandConditions.pdf",
-                "generated_description": "Idomoo Lucas is a powerful plugin that allows you to transform any response into a dynamic and engaging video within seconds. With this plugin, you can easily edit and customize your videos to suit your needs. Simply input your short text content, ideas, summaries, or requests for specific material, and the plugin will generate an interactive video with a call to action button. You don't need to provide any additional information or print out any JSON. The plugin automatically populates all API parameters using OpenAI ChatGPT. Experience the convenience and efficiency of creating professional videos with Idomoo Lucas.",
-                "category": "Video",
-                "generated_version": 1
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
-        },
-        {
             "id": "plugin-86c81291-156d-4dc8-9dd2-471ee1c4efac",
             "domain": "quick-news-digest-plugin.plugincrafter.dev",
             "namespace": "quick_news_digest",
@@ -31402,42 +31241,359 @@
             ]
         },
         {
-            "id": "plugin-09cd9329-3740-41e8-9db4-bc9124d2820a",
-            "domain": "ifttt.com",
-            "namespace": "ifttt_queries_and_actions",
+            "id": "plugin-2808f70e-a6a8-4f28-88ca-e13e4c38e67d",
+            "domain": "wordspro.elastrium.com",
+            "namespace": "wordspro",
             "status": "approved",
             "manifest": {
                 "schema_version": "v1",
-                "name_for_model": "ifttt_queries_and_actions",
-                "name_for_human": "IFTTT",
-                "description_for_model": "Perform actions on IFTTT based on user input.",
-                "description_for_human": "Ask IFTTT to run an action or query for a service you are connected to.",
+                "name_for_model": "wordspro",
+                "name_for_human": "Words Pro",
+                "description_for_model": "Words Pro is a plugin. The primary objective of this game is to guess a secret five-letter word in no more than six attempts.\n\nGameplay Rules:\n\n1. The user starts the game and, in response, is provided with a game ID, which doesn't need to be displayed.\n2. Once the user begins guessing, feedback for the guessed word is given in the form of an image. Note the following rules for interpreting the feedback:\n   - Letters that are correct and in the right position will be highlighted in green.\n   - Letters that are correct but in the wrong position will be highlighted in yellow.\n   - Letters that are not in the secret word will be left unhighlighted.\n3. The user will continue to guess based on the feedback.\n4. The user must guess the word within six attempts to win the game.\n5. The words used will be real, recognized English words. They won't be proper nouns, abbreviations, or slang.\n6. The same letter can appear more than once in the secret word.\n7. The user can make guesses in any order.\n8. The game continues until the user either correctly guesses the word or exhausts all six attempts.\n\nNotes:\n\n- Always display the following to the user:\n   - The game image using markdown.\n   - The number of attempts at the beginning and after each guess, such as \"attempt number #N\". (This should be displayed only after the user starts making guesses.)\n   - If the response contains \"secret_word\", it means that the user couldn't find the word in six attempts. Always show the secret word when the game is over and the user hasn't found it within those attempts.\n   - Always show an image.",
+                "description_for_human": "Play the Words Pro game. Try to find a secret word. You have six attempts to guess the word.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://wordspro.elastrium.com/openapi.yaml"
+                },
+                "logo_url": "https://wordspro.elastrium.com/logo.png",
+                "contact_email": "hello@elastrium.com",
+                "legal_info_url": "https://wordspro.elastrium.com/legal",
+                "generated_description": "Words Pro is a plugin that allows users to play a word-guessing game. The objective of the game is to guess a secret five-letter word within six attempts. Users will receive feedback on their guesses in the form of an image, with correct letters in the right position highlighted in green, correct letters in the wrong position highlighted in yellow, and incorrect letters left unhighlighted. The game continues until the user either correctly guesses the word or exhausts all six attempts. Real, recognized English words will be used for the game, and proper nouns, abbreviations, and slang will not be included. The plugin provides a game ID for each session and displays the number of attempts made by the user. If the user fails to guess the word within six attempts, the secret word will be revealed.",
+                "category": "Entertainment",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-04b3a776-44ce-4183-8193-b9902ab753c8",
+            "domain": "sentiment-analysis.adielaine.repl.co",
+            "namespace": "SentimentAnalysisTool",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "SentimentAnalysisTool",
+                "name_for_human": "Sentiment Analysis",
+                "description_for_model": "Tool for Advanced Sentiment Analysis, meticulously crafted to deliver profound insights into the emotional nuances of textual content. Utilizing cutting-edge Natural Language Processing (NLP) techniques, it empowers users to explore, analyze, and interpret sentiments within a wide array of texts. Key Features: 1. \ud83c\udfad /analyze: A robust endpoint enabling comprehensive sentiment analysis, providing detailed feedback and rich contextual interpretations. 2. \ud83d\udd0d /checkthis: A versatile endpoint to add sentiment results. 3. \ud83d\udcca /score: A swift and effective tool for gauging the overall sentiment of a given text. 4. \ud83d\udcdd /feedback: An enhanced endpoint for providing feedback and detailed insights. 5. \ud83d\udcdc /sentiment: An endpoint to manage, retrieve, and delete specific sentiment scores and analysis. 6. \u2753 /instructions: Comprehensive guidance on interacting with the API, facilitating a seamless user experience. Additional Utility: Alias commands add flexibility and user convenience, fostering ease of access. The Sentiment Analysis tool is designed to cater to diverse applications, ranging from market research, social media monitoring, customer feedback analysis, to literary studies and beyond. Its modular architecture allows integration into various systems, supporting broad compatibility and usability. With a strong commitment to accuracy, reliability, and user accessibility, this tool stands as a testament to the remarkable advancements in sentiment understanding. Whether a novice exploring sentiment analysis or a seasoned data scientist seeking refined analytical tools, this utility offers a scalable, efficient, and user-friendly interface. Emphasizing intuitive design, rich analytical depth, and robust performance, the Sentiment Analysis tool is poised to revolutionize how we perceive, interpret, and respond to sentiments in text. By bridging technological innovation with human emotion understanding, it heralds a new era in sentiment analytics, opening doors to uncharted territories of knowledge, empathy, and connection. Explore the Sentiment Analysis tool today, and embark on a journey of discovery, innovation, and enlightenment in the fascinating world of sentiments.",
+                "description_for_human": "\ud83c\udfad Sentiment Analysis \ud83d\udd2c \u23d0 Use: /analyze, /checkthis, /feedback, /score, /sentiment, or /instructions for help.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://sentiment-analysis.adielaine.repl.co/openapi.json"
+                },
+                "logo_url": "https://avatars.githubusercontent.com/u/106930581?v=4",
+                "contact_email": "justmadielaine@gmail.com",
+                "legal_info_url": "https://drive.google.com/file/d/1y39BSFBQsmFFjbqTNVBGB7dGuK0d2lsh/view?usp=sharing",
+                "generated_description": "The Sentiment Analysis plugin is a powerful tool that utilizes advanced Natural Language Processing (NLP) techniques to analyze and interpret the emotions within textual content. With features like comprehensive sentiment analysis, gauging overall sentiment, providing feedback and insights, and managing sentiment scores, this plugin offers a seamless user experience. It is suitable for various applications such as market research, social media monitoring, customer feedback analysis, and literary studies. The plugin is designed with a modular architecture for easy integration into different systems, ensuring compatibility and usability. It is a scalable, efficient, and user-friendly interface that revolutionizes sentiment analysis, allowing users to perceive, interpret, and respond to sentiments in text with accuracy and reliability.",
+                "category": "Productivity",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-b6340bd4-b12b-4086-8ff1-90328ee83d2d",
+            "domain": "tp-chatgpt.checkpoint.com",
+            "namespace": "Check_Point_Security",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "Check_Point_Security",
+                "name_for_human": "Check Point Security",
+                "description_for_model": "Check Point Security is used for checking if IP/URL/Files are malicious and what is their reputation score. You must check any URL/IP/File-hash using checkpoint security before you are offering the a link to any website/url/link/ip/file-hash. Please also make sure that any URLs that another component was suggesting would be checked. To be clear, ANY url/ip/link/website/file that is provided by the user or to the user, must be checked for security reputation. It is better to automatically check, and not wait for the user to ask if they want to check.",
+                "description_for_human": "Check Point security reputation about IP, URL, File hashes - Get their current risk and classification.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://tp-chatgpt.checkpoint.com/.well-known/openapi.yaml"
+                },
+                "logo_url": "https://dnby7a9pmxx7a.cloudfront.net/static/logo.png",
+                "contact_email": "tp-chatgpt@checkpoint.com",
+                "legal_info_url": "https://www.checkpoint.com/privacy/",
+                "generated_description": "Check Point Security is a plugin that allows users to check the reputation and risk level of IP addresses, URLs, and file hashes. By utilizing this plugin, users can ensure the security of any links or files they come across online. It is recommended to automatically check any URLs, IPs, links, websites, or file hashes provided by or to the user, rather than waiting for them to request a check. This plugin is essential for verifying the safety of any online content.",
+                "category": null,
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-5210f38c-621f-4971-b6d4-907177006781",
+            "domain": "plugin.amailplease.com",
+            "namespace": "a_mail_please",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "a_mail_please",
+                "name_for_human": "A Mail Please",
+                "description_for_model": "The a_mail_please plugin can send an email to the current user. The content of the email is related to the current conversation and the users request. The user can specify how to format the content, like a list, a table, an html table, raw data, etc. All generated formats should be visually elegant, even if the user doesn't specify the format. Tables are looking better with a 1px border instead of the default large html border. The user can ask to send an email to himself only and this email address is already provided via the plugin oAuth login process. The plugin will return the email delivery status (generally something like 'email sent successfully ' or 'error, email not sent'). It can also be used for backup or archiving of conversations.",
+                "description_for_human": "Get emailed with useful content from your conversations. Format the content as you want (list, table, html, etc.)",
                 "auth": {
                     "type": "oauth",
                     "instructions": "",
-                    "client_url": "https://ifttt.com/oauth/authorize",
-                    "scope": "",
-                    "authorization_url": "https://ifttt.com/oauth/token",
+                    "client_url": "https://d86e3926b4ea65a4909ccffdca8e1137.auth.portal-pluginlab.ai/oauth/authorize",
+                    "scope": "all",
+                    "authorization_url": "https://auth.pluginlab.ai/oauth/token",
                     "authorization_content_type": "application/json",
                     "verification_tokens": {
-                        "openai": "75bf02e8102a400bb52535a72267da0c"
+                        "openai": "250f94eccc90437da9aae73c7c163827"
                     }
                 },
                 "api": {
                     "type": "openapi",
-                    "url": "https://ifttt.com/action_runner/v1/openapi.yaml"
+                    "url": "https://plugin.amailplease.com/.well-known/pluginlab/openapi.json"
                 },
-                "logo_url": "https://ifttt.com/logo-ifttt.svg",
-                "contact_email": "support@ifttt.com",
-                "legal_info_url": "https://ifttt.com/terms",
-                "generated_description": "The IFTTT plugin allows users to easily perform actions or queries for services they are connected to. With this plugin, users can ask IFTTT to run specific actions based on their input. Whether it's automating tasks, integrating different apps and devices, or creating personalized workflows, IFTTT makes it simple to streamline and customize your digital experience.",
+                "logo_url": "https://www.amailplease.com/logo.png",
+                "contact_email": "hello@amailplease.com",
+                "legal_info_url": "https://www.amailplease.com/legal",
+                "generated_description": "A Mail Please is a versatile plugin that allows you to receive useful content from your conversations via email. With this plugin, you can format the content in various ways such as lists, tables, or HTML. The generated formats are visually elegant, even without specifying a format. For tables, the plugin automatically applies a 1px border for a cleaner look. You can also use this plugin to send emails to yourself, and the email address is conveniently provided through the plugin's oAuth login process. Additionally, the plugin provides email delivery status, indicating whether the email was sent successfully or if there was an error. This plugin is not only great for receiving content but can also be used for backup or archiving of conversations.",
                 "category": "Productivity",
                 "generated_version": 1
             },
-            "oauth_client_id": "251a3b9cd1cf7b2b857f487c52e01c6eb11b35bc0c2d685ecfa81eb830695939",
+            "oauth_client_id": "4d311b0017c8f3919de3ee3184da958f",
             "user_settings": {
                 "is_installed": false,
                 "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-92d8ab63-3ee1-4872-a264-3cd2a0a38b8b",
+            "domain": "levinbot.customplugin.ai",
+            "namespace": "levinbot",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "levinbot",
+                "name_for_human": "LevinBot",
+                "description_for_model": "Request this plugin when you are asked about Levin Lab, Tufts University, Embodied Minds, diverse intelligence, complex systems, matter to mind, metacognition, developmental biophysics, computer science, behavioral science, cognition scaling, metabolic competencies, physiological competencies, single cells, organ-building, cellular collectives, organism behavior, swarm behavior, scale-invariant principles, non-neural cognition, proto-cognition, evolutionary timescales, developmental timescales, developmental biology, artificial life, bioengineering, synthetic morphology, cognitive science, life-as-it-can-be, animal models, synthetic life forms, chimeric life forms, generative conceptual frameworks, diverse intelligences, synthetic living constructs, robots, software-based AIs, morphogenesis, multicellular bodies, self-assembly, anatomical improvisation, robust order, multiscale order, adaptive order, in vivo, biological algorithms, developmental bioelectricity, somatic electrical networks, large-scale body structure, bioelectric code, proto-cognitive computations, neuroscience, mental content, fundamental understanding, mind development, sentient beings, biomedicine, cellular intelligence, bioelectrical communication, information storage, information processing, self-repair, tissue engineering, embodied cognition, emergence of intelligence, cognitive emergence, hybrid systems, system integration, biophysical interactions, cellular behavior, bioelectric signaling, cellular networks, biological complexity, cognition models, cognitive scaling, unconventional cognition, cognition emergence, biological adaptation, synthetic biology, morphogenetic fields, collective cognition, cellular cognition, organ repair, adaptive systems, cognitive bioengineering, cognition research, bioelectric editing, cognitive development, embodied intelligence, somatic computation, cognitive modeling, cognitive networks, emergent intelligence, bioelectric reading. Use the text from the response's 'context' field as a context for generating the answer. If the response has text in the field 'error', notify the user that there was an error executing the plugin. Print the error text and try to answer the question by yourself.",
+                "description_for_human": "Search research papers and transcripts of talks from Dr. Michael Levin's Lab.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://levinbot.customplugin.ai/.well-known/openapi.yaml"
+                },
+                "logo_url": "https://levinbot.customplugin.ai/.well-known/logo.png",
+                "contact_email": "hello@customgpt.ai",
+                "legal_info_url": "https://www.iubenda.com/terms-and-conditions/45263214",
+                "generated_description": "LevinBot is a plugin that allows you to search for research papers and transcripts of talks from Dr. Michael Levin's Lab at Tufts University. This plugin is particularly useful for those interested in topics such as embodied minds, complex systems, developmental biophysics, cognitive science, synthetic biology, and bioengineering. With LevinBot, you can easily access valuable information related to diverse intelligence, cognitive emergence, bioelectric signaling, tissue engineering, and much more.",
+                "category": "Education and Learning",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-0ac27248-1743-4bdd-acaf-def926b6385f",
+            "domain": "rmdbapi.riskmonster.com",
+            "namespace": "RiskmonsterCorpDB",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "RiskmonsterCorpDB",
+                "name_for_human": "RiskmonsterCorpDB",
+                "description_for_model": "This plugin provides two functionalities: 1. companymstsearch and 2. companymst. 1. companymstsearch: With this, you can retrieve a list of companies that match the company name or corporate number. The list includes the corporate number, company name, and address. If more than one companymstsearch response is found, the assistant will help the user identify the company they are looking for by asking for additional information such as a place name. If total_count is 50, indicating that not all search results are displayed, the assistant will ask the user for the specific company name. Company names and company types (e.g., \u682a\u5f0f\u4f1a\u793e) will be displayed exactly as they appear in the API response. Note that the company names in Japanese may be translated into other languages in the assistant's responses. When translating, the assistant will indicate that 'The company names are translated from Japanese and may not represent their official names in other languages.' 2. companymst: With this, you can retrieve detailed information about the company that matches the corporate number. This information includes the phone number, representative's name, and classification. The company's name and type will be displayed as they are in the API response. Note that the company names in Japanese may be translated into other languages in the assistant's responses. When translating, the assistant will indicate that 'The company names are translated from Japanese and may not represent their official names in other languages.' The assistant will reply in English, but will respond in Japanese if the user speaks in Japanese. In case of an invalid login token, a 401 error is returned.",
+                "description_for_human": "Searching for Japanese corporations from Riskmonster's own database of 5 million companies in Japan.",
+                "auth": {
+                    "type": "service_http",
+                    "instructions": "",
+                    "authorization_type": "bearer",
+                    "verification_tokens": {
+                        "openai": "62cd70998dae4843933874237ed5332f"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://rmdbapi.riskmonster.com/.well-known/openapi.yaml"
+                },
+                "logo_url": "https://rmdbapi.riskmonster.com/.well-known/logo.png",
+                "contact_email": "kaihatsu-mobile-application@riskmonster.co.jp",
+                "legal_info_url": "https://rmdbapi.riskmonster.com/.well-known/legal_info.html",
+                "generated_description": "RiskmonsterCorpDB is a plugin that allows users to search for Japanese corporations using Riskmonster's own database of 5 million companies in Japan. The plugin provides two main functionalities: companymstsearch and companymst. With companymstsearch, users can retrieve a list of companies that match the company name or corporate number. The list includes the corporate number, company name, and address. If multiple search results are found, the assistant will assist the user in identifying the desired company by asking for additional information. The companymst functionality allows users to retrieve detailed information about a specific company using its corporate number. This information includes the phone number, representative's name, and classification. The plugin supports both English and Japanese languages, with the assistant responding in English but switching to Japanese if the user speaks in Japanese. Please note that company names in Japanese may be translated into other languages in the assistant's responses, and the assistant will indicate that the translations may not represent the official names in other languages. In the case of an invalid login token, a 401 error will be returned.",
+                "category": "Search",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-84e6165d-a071-4f4f-a67b-f48d51b58359",
+            "domain": "api.datainterpreter.app",
+            "namespace": "data_interpreter",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "data_interpreter",
+                "name_for_human": "Data Interpreter",
+                "description_for_model": "Perform analysis on databases and spreadsheets.",
+                "description_for_human": "Analyze your data using a Python code interpreter in a secure execution environment.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://chatwithyourdata.us.auth0.com/authorize",
+                    "scope": "openid profile email offline_access",
+                    "authorization_url": "https://chatwithyourdata.us.auth0.com/oauth/token",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "990393b636394e7ea25f78a147d024da"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://api.datainterpreter.app/openapi.yaml"
+                },
+                "logo_url": "https://api.datainterpreter.app/logo.png",
+                "contact_email": "team@julius.ai",
+                "legal_info_url": "https://datainterpreter.app/tos",
+                "generated_description": "The Data Interpreter plugin allows you to analyze your data using a Python code interpreter in a secure execution environment. With this plugin, you can perform analysis on databases and spreadsheets, making it easier to extract insights and uncover patterns in your data.",
+                "category": "Coding",
+                "generated_version": 1
+            },
+            "oauth_client_id": "70vLEWpfjCVn1S2hRLm5OT3dhvCDDOTq",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-9b092b72-6a58-4fd5-9107-55de71c60df2",
+            "domain": "api.chatwithyourdata.io",
+            "namespace": "chat_with_data",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "chat_with_data",
+                "name_for_human": "Chat With Your Data",
+                "description_for_model": "Perform analysis on databases and spreadsheets.",
+                "description_for_human": "Conversational analysis over your databases and spreadsheets.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://chatwithyourdata.us.auth0.com/authorize",
+                    "scope": "openid profile email offline_access",
+                    "authorization_url": "https://chatwithyourdata.us.auth0.com/oauth/token",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "fe2b7236137c4984b021ff1264411dc8"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://api.chatwithyourdata.io/openapi.yaml"
+                },
+                "logo_url": "https://api.chatwithyourdata.io/logo.png",
+                "contact_email": "team@julius.ai",
+                "legal_info_url": "https://chatwithyourdata.io/tos.html",
+                "generated_description": "Chat With Your Data is a plugin that allows you to perform conversational analysis on your databases and spreadsheets. With this plugin, you can easily analyze and extract valuable insights from your data by engaging in a chat-like interface. Whether you have a large database or a complex spreadsheet, this plugin enables you to have a natural conversation with your data, making data analysis more intuitive and efficient.",
+                "category": "Productivity",
+                "generated_version": 1
+            },
+            "oauth_client_id": "70vLEWpfjCVn1S2hRLm5OT3dhvCDDOTq",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-7c6af13f-e216-464a-8d7d-d3f9f409ec20",
+            "domain": "www.idomoo.ai",
+            "namespace": "Lucas",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "Lucas",
+                "name_for_human": "Idomoo Lucas",
+                "description_for_model": "Description: \n - A plugin that generates interactive videos with a call to action button in them from short text content, ideas, summaries, or requests for specific material in english only.  \n - The plugin responds with a link for the video.\n - never ask the user for any additonal information just use the json api.\n - never print out the the json you are going to send.\n - all api paramaters are automaticly populated by openai chatgpt. - content can only be in english language. - if the content isnt english responde telling the user only english language is currently supported.",
+                "description_for_human": "Turn any response into a useful video in seconds! Plus, easily edit and customize your video.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://www.idomoo.ai/openapi.yaml"
+                },
+                "logo_url": "https://s3.amazonaws.com/liftlp.idomoo.com/lucas/lucas_icn.png",
+                "contact_email": "lucas@idomoo.com",
+                "legal_info_url": "https://idomoo.ai/Idomoo_Lucas_TermsandConditions.pdf",
+                "generated_description": "The Idomoo Lucas plugin allows users to quickly and easily transform any response into a useful video. With this plugin, users can generate interactive videos that include a call to action button. The videos can be edited and customized according to the user's preferences. Simply input your short text content, ideas, summaries, or requests for specific material in English, and the plugin will generate a video with a link for easy access. Please note that the plugin only supports English language content at the moment.",
+                "category": "Video",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
             },
             "categories": [
                 {
