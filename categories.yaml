@@ -120,6 +120,10 @@ Entertainment:
   - adventure
   - pokemon
   - minecraft
+  - horoscope
+  - horoscopes
+  - astrology
+  - zodiac
 
 Events:
   - event
@@ -336,6 +340,9 @@ Real Estate:
   - houses
   - homes
   - listings
+  - building
+  - buildings
+  - construction
 
 Search:
   - link
@@ -418,6 +425,14 @@ Sports:
   - tournament
   - athlete
   - fitness
+
+Tabular Data:
+  - tabular
+  - csv
+  - csvs
+  - spreadsheet
+  - spreadsheets
+  - excel
 
 Text:
   - text
