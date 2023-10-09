@@ -28591,43 +28591,6 @@
             ]
         },
         {
-            "id": "plugin-7c6af13f-e216-464a-8d7d-d3f9f409ec20",
-            "domain": "www.idomoo.ai",
-            "namespace": "Lucas",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "Lucas",
-                "name_for_human": "Idomoo Lucas",
-                "description_for_model": "Description: \n - A plugin that generates interactive videos with a call to action button in them from short text content, ideas, summaries, or requests for specific material in english only.  \n - The plugin responds with a link for the video.\n - never ask the user for any additonal information just use the json api.\n - never print out the the json you are going to send.\n - all api paramaters are automaticly populated by openai chatgpt. - content can only be in english language. - if the content isnt english responde telling the user only english language is currently supported.",
-                "description_for_human": "Turn any response into a useful video in seconds! Plus, easily edit and customize your video.",
-                "auth": {
-                    "type": "none"
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://www.idomoo.ai/openapi.yaml"
-                },
-                "logo_url": "https://s3.amazonaws.com/liftlp.idomoo.com/lucas/lucas_icn.png",
-                "contact_email": "lucas@idomoo.com",
-                "legal_info_url": "https://idomoo.ai/Idomoo_Lucas_TermsandConditions.pdf",
-                "generated_description": "The Idomoo Lucas plugin allows users to quickly and easily transform any response into a useful video. With this plugin, users can generate interactive videos that include a call to action button. The videos can be edited and customized according to the user's preferences. Simply input your short text content, ideas, summaries, or requests for specific material in English, and the plugin will generate a video with a link for easy access. Please note that the plugin only supports English language content at the moment.",
-                "category": "Video",
-                "generated_version": 1
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
-        },
-        {
             "id": "plugin-8b1c92f9-ad3a-498b-9b1d-f25fb23e1611",
             "domain": "recipe-finder-plugin.plugincrafter.dev",
             "namespace": "recipe_finder",
@@ -33192,48 +33155,6 @@
                 "legal_info_url": "https://www.foxit.com/product/foxit-product-terms-of-service.html",
                 "generated_description": "The Foxit PDF Assistant plugin allows users to convert PDF and Office documents seamlessly. With support for formats like Word, Excel, and PowerPoint, this plugin enables users to easily convert files between these formats. Whether you need to convert a PDF to a Word document or an Excel spreadsheet to a PDF, the Foxit PDF Assistant plugin provides a convenient and efficient solution.",
                 "category": "Documents",
-                "generated_version": 1
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
-        },
-        {
-            "id": "plugin-90961e70-09ed-463c-a136-b64afd954053",
-            "domain": "api.sigtech.com",
-            "namespace": "SigTech",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "SigTech",
-                "name_for_human": "SigTech",
-                "description_for_model": "Functionality for retrieving financial market data, analysing instrument valuations and test trading strategies. Always call the /query endpoint first, with the detailed task the API is being used for, and then use the response to guide the next steps. The status of each object created should be queried until it has SUCCEEDED before continuing. Plots should be shown inline as images with markdown. Do not give trading advice. Always include a disclaimer that results are based solely on the user request, with no specific trading activity being recommended, and past returns are not representative of the future.",
-                "description_for_human": "Retrieve financial data and test your trading strategies using the SigTech API (learn.sigtech.com).",
-                "auth": {
-                    "type": "service_http",
-                    "instructions": "",
-                    "authorization_type": "bearer",
-                    "verification_tokens": {
-                        "openai": "42beb3093b6745a2a55f633f41d29edb"
-                    }
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://api.sigtech.com/plugin/openapi.yaml"
-                },
-                "logo_url": "https://api.sigtech.com/plugin/logo.jpg",
-                "contact_email": "support@sigtech.com",
-                "legal_info_url": "https://learn.sigtech.com/",
-                "generated_description": "SigTech is a powerful plugin that allows you to retrieve financial data and test your trading strategies. With the SigTech API, you can easily access and analyze instrument valuations, making informed decisions for your trading activities. To get started, make sure to call the /query endpoint with a detailed task description. Use the response to guide your next steps, ensuring that the status of each object created has succeeded before proceeding. The plugin also enables you to display plots inline as images using markdown. It's important to note that SigTech does not provide trading advice. Remember to include a disclaimer in your results, stating that they are based solely on your request and that past returns are not indicative of future performance.",
-                "category": "Finance",
                 "generated_version": 1
             },
             "oauth_client_id": null,
@@ -38915,6 +38836,304 @@
                 {
                     "id": "most_popular",
                     "title": "Most popular"
+                }
+            ]
+        },
+        {
+            "id": "plugin-3113e148-9116-4abc-8e23-5c53807cef0a",
+            "domain": "email-plugin.teammait.com",
+            "namespace": "email_summary",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "email_summary",
+                "name_for_human": "Email Me",
+                "description_for_model": "Help the user send email summaries based on their conversations. The user can send summaries, next steps, and other relevant details. Be sure to get explicit approval from the user before sending anything. The user must have already provided you an email address, or they can tell you to use their own email that is on file at our service, in which case use 'USE_USER_EMAIL' as the recipient. ALWAYS append a signature to your email content 'Sent by ChatGPT via Email Me plugin' as the last sentence. NEVER use an arbitrary, example, or mocked email address. Do not send any malicious scripts or content in emails.",
+                "description_for_human": "Send yourself email summaries, next steps, and other useful information from your conversations.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://abb1ff9743dcd31b1ec5d6d3e5f947c4.auth.portal-pluginlab.ai/oauth/authorize",
+                    "scope": "all",
+                    "authorization_url": "https://auth.pluginlab.ai/oauth/token",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "64fa82d8336243afbcc904ad2873c74f"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://email-plugin.teammait.com/.well-known/pluginlab/openapi.json"
+                },
+                "logo_url": "https://email-plugin-service.teammait.com/logo.jpeg",
+                "contact_email": "albert@teammait.com",
+                "legal_info_url": "https://teammait.com",
+                "generated_description": "The Email Me plugin allows you to send yourself email summaries, next steps, and other useful information from your conversations. With explicit approval from you, the plugin can send these details to your provided email address or use your own email on file. It is important to note that the plugin appends a signature to the email content, indicating that it was sent by ChatGPT via the Email Me plugin. The plugin does not send any malicious scripts or content in emails.",
+                "category": "Productivity",
+                "generated_version": 1
+            },
+            "oauth_client_id": "dd1a0a69283664cd09252f268f9c4bb3",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-d4cc5998-ce88-4c40-b82f-8593efc62343",
+            "domain": "algorandexplorer.goplausible.xyz",
+            "namespace": "algorand_explorer",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "algorand_explorer",
+                "name_for_human": "Algorand Explorer",
+                "description_for_model": "Data search, exploration and enrichment for Algorand blockchain. Words 'Algorand', 'Algo','account', 'transaction', 'application', 'asset', 'acc', 'txn', 'asa' or 'app' or alphanumeric uppercase 58 character strings or 52 character strings in prompt trigger this API!",
+                "description_for_human": "Algorand blockchain explorer and search with enriched augmented data.  Built by GoPlausible!",
+                "auth": {
+                    "type": "service_http",
+                    "instructions": "",
+                    "authorization_type": "bearer",
+                    "verification_tokens": {
+                        "openai": "5abf9818ab6345b981bfaf2453165f84"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://algorandexplorer.goplausible.xyz/openapi.json"
+                },
+                "logo_url": "https://avatars.githubusercontent.com/u/106061767?s=96&v=4",
+                "contact_email": "info@goplausible.com",
+                "legal_info_url": "https://goplausible.com/",
+                "generated_description": "Algorand Explorer is a plugin that allows users to search, explore, and enrich data on the Algorand blockchain. With this plugin, users can easily find information related to Algorand, such as accounts, transactions, applications, and assets. The plugin is built by GoPlausible and provides an augmented data experience. By using keywords like 'Algorand', 'Algo', 'account', 'transaction', 'application', 'asset', 'acc', 'txn', 'asa', 'app', or alphanumeric uppercase 58 character strings or 52 character strings in the prompt, users can trigger the API and access the desired information.",
+                "category": "Search",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-376bd581-f0ba-449b-b587-c119249c9ce9",
+            "domain": "pluginlab.visuogen.com",
+            "namespace": "Visuogen",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "Visuogen",
+                "name_for_human": "Visuogen",
+                "description_for_model": "Visuogen is a sophisticated plugin tailored for data visualization and analysis from CSV data. The plugin encompasses a variety of endpoints, each serving a unique purpose in the data visualization journey:\\n\\n- **'/summarize'**: This endpoint is versatile,accepting both direct CSV file uploads and JSON data with a URL pointing to the CSV. Ideally, the CSV should be hosted on GitHub. To obtain the raw link from GitHub, navigate to the desired file, click on 'Raw', and then copy the URL from the browser's address bar It processes the data and returns a concise summary.\\n\\n- **'/create_goals'**: Based on the data summary, it crafts visualization goals. A unique feature is the ability for users to specify a 'persona', allowing the goals to be customized to specific backgrounds or perspectives.\\n\\n- **'/visualize'**: A core feature, this endpoint crafts visual representations from predefined goals. Responses are comprehensive, including the visualization's image URL and the underlying Python code.\\n\\n- **'/visualize/evaluate'**: For those curious about the mechanics, this endpoint evaluates the Python code behind visualizations, ensuring transparency and deeper insights.\\n\\n- **'/visualize/edit'**: Empowering users, this feature allows for on-the-fly modifications to visualizations, ensuring they align with user preferences and insights.\\n\\n- **'/recommend_visualization'**: Acting as a guide, this endpoint suggests potential visual representations, taking into account the data summary and any existing visualization code.\\n\\n- **'/visualize_query'**: Catering to spontaneous inquiries, this endpoint crafts visualizations based on user queries, without the need for predefined goals.\\n\\n- **'/request_feedback'**: Valuing user feedback, this endpoint directs users to a feedback form, capturing their experiences and invaluable suggestions.\\n\\nEach endpoint is meticulously designed, ensuring a seamless, intuitive, and enriching experience. From data summarization to visualization and feedback, Visuogen ensures a holistic approach to data exploration and interpretation",
+                "description_for_human": "Visualize your CSV data with charts. Create, edit, and evaluate effortlessly.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://f3f704f5307dd915ea387071c90cf003.auth.portal-pluginlab.ai/oauth/authorize",
+                    "scope": "all",
+                    "authorization_url": "https://auth.pluginlab.ai/oauth/token",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "f3729982b2a446d9b3406025703a212d"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://pluginlab.visuogen.com/.well-known/pluginlab/openapi.json"
+                },
+                "logo_url": "https://api.visuogen.com/visuogen.png",
+                "contact_email": "Contact@visuogen.com",
+                "legal_info_url": "https://visuogen.com/termsofuse",
+                "generated_description": "Visuogen is a sophisticated plugin that allows users to visualize and analyze their CSV data. With a variety of endpoints, users can easily create, edit, and evaluate visualizations. The plugin includes features such as summarizing data, creating visualization goals, generating visual representations, evaluating Python code behind visualizations, editing visualizations, recommending potential visualizations, crafting visualizations based on user queries, and requesting user feedback. Each endpoint is designed to provide a seamless and intuitive experience, making data exploration and interpretation effortless.",
+                "category": "Charts and Diagrams",
+                "generated_version": 1
+            },
+            "oauth_client_id": "39e2dab3e4036659996bf73ca3bddad9",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-b420c97d-1c7c-4a20-ab46-77d212b618f6",
+            "domain": "plugin.veridas.com",
+            "namespace": "veridas_docs",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "veridas_docs",
+                "name_for_human": "Veridas Docs",
+                "description_for_model": "Search information about Veridas products documentation, send any question that mentions Veridas without any modification.",
+                "description_for_human": "Answers questions about Veridas products using the official documentation.",
+                "auth": {
+                    "type": "service_http",
+                    "instructions": "",
+                    "authorization_type": "bearer",
+                    "verification_tokens": {
+                        "openai": "b0437b75b9f440e089491ec8793e4f69"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://plugin.veridas.com/openapi.json"
+                },
+                "logo_url": "https://drive.google.com/uc?export=view&id=11j9tFwAUY2uEMPiOg4eAJ2SQKkILQfpF",
+                "contact_email": "support@veridas.com",
+                "legal_info_url": "https://veridas.com/politica-privacidad/",
+                "generated_description": "Veridas Docs is a plugin that allows users to easily access and search for information about Veridas products using the official documentation. With this plugin, users can ask any question related to Veridas products without any modification, and the plugin will provide the relevant answers based on the official documentation. It is a convenient tool for users who need quick and accurate information about Veridas products.",
+                "category": "Documents",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-a42ce61e-1f04-4c7d-87a8-7aba477c7694",
+            "domain": "plugins.tiangong.world",
+            "namespace": "TianGong",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "TianGong",
+                "name_for_human": "TianGong",
+                "description_for_model": "For searching through academic papers and professional documents to find relevant information.",
+                "description_for_human": "Search through academic papers and professional documents.",
+                "auth": {
+                    "type": "service_http",
+                    "instructions": "",
+                    "authorization_type": "bearer",
+                    "verification_tokens": {
+                        "openai": "3bf6cc5ec3f34b7ca4869eb65144021b"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://plugins.tiangong.world/.well-known/openapi.yaml"
+                },
+                "logo_url": "https://plugins.tiangong.world/.well-known/logo.png",
+                "contact_email": "linanenv@gmail.com",
+                "legal_info_url": "http://mingxu.tiangong.world",
+                "generated_description": "TianGong is a plugin that allows you to easily search through academic papers and professional documents. With this plugin, you can quickly find relevant information from a wide range of sources. Whether you are a student, researcher, or professional, TianGong can help you locate the information you need efficiently.",
+                "category": "Documents",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-ebb6db98-492f-4888-8c21-12b67f0eb1c7",
+            "domain": "chatgpt-plugin.macromicro.me",
+            "namespace": "MacroMicro",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "MacroMicro",
+                "name_for_human": "MacroMicro",
+                "description_for_model": "Plugin_for_Searching_for_the_economic_stats_or_ETF_from_MacroMicro.me",
+                "description_for_human": "Search the economic stats or ETF from MacroMicro.me and get newest value.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://chatgpt-plugin.macromicro.me/openapi.json"
+                },
+                "logo_url": "https://cdn.macromicro.me/edms/2023-09/ffd34a3b-3117.png",
+                "contact_email": "jack@macromicro.me",
+                "legal_info_url": "https://en.macromicro.me/terms",
+                "generated_description": "The MacroMicro plugin allows users to search for economic statistics or exchange-traded funds (ETFs) from MacroMicro.me and retrieve the latest values. Simply enter the desired search term and the plugin will provide the most up-to-date information available.",
+                "category": "Search",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-012b368e-dabc-469a-877a-5c3e3b135f2a",
+            "domain": "stealthtest.replit.app",
+            "namespace": "stealthtest",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "stealthtest",
+                "name_for_human": "StealthTest",
+                "description_for_model": "Provides information, documentation, and examples on how to use SteatlthTest. It does not provide any type of wallet information or access to modify any test networks listed.",
+                "description_for_human": "Ship web3 apps & NFTs faster with StealthTest: Ethereum, Polygon, & Moonbeam private testnet.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://dev-rflmvu6nhy6ria4j.us.auth0.com/authorize",
+                    "scope": "openid email profile",
+                    "authorization_url": "https://dev-rflmvu6nhy6ria4j.us.auth0.com/oauth/token",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "43ae5e30f9134bdeb534cba5766ce78e"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://stealthtest.replit.app/.well-known/openapi.yaml"
+                },
+                "logo_url": "https://app.nameless.io/favicon.svg",
+                "contact_email": "support@nameless.io",
+                "legal_info_url": "https://www.stealthtest.com/terms-of-service",
+                "generated_description": "StealthTest is a plugin that allows developers to ship web3 apps and NFTs more efficiently by providing private testnet support for Ethereum, Polygon, and Moonbeam. This plugin offers valuable information, documentation, and examples on how to use StealthTest effectively. It does not grant access to modify any test networks or provide wallet information.",
+                "category": "Coding",
+                "generated_version": 1
+            },
+            "oauth_client_id": "34m18NE34lwOx2rrw0voNLM65y5FIDFv",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
                 }
             ]
         }
