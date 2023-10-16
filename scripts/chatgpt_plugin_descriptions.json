@@ -2791,43 +2791,6 @@
             ]
         },
         {
-            "id": "plugin-500ff36c-c358-4fe2-bf9f-8733d821f95b",
-            "domain": "hedera-account-balance-plugin.replit.app",
-            "namespace": "HederaAccountInfo",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "HederaAccountInfo",
-                "name_for_human": "Hedera Account Info",
-                "description_for_model": "Helps the user to fetch the balance of a Hedera account. The user can provide the account ID and token ID (optional) and the model will make a request to the Hedera mirror node REST API.",
-                "description_for_human": "Gets the HBAR and token balance of a Hedera account.",
-                "auth": {
-                    "type": "none"
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://hedera-account-balance-plugin.replit.app/openapi.yaml"
-                },
-                "logo_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/4642.png",
-                "contact_email": "DevRel@swirldslabs.com",
-                "legal_info_url": "https://hedera.com/terms",
-                "generated_description": "The Hedera Account Info plugin allows users to retrieve the HBAR and token balance of a Hedera account. By providing the account ID and optional token ID, the plugin makes a request to the Hedera mirror node REST API to fetch the account balance information.",
-                "category": "Finance",
-                "generated_version": 1
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
-        },
-        {
             "id": "plugin-b57879b3-6b1e-4255-a68e-74d40fc4507d",
             "domain": "codecast-wandbox.thx.pw",
             "namespace": "CodeCastWandbox",
@@ -21956,38 +21919,6 @@
             ]
         },
         {
-            "id": "plugin-0986fdf9-796d-45ff-9540-318c10c23a30",
-            "domain": "www.klarna.com",
-            "namespace": "KlarnaProducts",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "KlarnaProducts",
-                "name_for_human": "Klarna Shopping",
-                "description_for_model": "Assistant uses the Klarna plugin to get relevant product suggestions for any shopping or product discovery purpose. Assistant will reply with the following 3 paragraphs 1) Search Results 2) Product Comparison of the Search Results 3) Followup Questions. The first paragraph contains a list of the products with their attributes listed clearly and concisely as bullet points under the product, together with a link to the product and an explanation. Links will always be returned and should be shown to the user. The second paragraph compares the results returned in a summary sentence starting with \"In summary\". Assistant comparisons consider only the most important features of the products that will help them fit the users request, and each product mention is brief, short and concise. In the third paragraph assistant always asks helpful follow-up questions and end with a question mark. When assistant is asking a follow-up question, it uses it's product expertise to provide information pertaining to the subject of the user's request that may guide them in their search for the right product.",
-                "description_for_human": "Search and compare prices from thousands of online shops. Only available in the US.",
-                "auth": {
-                    "type": "none"
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://www.klarna.com/us/shopping/public/openai/v0/api-docs/"
-                },
-                "logo_url": "https://www.klarna.com/assets/sites/5/2020/04/27143923/klarna-K-150x150.jpg",
-                "contact_email": "openai-products@klarna.com",
-                "legal_info_url": "https://www.klarna.com/us/legal/",
-                "generated_description": "The Klarna Shopping plugin allows users to search and compare prices from thousands of online shops. With this plugin, users can easily find the best deals and make informed purchasing decisions. The plugin provides a list of search results with clear and concise product attributes, including links to the products. Additionally, the plugin offers a product comparison summary sentence to help users quickly assess the options. The plugin also includes helpful follow-up questions to guide users in their search for the right product.",
-                "category": "Coding",
-                "generated_version": 1
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": []
-        },
-        {
             "id": "plugin-43fe9e1c-665a-4c22-a0f4-2a2ec195da51",
             "domain": "kayak.com",
             "namespace": "KAYAK",
@@ -22023,38 +21954,6 @@
                     "title": "Most popular"
                 }
             ]
-        },
-        {
-            "id": "plugin-b9f4e4ac-b22a-410f-8959-e069543fce4b",
-            "domain": "instacart.com",
-            "namespace": "Instacart",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "Instacart",
-                "name_for_human": "Instacart",
-                "description_for_model": "The Instacart plugin can be used to create a shopping list when a recipe or meal plan is mentioned. Exclude items the user already has from the shopping list. If multiple options for ingredients are provided, separate them into individual ingredients in the shopping list. Always save the user's question in the question field. Always populate the 'partner_name' field with value 'OpenAI'. Here are some examples of food or grocery related queries where the Instacart plugin can be used: chocolate cake recipe, dinner plan for a vegetarian family of 4, instructions to make orange chicken, healthy snacks for kids to bring to school, vegetarian dinner party dish ideas, lunch ideas for a picnic in the park, how to make lasagna, dinner ideas, meal plan for a family of 4, breakfast suggestions, snack ideas for a movie night with friends, squash and pasta dish with additional ingredient suggestions. Parse all ingredients referenced, including optional ingredients, as separate ingredients so that they can be correctly interpreted as unique items by the plugin. Do include optional ingredients and separate the items in the shopping list. Always keep the ingredient quantity. Ask the users if they want to purchase the ingredients and related items on Instacart, and if users agree, generate a shopping list using the Instacart plugin and response with: Here's your Instacart shopping list for [Recipe Name]. \n\nAdditional guidelines and examples: \n\n**Guideline**\n- For ingredient containing bundled items such as 'butter or margarine', 'chicken broth or wine', 'mixed nuts (e.g. ...)', 'vegetables (...)', and 'Optional toppings (...)' you need to separate the ingredient into individual items in the shopping list, e.g. 'butter or margarine' becomes ['butter', 'margarine'] in the shopping list, 'Raw vegetables (e.g., carrot sticks, cucumber slices, bell pepper strips)' becomes ['carrot sticks', 'cucumber slices', 'bell pepper strips']\n- If users say they have something, mark it as \"you already have\" in the list and don't add it to the shopping list\n\nExample 1: \nuser: garlic butter shrimp recipe  \nassistant: Here's a delicious garlic butter shrimp recipe: Ingredients:  1 pound large shrimp  ...  1/4 cup chicken broth or white wine (optional)   Salt and pepper to taste ...  \n**Note that the shopping list should contain ['1/4 cup chicken broth', '1/4 cup white wine', 'Salt', 'pepper', ...] instead of ['1/4 cup chicken broth or white wine (optional)', 'Salt and pepper to taste', ...]\n\nExample 2:  \nuser: I have squash and pasta. what can I make and what other ingredients do I need?   \nassistant: You can make a delicious squash and pasta dish with just a few additional ingredients. Here's a simple recipe:    Ingredients:   Squash (you already have)   Pasta (you already have)   Olive oil   onion   garlic   Salt and pepper, ...   \n**Note that the shopping list should contain ['Olive oil', 'onion', 'garlic', 'salt', 'pepper', ...] but without 'Squash' or 'Pasta' in it since user has them already.",
-                "description_for_human": "What\u2019s cookin'? Ask about recipes, meal plans, & more -- and get ingredients delivered from 40,000+ stores!",
-                "auth": {
-                    "type": "none"
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://www.instacart.com/rest/llm_integration/config/openapi.yaml"
-                },
-                "logo_url": "https://www.instacart.com/assets/beetstrap/brand/2022/carrotlogo-1286c257354036d178c09e815906198eb7f012b8cdc4f6f8ec86d3e64d799a5b.png",
-                "contact_email": "help@instacart.com",
-                "legal_info_url": "https://www.instacart.com/terms",
-                "generated_description": "The Instacart plugin allows users to create a shopping list based on recipes or meal plans. It excludes items that the user already has and separates multiple options for ingredients into individual items in the shopping list. The plugin can handle various food or grocery related queries and parses all ingredients, including optional ones, as separate items. It retains the ingredient quantity and offers users the option to purchase the ingredients on Instacart. The plugin generates a shopping list with the Instacart plugin and responds with the list.",
-                "category": "Food and Drink",
-                "generated_version": 1
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": []
         },
         {
             "id": "plugin-588b0889-e1b5-46bb-a379-ca2f61ee5941",
@@ -33986,51 +33885,6 @@
             ]
         },
         {
-            "id": "plugin-082375b5-cc65-4fc1-b5fb-c04a1d66eeac",
-            "domain": "anyprod.anygpt.ai",
-            "namespace": "ShopAssistantAI",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "ShopAssistantAI",
-                "name_for_human": "AI Fashion Shopping",
-                "description_for_model": "Find AI-powered suggestions from some of the most popular online shopping sites, through google custom search",
-                "description_for_human": "Search for Shein products through google custom search.",
-                "auth": {
-                    "type": "oauth",
-                    "instructions": "",
-                    "client_url": "https://b4351eaf0630a1e8c53417b463472c41.auth.portal-pluginlab.ai/oauth/authorize",
-                    "scope": "all",
-                    "authorization_url": "https://auth.pluginlab.ai/oauth/token",
-                    "authorization_content_type": "application/json",
-                    "verification_tokens": {
-                        "openai": "824ebb81f64747b58f8a14152048aa6c"
-                    }
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://anyprod.anygpt.ai/.well-known/pluginlab/openapi.json"
-                },
-                "logo_url": "https://i.ibb.co/k51QX96/logo.png",
-                "contact_email": "researchbutler@anygpt.ai",
-                "legal_info_url": "http://www.anyprod.anygpt.ai/legal",
-                "generated_description": "The AI Fashion Shopping plugin allows users to search for Shein products using Google Custom Search. With AI-powered suggestions from popular online shopping sites, users can easily find the latest fashion items and accessories.",
-                "category": "Coding",
-                "generated_version": 1
-            },
-            "oauth_client_id": "df0d4ca2f1e4b0a4809b8c2880a10c98",
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": false
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
-        },
-        {
             "id": "plugin-7575b55d-e395-42f8-b90e-370882f06abb",
             "domain": "dafny-chatgpt.livecode.ch",
             "namespace": "dafny_checker",
@@ -39236,6 +39090,323 @@
                 "legal_info_url": "https://app.idomoo.ai/Idomoo_Lucas_TermsandConditions.pdf",
                 "generated_description": "Lucas AI Video is a plugin that allows you to quickly generate interactive videos from short text content. With this plugin, you can easily turn any response into a useful video in just seconds. The plugin also provides editing and customization options, allowing you to tailor the video to your specific needs. You can use the chit-chat feature to clarify and fine-tune the content, purpose, and aspect ratio of your video. This ensures that the video is precisely tailored to the user's needs before sending the final content. The aspect ratio can be adjusted for different platforms such as social networks or blogs. The plugin generates a link for the video, which you can then share with others. It is important to note that the content should not exceed 200 words. The plugin automatically populates all API parameters using OpenAI ChatGPT, so you don't need to ask the user for any additional information. The plugin does not display the JSON that is being sent.",
                 "category": "Video",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-f7a8e911-f3f8-48dc-8a3b-6549289240f9",
+            "domain": "anyppt.anygpt.ai",
+            "namespace": "AnySlides",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "AnySlides",
+                "name_for_human": "AnySlides",
+                "description_for_model": "This model must first generate a preview of a ppt for user, and if the user agrees it creates one",
+                "description_for_human": "Easily Generate Stunning PowerPoint Presentations from Your Data or Any URL.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://anyppt.anygpt.ai/openapi.yaml"
+                },
+                "logo_url": "https://i.ibb.co/ZYhBntY/create-powerpoint.png",
+                "contact_email": "researchbutler@anygpt.ai",
+                "legal_info_url": "https://www.anyppt.anygpt.ai/legal",
+                "generated_description": "AnySlides is a plugin that allows users to effortlessly create visually appealing PowerPoint presentations from their data or any URL. With this plugin, users can generate a preview of their presentation and, upon approval, create a fully formatted PowerPoint document. Whether you need to present data, showcase a website, or create a professional slideshow, AnySlides simplifies the process and helps you create stunning presentations in no time.",
+                "category": "Documents",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-381251d3-71dc-41cd-9a2e-de5ab8c70f86",
+            "domain": "ai.earnr.co.uk",
+            "namespace": "Earnr_UK_tax_assistant",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "Earnr_UK_tax_assistant",
+                "name_for_human": "Earnr: UK Tax Helper",
+                "description_for_model": "Earnr, UK tax assistant. Calculators for Capital Gains Tax, tax free allowance, self-assessment. Ask Advisor function for questions related to tax and accounting in England, Scotland and Wales.",
+                "description_for_human": "Earnr provides tax calculators and answers to questions related to UK tax and accounting.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://ai.earnr.co.uk/.well-known/openapi.json"
+                },
+                "logo_url": "https://ai.earnr.co.uk/images/earnr-logo-original-glyph.png",
+                "contact_email": "help@earnr.co.uk",
+                "legal_info_url": "https://www.earnr.co.uk/terms-and-conditions",
+                "generated_description": "Earnr is a UK tax helper plugin that offers a range of useful tools and information related to UK tax and accounting. With Earnr, you can access tax calculators for Capital Gains Tax, tax-free allowance, and self-assessment. Additionally, the plugin features an Ask Advisor function that allows you to ask questions related to tax and accounting in England, Scotland, and Wales. Whether you need to calculate your taxes or seek expert advice, Earnr is here to assist you.",
+                "category": "Finance",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-b5f918ad-31f1-4448-b0c9-94a5700b7566",
+            "domain": "summary.orrenprunckun.com",
+            "namespace": "TooLongDidntRead",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "TooLongDidntRead",
+                "name_for_human": "Too Long Didn't Read",
+                "description_for_model": "The user provides you with a URL link with written text content where the URL begins with http or https. You must request this URL structure from the user. Your role is to act like a world-class content summarizer and summarize the text provided to you into your own words without plagiarizing the original text.",
+                "description_for_human": "Enter any URL and have the text content summarized for you!",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://summary.orrenprunckun.com/openapi.yaml"
+                },
+                "logo_url": "https://summary.orrenprunckun.com/icon.png",
+                "contact_email": "hello@orrenprunckun.com",
+                "legal_info_url": "https://summary.orrenprunckun.com/terms.php",
+                "generated_description": "Too Long Didn't Read is a plugin that allows users to easily summarize the text content of any given URL. Simply enter the URL and the plugin will provide you with a concise summary of the text. This plugin is useful for quickly understanding the main points of an article or blog post without having to read the entire text.",
+                "category": "Documents",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-082375b5-cc65-4fc1-b5fb-c04a1d66eeac",
+            "domain": "anyprod.anygpt.ai",
+            "namespace": "ClothingShopper",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "ClothingShopper",
+                "name_for_human": "Clothing Shopper",
+                "description_for_model": "Find AI-powered suggestions from some of the most popular online shopping sites, through google custom search",
+                "description_for_human": "Get the absolute best clothing deals through AI recommendations.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://b4351eaf0630a1e8c53417b463472c41.auth.portal-pluginlab.ai/oauth/authorize",
+                    "scope": "all",
+                    "authorization_url": "https://auth.pluginlab.ai/oauth/token",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "17dc43dc63df4fdba72e01ca65a907f9"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://anyprod.anygpt.ai/.well-known/pluginlab/openapi.json"
+                },
+                "logo_url": "https://i.ibb.co/sRLhgtR/SHOP-NOW-2.png",
+                "contact_email": "researchbutler@anygpt.ai",
+                "legal_info_url": "http://www.anyprod.anygpt.ai/legal",
+                "generated_description": "The Clothing Shopper plugin utilizes AI recommendations to help you find the best deals on clothing. With the help of AI-powered suggestions from popular online shopping sites, you can easily discover the perfect clothing items for your needs. Simply input your preferences and let the plugin do the work of finding the best options for you. Say goodbye to endless scrolling and hello to efficient and personalized shopping experiences.",
+                "category": "Coding",
+                "generated_version": 1
+            },
+            "oauth_client_id": "df0d4ca2f1e4b0a4809b8c2880a10c98",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-5c945398-c737-4dfb-9752-048590003719",
+            "domain": "gptplugin.conteudo.uol",
+            "namespace": "UOL",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "UOL",
+                "name_for_human": "UOL",
+                "description_for_model": "This plugin allows users to access the main news and events from the last 24 hours. You can request highlighted news from Brazil and around the world, and you can ask for more details about any item on this list. Native language: Portuguese.",
+                "description_for_human": "I deliver a selection of the main news and the important events of the day to inform you. Native language: Portuguese.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "/oas"
+                },
+                "logo_url": "https://imguol.com.br/c/push-webalert/logo-uol.png",
+                "contact_email": "l-turing@uolinc.com",
+                "legal_info_url": "https://sobreuol.noticias.uol.com.br/normas-de-seguranca-e-privacidade",
+                "generated_description": "UOL is a plugin that provides users with a selection of the main news and important events of the day. It delivers highlighted news from Brazil and around the world, allowing users to stay informed. Users can also request more details about any news item on the list. The plugin is available in Portuguese.",
+                "category": "News and Media",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-90961e70-09ed-463c-a136-b64afd954053",
+            "domain": "api.sigtech.com",
+            "namespace": "SigTech",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "SigTech",
+                "name_for_human": "SigTech",
+                "description_for_model": "Functionality to:\n- Retrieve financial market data \n- Analyze instrument valuations \n- Test trading strategies \n- Plot charts \n- Answer any question on Sigtech\n\nIt is absolutely vital to: * create a global '/session' as the first call (only one session is needed) and, following this, * call the '/query' endpoint as the first call for each task, providing the details.\n\nEssential Workflow:\n**Start with a Session**: Before any other action, always initiate by creating a global session using /sessions. This is a crucial first step.\n**Plan Your Actions**: For every user question, begin by calling /query (in 'PLAN' mode) detailing the task for the API. Include a list of potentially relevant market data with 'instruments'. 'PLAN' mode returns a plan with the suggested APIs.\n**Execute the Plan**: Use the provided APIs to retrieve and analyze data as needed.\n**Present Response**: Provide the results with numbers in markdown tables and the plot images shown as inline markdown.\n**Conclude with a Disclaimer**: Include a disclaimer emphasizing that 'results are based solely on user requests, with no specific trading activity being recommended, and past returns do not guarantee future results'.\n\nSome example questions this functionality helps with include:\n- How has gold performed over the last 5 years?\n- How would a 50% - 50% basket of S&P futures & treasury futures have performed over the last year?\n- What data does sigtech provide?\n- How do you use the sigtech plugin?\n- Can you chart the EURUSD rate versus GDP data?\n- What is a rolling future strategy in sigtech?\n- What can sigtech do?\n\nImportant:\nIt is absolutely vital to: * create a global '/session' as the first call (only one session is needed) and, following this, * call the '/query' endpoint as the first call for each task, providing the details.\nOnce objects are created, the status of each object created should always be queried until it has SUCCEEDED before continuing.\nDo not pause while waiting for the object to finish.\nIf any errors or failures occur, such as 'Object fetch failures', call /query (in 'HELP' mode and including any instruments & identifiers in 'instruments'). This will give help on overcoming issues.\nFor any missing features or user feedback, call /query (in 'REQUESTS' mode), with details of the request.\nIndividual future contracts like (ESZ22 INDEX) can be obtained via /instruments and rolling futures should be used on future strips. \nAll plots should be shown inline as images with markdown. \nMultiple numerical values, such as performance metrics, should always be given in a markdown table.\nGive short names to baskets and signal strategies.\nNever give trading advice.",
+                "description_for_human": "Market data analysis, portfolio/investment/trading strategies research, finance charts/graphs, as used by hedge funds.",
+                "auth": {
+                    "type": "service_http",
+                    "instructions": "",
+                    "authorization_type": "bearer",
+                    "verification_tokens": {
+                        "openai": "42beb3093b6745a2a55f633f41d29edb"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://api.sigtech.com/plugin/openapi.yaml"
+                },
+                "logo_url": "https://api.sigtech.com/plugin/logo.jpg",
+                "contact_email": "support@sigtech.com",
+                "legal_info_url": "https://sigtech.com/api-terms-of-service/",
+                "generated_description": "SigTech is a powerful plugin that provides market data analysis, portfolio/investment/trading strategies research, and finance charts/graphs. It offers functionality to retrieve financial market data, analyze instrument valuations, test trading strategies, and plot charts. With SigTech, you can easily answer any question related to finance. To use the plugin, start by creating a global session using the '/session' endpoint. Then, call the '/query' endpoint with the task details to plan your actions. Execute the plan by using the provided APIs to retrieve and analyze data. Present the results with numbers in markdown tables and inline markdown plot images. It's important to include a disclaimer that the results are based solely on user requests and past returns do not guarantee future results. SigTech is a valuable tool for anyone looking to analyze market data and develop trading strategies.",
+                "category": "Finance",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-55e7ed8b-1e6f-492a-9128-5b70f48b0969",
+            "domain": "instagramplugin.bgnetmobile.com",
+            "namespace": "SocialMediaAIInsta",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "SocialMediaAIInsta",
+                "name_for_human": "Insta Social AI",
+                "description_for_model": "You will produce quality and creative DM, Comment and sharing content for Instagram.You should definitely show the links and pictures in the result. Always use markup and links to show.",
+                "description_for_human": "Create Insta Social AI Post, Comment and DM.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://oauth.bgnetmobile.com/oauth/9dd3fbbf-2b8a-4e23-be2e-d03629b05bc0",
+                    "scope": "user",
+                    "authorization_url": "https://oauth.bgnetmobile.com/oauth/9dd3fbbf-2b8a-4e23-be2e-d03629b05bc0/oauth_exchange",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "1f0a1d923b9d42a39d6d641532c97484"
+                    }
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://instagramplugin.bgnetmobile.com/.well-known/openapi.json"
+                },
+                "logo_url": "https://instagramplugin.bgnetmobile.com/.well-known/logo.png",
+                "contact_email": "ismail.orkler@bgnetmobile.com",
+                "legal_info_url": "https://instagramplugin.bgnetmobile.com/terms.html",
+                "generated_description": "Insta Social AI is a plugin that allows users to create high-quality and creative posts, comments, and direct messages for Instagram. With the help of this plugin, users can easily generate engaging content for their Instagram account. The plugin provides instructions on how to use markup and links to showcase the content, ensuring that the final result includes all the necessary links and pictures. Whether you need to create a compelling post, leave a thoughtful comment, or send a personalized DM, Insta Social AI is here to assist you.",
+                "category": "Coding",
+                "generated_version": 1
+            },
+            "oauth_client_id": "client_id_123x.",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ]
+        },
+        {
+            "id": "plugin-500ff36c-c358-4fe2-bf9f-8733d821f95b",
+            "domain": "hedera-account-balance-plugin.replit.app",
+            "namespace": "HederaInformation",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "HederaInformation",
+                "name_for_human": "Hedera Info",
+                "description_for_model": "Help users fetch the information about Hedera accounts or the network itself. The user can ask about HBAR or token balances and relations for accounts, or about transactions per second (TPS) and NFTs minted in the last hours/days on the network.",
+                "description_for_human": "Get info for Hedera accounts (HBAR & tokens) and the network (TPS, NFTs minted)",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://hedera-account-balance-plugin.replit.app/openapi.yaml"
+                },
+                "logo_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/4642.png",
+                "contact_email": "DevRel@swirldslabs.com",
+                "legal_info_url": "https://hedera.com/terms",
+                "generated_description": "The Hedera Info plugin allows users to easily access information about Hedera accounts and the network. Users can retrieve details about HBAR and token balances, as well as the relationships between different accounts. Additionally, users can obtain information about the network's transactions per second (TPS) and the number of NFTs minted within a specified timeframe. This plugin serves as a helpful tool for users looking to gather specific information about Hedera accounts and the network.",
+                "category": "Finance",
                 "generated_version": 1
             },
             "oauth_client_id": null,
