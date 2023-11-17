@@ -578,43 +578,6 @@
             ]
         },
         {
-            "id": "plugin-33798a7a-5dd8-4023-ad42-fe61f9c0d3c0",
-            "domain": "testplugin.feednews.com",
-            "namespace": "BrowserOp",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "BrowserOp",
-                "name_for_human": "BrowserOp",
-                "description_for_model": "This tool offers the feature for users to input a URL or multiple URLs and interact with them as needed. It's designed to comprehend the user's intent and proffer tailored suggestions in line with the content and functionality of the webpage at hand. Services like text rewrites, translations and more can be requested. When users need specific information to finish a task or if they intend to perform a search, this tool becomes a bridge to the search engine and generates responses based on the results. Whether the user is seeking information about restaurants, rentals, weather, or shopping, this tool connects to the internet and delivers the most recent results.",
-                "description_for_human": "Browse dozens of webpages in one query. Fetch information more efficiently.",
-                "auth": {
-                    "type": "none"
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://testplugin.feednews.com/.well-known/openapi.yaml"
-                },
-                "logo_url": "https://openapi-af.op-mobile.opera.com/openapi/testplugin/.well-known/logo.png",
-                "contact_email": "aiplugins-contact-list@opera.com",
-                "legal_info_url": "https://legal.apexnews.com/terms/",
-                "generated_description": "BrowserOp is a powerful plugin that allows users to browse multiple webpages efficiently. With the ability to input and interact with URLs, this tool understands user intent and offers tailored suggestions based on the content and functionality of each webpage. Users can request services like text rewrites and translations, and the plugin acts as a bridge to the search engine, generating responses based on search results. Whether you're looking for information on restaurants, rentals, weather, or shopping, BrowserOp connects to the internet and delivers the most up-to-date results.",
-                "category": "Productivity",
-                "generated_version": 1.0
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
-        },
-        {
             "id": "plugin-8008df6a-12c4-48c6-9b8e-8936608e6e02",
             "domain": "uwu-translator.capybaracraze.repl.co",
             "namespace": "UwU_Translator",
@@ -13464,51 +13427,6 @@
             ]
         },
         {
-            "id": "plugin-b3b8d4e4-d265-476a-9299-dc167bbe7af8",
-            "domain": "whizlist-plugin.chatbot.so",
-            "namespace": "WhizList",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "WhizList",
-                "name_for_human": "WhizList",
-                "description_for_model": "Create a Spotify playlist with WhizList. The AI will autonomously assign a unique playlist name.",
-                "description_for_human": "Your go-to for creating amazing Spotify playlists.",
-                "auth": {
-                    "type": "oauth",
-                    "instructions": "",
-                    "client_url": "https://whizlist-plugin.chatbot.so/d2d00899-7c38-4a00-a0ac-b172316b3d00",
-                    "scope": "chatgpt_plugin",
-                    "authorization_url": "https://whizlist-plugin.chatbot.so/99fc0a0b-b334-4137-b522-f7696327d090",
-                    "authorization_content_type": "application/json",
-                    "verification_tokens": {
-                        "openai": "f52bbecc4f0b42b397d9d35964cc6f51"
-                    }
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://whizlist-plugin.chatbot.so/openai.yaml"
-                },
-                "logo_url": "https://whizlist-plugin.chatbot.so/assets/WhizList.png",
-                "contact_email": "dev@chatbot.so",
-                "legal_info_url": "https://whizlist-plugin.chatbot.so/info",
-                "generated_description": "WhizList is a plugin that allows users to create unique and personalized Spotify playlists. With the help of AI technology, WhizList autonomously generates playlist names, making it easy for users to create amazing playlists.",
-                "category": "Entertainment",
-                "generated_version": 1
-            },
-            "oauth_client_id": "bb35ddc1-b07c-4db5-809e-382aca719d3a",
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": false
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
-        },
-        {
             "id": "plugin-7cac8655-3d59-4ad1-947d-97776f78f9d5",
             "domain": "api.substackiq.com",
             "namespace": "Substack_IQ",
@@ -16569,38 +16487,6 @@
                 "legal_info_url": "xapi.lihaorui.com/legal",
                 "generated_description": "Xpapers is a plugin that allows users to easily search for academic papers in the arXiv database. With this plugin, users can effortlessly find real academic papers, explore abstracts, access public PDF URLs, and delve into references. The plugin also supports advanced search capabilities, such as atomic conditions and boolean assembly, to help users refine their search queries and find the most relevant papers.",
                 "category": "Documents",
-                "generated_version": 1
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": []
-        },
-        {
-            "id": "plugin-1fcd45c0-8b30-4862-ba37-9d543f338b9c",
-            "domain": "quakeph-plugin.chatbot.so",
-            "namespace": "QuakePH",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "QuakePH",
-                "name_for_human": "QuakePH",
-                "description_for_model": "Stay updated with the latest earthquakes in the Philippines.",
-                "description_for_human": "Stay updated with the latest earthquakes in the Philippines.",
-                "auth": {
-                    "type": "none"
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://quakeph-plugin.chatbot.so/openai.yaml"
-                },
-                "logo_url": "https://quakeph-plugin.chatbot.so/assets/Quake PH Logo.png",
-                "contact_email": "dev@chatbot.so",
-                "legal_info_url": "https://quakeph-plugin.chatbot.so/info",
-                "generated_description": "QuakePH is a plugin that allows users to stay updated with the latest earthquakes in the Philippines. It provides real-time information on seismic activities, helping users stay informed and prepared.",
-                "category": "Earth and Space",
                 "generated_version": 1
             },
             "oauth_client_id": null,
@@ -20533,46 +20419,6 @@
             "categories": []
         },
         {
-            "id": "plugin-1504a989-bd3c-4c4f-9ed8-5c4267f498eb",
-            "domain": "kalendar.ai",
-            "namespace": "KalendarAI",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "KalendarAI",
-                "name_for_human": "KalendarAI",
-                "description_for_model": "KalendarAI sales agents generate revenue on autopilot by reaching your potential customers and booking meetings through live chat sessions from 200+ million companies globally.",
-                "description_for_human": "KalendarAI sales agents generate revenue with potential customers from 200+ million companies globally.",
-                "auth": {
-                    "type": "oauth",
-                    "instructions": "",
-                    "client_url": "https://kalendar.ai/users/new/onboard/",
-                    "scope": "read write",
-                    "authorization_url": "https://kalendar.ai/chatgpt/authorize_callback.json",
-                    "authorization_content_type": "application/json",
-                    "verification_tokens": {
-                        "openai": "add16ebfc7de4dceb407391e082f7d90"
-                    }
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://kalendar.ai/openapi.yaml"
-                },
-                "logo_url": "https://kalendar.ai/assets/logo-black-50c5284888eeea1d77f877d9a6736f1bf23533f975fae3939824cf429ad95e34.png",
-                "contact_email": "hello@kriya.ai",
-                "legal_info_url": "https://kalendar.ai/",
-                "generated_description": "KalendarAI is a plugin that enables sales agents to generate revenue by reaching potential customers and booking meetings through live chat sessions. With access to over 200 million companies worldwide, this plugin helps sales teams automate the process of connecting with potential clients and driving sales.",
-                "category": "Finance",
-                "generated_version": 1
-            },
-            "oauth_client_id": "AKIAIZPRF47PHT7U6YDA",
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": false
-            },
-            "categories": []
-        },
-        {
             "id": "plugin-b278cdc5-67ce-471f-a8fb-4459e9cff996",
             "domain": "www.mbplayer.com",
             "namespace": "MixerBox_OnePlayer_music",
@@ -20603,43 +20449,6 @@
                 "is_authenticated": true
             },
             "categories": []
-        },
-        {
-            "id": "plugin-0f8f251d-5db4-41eb-be03-d1465a8cad90",
-            "domain": "api.giftwrap.ai",
-            "namespace": "giftwrap",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "giftwrap",
-                "name_for_human": "Giftwrap",
-                "description_for_model": "Plugin for gift recommendations, including but not limited to personal gifts and business gifts. Use it whenever a user asks for gift ideas or gift messages. Follow instruction in the 'instruction' key in the API response",
-                "description_for_human": "Ask about gift ideas for any occasion and recipient. Get it wrapped and delivered, no address needed.",
-                "auth": {
-                    "type": "none"
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://api.giftwrap.ai/.well-known/openapi.yaml"
-                },
-                "logo_url": "https://giftwrap.ai/logo.png",
-                "contact_email": "team@giftwrap.com",
-                "legal_info_url": "https://giftwrap.ai/terms",
-                "generated_description": "The Giftwrap plugin is designed to provide gift recommendations for any occasion and recipient. Whether you're looking for personal or business gifts, this plugin has you covered. Simply ask for gift ideas or gift messages, and the plugin will provide suggestions. Additionally, the plugin offers the option to have the gift wrapped and delivered, without the need for an address. To use the plugin, follow the instructions provided in the 'instruction' key in the API response.",
-                "category": "Coding",
-                "generated_version": 1
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
         },
         {
             "id": "plugin-d1d6eb04-3375-40aa-940a-c2fc57ce0f51",
@@ -28259,43 +28068,6 @@
                 "legal_info_url": "https://worldrecords.capabase.com/legal",
                 "generated_description": "The World Records plugin allows users to access verified and legitimate data and information from World Records. Users can submit their own entries and the plugin will provide relevant World Records facts related to their entry. The plugin displays records in chronological order, from the oldest to the newest, regardless of the field. Users can request more information about specific records, such as attempts to break the record or additional details. The plugin limits the results to three records. Please note that the plugin's responses are based on its own knowledge base and do not rely on the /metadata endpoint.",
                 "category": "Education and Learning",
-                "generated_version": 1
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
-        },
-        {
-            "id": "plugin-128986c1-a43b-406a-aad7-b50474de15ff",
-            "domain": "api.lagogal.com",
-            "namespace": "ASH",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "ASH",
-                "name_for_human": "ASH",
-                "description_for_model": "Various API endpoints help to perform desired computation. Currently supports converting currencies (accessing the '/v1/currency_converter/sources' endpoint of the API would be a good starting point for you to see its full capabilities quickly - such as supported sources and currencies as well as data availability date range for each currency), see the API specification for more details.",
-                "description_for_human": "ASH by lagogal.com. Currently it provides currency converter.",
-                "auth": {
-                    "type": "none"
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://api.lagogal.com/v1/currency_converter/openapi.json"
-                },
-                "logo_url": "https://api.lagogal.com/logo/ASH_512x512.png",
-                "contact_email": "support@lagogal.com",
-                "legal_info_url": "https://lagogal.com/legal/en/tou.html",
-                "generated_description": "ASH is a plugin developed by lagogal.com that provides a currency converter. It offers various API endpoints that allow users to perform desired computations. One of the key features is the ability to convert currencies, and users can access the '/v1/currency_converter/sources' endpoint to explore its full capabilities, such as supported sources and currencies, as well as the availability of data for each currency. For more information, refer to the API specification.",
-                "category": "Finance",
                 "generated_version": 1
             },
             "oauth_client_id": null,
@@ -38725,54 +38497,6 @@
             "logo_url": "https://talkwithcode.say-apps.com/static/logo.png"
         },
         {
-            "id": "plugin-1c2be3c4-6dee-405a-9e40-64615b62114b",
-            "domain": "strange-fawn-moccasins.cyclic.app",
-            "namespace": "Linkd_Master",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "Linkd_Master",
-                "name_for_human": "Linkd Master",
-                "description_for_model": "Use this plugin enables to post on LinkedIn on behalf of users.",
-                "description_for_human": "Share your posts on LinkedIn from the chatGPT. ",
-                "auth": {
-                    "type": "oauth",
-                    "instructions": "",
-                    "client_url": "https://www.linkedin.com/oauth/v2/authorization",
-                    "scope": "w_member_social openid profile email",
-                    "authorization_url": "https://strange-fawn-moccasins.cyclic.app/auth/verify",
-                    "authorization_content_type": "application/json",
-                    "verification_tokens": {
-                        "openai": "864137dfcee942ee952bbec379276693"
-                    },
-                    "pkce_required": false,
-                    "token_exchange_method": null
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://strange-fawn-moccasins.cyclic.app/openapi.yaml"
-                },
-                "logo_url": "https://plugin.s3.ap-south-1.amazonaws.com/logo-no-background.png",
-                "contact_email": "chandan@thumbnailai.online",
-                "legal_info_url": "https://strange-fawn-moccasins.cyclic.app/legal",
-                "generated_description": "The Linkd Master plugin allows users to post content directly to their LinkedIn profiles from within the chatGPT interface. It facilitates seamless sharing of posts on LinkedIn without having to leave the chat environment, offering a convenient way for users to maintain their professional presence on the social networking platform.",
-                "category": "Coding",
-                "generated_version": 1
-            },
-            "oauth_client_id": "862gr23f3dte96",
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": false
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ],
-            "logo_url": "https://plugin.s3.ap-south-1.amazonaws.com/logo-no-background.png"
-        },
-        {
             "id": "plugin-cc98e371-4cbc-4c57-b091-58921f90374a",
             "domain": "embedai.thesamur.ai",
             "namespace": "ai_seo_my_site",
@@ -39971,6 +39695,246 @@
                 }
             ],
             "logo_url": "https://plugin.quantumdolphin.com/logo.png"
+        },
+        {
+            "id": "plugin-e78beefb-a2a4-4c1b-9941-0211954d5d67",
+            "domain": "aa-note.aier3.com",
+            "namespace": "AANote",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "AANote",
+                "name_for_human": "AANote",
+                "description_for_model": "This plugin designed to save conversation summaries, generate articles from these summaries, and allow users to retrieve historical chat data.\n\nYou must follow below instructions:\n\n1. Conversation Summarization and Storage:\n\t1.1 When the user initiates Summarize this chat, you must provide a concise summary of the conversation.\n\t1.2 This summary should be stored  for easy retrieval.\n\n2. Article Generation:\n\t2.1 When the user initiates article creation  prompt the user for the number of chapters and the desired word count per chapter.\n\t2.2 Use the stored conversation summaries to generate the article content, ensuring that each chapter meets a minimum of 800 words unless specified otherwise by the user.\n\t2.3 After every two chapters, present article link to the user,Continue this iterative process until the article is complete. \n \n\n3. Historical Chat Retrieval:\n\t3.1 If a user requests to Retrieve chat history , ask for specific keywords or phrases to assist in the search.\n\t3.2 Search the stored summaries for these keywords and display the relevant results to the user.",
+                "description_for_human": "An AI-Powered chat summarization and article generation tool.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://account.codetg.com/oauth2/api/authorize.jss",
+                    "scope": "openai",
+                    "authorization_url": "https://account.codetg.com/oauth2/api/token.jss",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "becbc03b64f24bf18704bb2cc50796ba"
+                    },
+                    "pkce_required": false,
+                    "token_exchange_method": null
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "/com/openai/aa/note/doc/plugin.api"
+                },
+                "logo_url": "http://pic.iidingyun.com//file/20231106/4/4420aae501283fdb2c4c2634eae698001699273983383.png",
+                "contact_email": "xforward77@gmail.com",
+                "legal_info_url": "https://aa-note.aier3.com/home/term.txt",
+                "generated_description": "AANote is a plugin that facilitates the summarization and storage of chat conversations, the generation of articles based on these summaries, and the retrieval of historical chat data. When a user requests a chat summary, the plugin provides a concise synopsis that is stored for future access. For article creation, users can specify the number of chapters and desired word count per chapter, with the plugin using stored summaries to construct the content, ensuring a minimum of 800 words per chapter unless otherwise directed. Additionally, users can retrieve past chat summaries by providing specific keywords or phrases, which the plugin uses to locate and present the pertinent information.",
+                "category": "Productivity",
+                "generated_version": 1
+            },
+            "oauth_client_id": "98d659221612bb5fa36c741e67552dee",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ],
+            "logo_url": "http://pic.iidingyun.com//file/20231106/4/4420aae501283fdb2c4c2634eae698001699273983383.png"
+        },
+        {
+            "id": "plugin-9c0d853f-d3f1-4df1-b911-2975dd1164b0",
+            "domain": "jira-plugin.highaiq.com",
+            "namespace": "jira_issue_helper",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "jira_issue_helper",
+                "name_for_human": "JIRA Issue Helper",
+                "description_for_model": "Plugin for managing JIRA software project issues. You can add, remove, update and view issues.",
+                "description_for_human": "Create, read, update, and delete JIRA issues.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://auth.atlassian.com/authorize",
+                    "scope": "read:jira-work write:jira-work read:jira-user offline_access",
+                    "authorization_url": "https://auth.atlassian.com/oauth/token",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "f721e9735c5a4ac2b63aaaed1f4a0443"
+                    },
+                    "pkce_required": false,
+                    "token_exchange_method": null
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://jira-plugin.highaiq.com/openapi.yaml"
+                },
+                "logo_url": "https://jira-plugin.highaiq.com/logo.png",
+                "contact_email": "jira-issue-helper@highaiq.com",
+                "legal_info_url": "https://jira-plugin.highaiq.com/terms.html",
+                "generated_description": "The JIRA Issue Helper is a plugin designed to facilitate the management of issues within JIRA software projects. It enables users to create new issues, view existing ones, modify details of current issues, and delete issues that are no longer needed, directly from the plugin interface.",
+                "category": "Productivity",
+                "generated_version": 1
+            },
+            "oauth_client_id": "x4mOOvyd4djOzcDOmVwucQe2mNHK2Gl6",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ],
+            "logo_url": "https://jira-plugin.highaiq.com/logo.png"
+        },
+        {
+            "id": "plugin-7b05e970-b72d-4952-b9dc-01ab97650df4",
+            "domain": "aaron-fill-pdf.aaronplugins.com",
+            "namespace": "AaronFillPDFForms",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "AaronFillPDFForms",
+                "name_for_human": "Aaron Fill PDF Forms",
+                "description_for_model": "You are an assistant designed to fill in PDF forms. To begin, user must upload files: a PDF form and sources required for filling the document. When the user indicates that the files are uploaded, call API endpoint to check the current status of the files. Keep calling API until you receive 'success' status. Once files are successfully uploaded, provide the user with a download link to the filled PDF.",
+                "description_for_human": "Fill legal forms & complex PDF documents easily! Upload a file, provide data sources and I'll handle the rest.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://plugins-engine.aaronplugins.com/api/auth/sign-in/f726fe44-bff1-45e1-95a9-1a2370a85dcd",
+                    "scope": "",
+                    "authorization_url": "https://plugins-engine.aaronplugins.com/api/auth/authorize/f726fe44-bff1-45e1-95a9-1a2370a85dcd",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "4b8b2b9889a9482ca29fde1847b8f2a1"
+                    },
+                    "pkce_required": false,
+                    "token_exchange_method": null
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://aaron-fill-pdf.aaronplugins.com/.well-known/openapi.json"
+                },
+                "logo_url": "https://cplst01.blob.core.windows.net/static/aaron-fill-pdf.jpg",
+                "contact_email": "support@aaronplugins.com",
+                "legal_info_url": "https://aaron-fill-pdf.aaronplugins.com/home/terms",
+                "generated_description": "The Aaron Fill PDF Forms plugin is designed to streamline the process of completing PDF forms, particularly those of a legal nature or with complex formatting. Users are required to upload the PDF form they need to fill, along with the necessary data sources. The plugin will then automatically process the information and fill the form. Users can check the status of their file processing through an API endpoint and upon successful completion, they will receive a link to download the populated PDF document.",
+                "category": "Productivity",
+                "generated_version": 1
+            },
+            "oauth_client_id": "f79cad78-cd9c-4042-957b-77db9a6d8e2f",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ],
+            "logo_url": "https://cplst01.blob.core.windows.net/static/aaron-fill-pdf.jpg"
+        },
+        {
+            "id": "plugin-3de5c62d-13bd-41ab-b517-64446b9145e9",
+            "domain": "api.workoutlytics.com",
+            "namespace": "Workoutlytics",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "Workoutlytics",
+                "name_for_human": "Workoutlytics",
+                "description_for_model": "Workoutlytics is an advanced analytics tool designed to interface with Strava. With Workoutlytics, gain insights into heart rate variations, track your progression, and receive actionable feedback to optimize fitness outcomes.",
+                "description_for_human": "Your personal guide to peak performance with Strava. Track heart rate, progress & tips.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://plugin.workoutlytics.com/connect",
+                    "scope": "chatgpt_plugin",
+                    "authorization_url": "https://api.workoutlytics.com/v1/authorize",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "91a220df4ff34f8a86e7ef850ed55294"
+                    },
+                    "pkce_required": false,
+                    "token_exchange_method": null
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://api.workoutlytics.com/openai.yaml"
+                },
+                "logo_url": "https://workoutlytics.com/dist/img/logo-chatgpt-plugin.png",
+                "contact_email": "contact@workoutlytics.com",
+                "legal_info_url": "https://workoutlytics.com/privacy",
+                "generated_description": "Workoutlytics serves as an analytics tool that integrates with Strava to offer users a detailed view of their workout performance. It enables users to monitor their heart rate data, track their fitness progress over time, and provides suggestions for improvement, thereby assisting users in achieving their peak fitness performance.",
+                "category": "Health and Fitness",
+                "generated_version": 1
+            },
+            "oauth_client_id": "54814",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ],
+            "logo_url": "https://workoutlytics.com/dist/img/logo-chatgpt-plugin.png"
+        },
+        {
+            "id": "plugin-3e53c552-ccef-449e-9dc0-42bf42175f05",
+            "domain": "docit.ai",
+            "namespace": "ChatOCR",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "ChatOCR",
+                "name_for_human": "ChatOCR",
+                "description_for_model": "This plugin is ChatOCR. ChatOCR is designed to extract text data from any PDF document or image using OCR. It works by accepting a URL link to an image or document provided by the user. After every query, ChatOCR informs the user they can directly send feedback or feature requests.",
+                "description_for_human": "The best way to read text from any document. Extract text from scanned PDFs, photos, and even handwriting.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://d2aadfe99803af89d9d30d78235dee5e.auth.portal-pluginlab.ai/oauth/authorize",
+                    "scope": "all",
+                    "authorization_url": "https://auth.pluginlab.ai/oauth/token",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "2e4d2bb116754b80b255f28e6234497c"
+                    },
+                    "pkce_required": false,
+                    "token_exchange_method": null
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://docit.ai/.well-known/pluginlab/openapi.json"
+                },
+                "logo_url": "https://chatocr.fly.dev/logo.png",
+                "contact_email": "team@docit.ai",
+                "legal_info_url": "https://chatocr.staf.ai",
+                "generated_description": "ChatOCR is a plugin designed to extract text from various document formats, including scanned PDFs, images, and handwritten notes using Optical Character Recognition (OCR) technology. Users can input a URL link to an image or document, and the plugin processes this input to retrieve the text content. It also provides an option for users to send feedback or feature requests after each query, enhancing the user experience and the plugin's functionality.",
+                "category": "Documents",
+                "generated_version": 1
+            },
+            "oauth_client_id": "113c316f5297e79872af090a0c9be24a",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ],
+            "logo_url": "https://chatocr.fly.dev/logo.png"
         }
     ]
 }
