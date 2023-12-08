@@ -578,43 +578,6 @@
             ]
         },
         {
-            "id": "plugin-33798a7a-5dd8-4023-ad42-fe61f9c0d3c0",
-            "domain": "testplugin.feednews.com",
-            "namespace": "BrowserOp",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "BrowserOp",
-                "name_for_human": "BrowserOp",
-                "description_for_model": "This tool offers the feature for users to input a URL or multiple URLs and interact with them as needed. It's designed to comprehend the user's intent and proffer tailored suggestions in line with the content and functionality of the webpage at hand. Services like text rewrites, translations and more can be requested. When users need specific information to finish a task or if they intend to perform a search, this tool becomes a bridge to the search engine and generates responses based on the results. Whether the user is seeking information about restaurants, rentals, weather, or shopping, this tool connects to the internet and delivers the most recent results.",
-                "description_for_human": "Browse dozens of webpages in one query. Fetch information more efficiently.",
-                "auth": {
-                    "type": "none"
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://testplugin.feednews.com/.well-known/openapi.yaml"
-                },
-                "logo_url": "https://openapi-af.op-mobile.opera.com/openapi/testplugin/.well-known/logo.png",
-                "contact_email": "aiplugins-contact-list@opera.com",
-                "legal_info_url": "https://legal.apexnews.com/terms/",
-                "generated_description": "BrowserOp is a powerful plugin that allows users to browse multiple webpages efficiently. With the ability to input and interact with URLs, this tool understands user intent and offers tailored suggestions based on the content and functionality of each webpage. Users can request services like text rewrites and translations, and the plugin acts as a bridge to the search engine, generating responses based on search results. Whether you're looking for information on restaurants, rentals, weather, or shopping, BrowserOp connects to the internet and delivers the most up-to-date results.",
-                "category": "Productivity",
-                "generated_version": 1.0
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
-        },
-        {
             "id": "plugin-8008df6a-12c4-48c6-9b8e-8936608e6e02",
             "domain": "uwu-translator.capybaracraze.repl.co",
             "namespace": "UwU_Translator",
@@ -13464,51 +13427,6 @@
             ]
         },
         {
-            "id": "plugin-b3b8d4e4-d265-476a-9299-dc167bbe7af8",
-            "domain": "whizlist-plugin.chatbot.so",
-            "namespace": "WhizList",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "WhizList",
-                "name_for_human": "WhizList",
-                "description_for_model": "Create a Spotify playlist with WhizList. The AI will autonomously assign a unique playlist name.",
-                "description_for_human": "Your go-to for creating amazing Spotify playlists.",
-                "auth": {
-                    "type": "oauth",
-                    "instructions": "",
-                    "client_url": "https://whizlist-plugin.chatbot.so/d2d00899-7c38-4a00-a0ac-b172316b3d00",
-                    "scope": "chatgpt_plugin",
-                    "authorization_url": "https://whizlist-plugin.chatbot.so/99fc0a0b-b334-4137-b522-f7696327d090",
-                    "authorization_content_type": "application/json",
-                    "verification_tokens": {
-                        "openai": "f52bbecc4f0b42b397d9d35964cc6f51"
-                    }
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://whizlist-plugin.chatbot.so/openai.yaml"
-                },
-                "logo_url": "https://whizlist-plugin.chatbot.so/assets/WhizList.png",
-                "contact_email": "dev@chatbot.so",
-                "legal_info_url": "https://whizlist-plugin.chatbot.so/info",
-                "generated_description": "WhizList is a plugin that allows users to create unique and personalized Spotify playlists. With the help of AI technology, WhizList autonomously generates playlist names, making it easy for users to create amazing playlists.",
-                "category": "Entertainment",
-                "generated_version": 1
-            },
-            "oauth_client_id": "bb35ddc1-b07c-4db5-809e-382aca719d3a",
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": false
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
-        },
-        {
             "id": "plugin-7cac8655-3d59-4ad1-947d-97776f78f9d5",
             "domain": "api.substackiq.com",
             "namespace": "Substack_IQ",
@@ -16569,38 +16487,6 @@
                 "legal_info_url": "xapi.lihaorui.com/legal",
                 "generated_description": "Xpapers is a plugin that allows users to easily search for academic papers in the arXiv database. With this plugin, users can effortlessly find real academic papers, explore abstracts, access public PDF URLs, and delve into references. The plugin also supports advanced search capabilities, such as atomic conditions and boolean assembly, to help users refine their search queries and find the most relevant papers.",
                 "category": "Documents",
-                "generated_version": 1
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": []
-        },
-        {
-            "id": "plugin-1fcd45c0-8b30-4862-ba37-9d543f338b9c",
-            "domain": "quakeph-plugin.chatbot.so",
-            "namespace": "QuakePH",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "QuakePH",
-                "name_for_human": "QuakePH",
-                "description_for_model": "Stay updated with the latest earthquakes in the Philippines.",
-                "description_for_human": "Stay updated with the latest earthquakes in the Philippines.",
-                "auth": {
-                    "type": "none"
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://quakeph-plugin.chatbot.so/openai.yaml"
-                },
-                "logo_url": "https://quakeph-plugin.chatbot.so/assets/Quake PH Logo.png",
-                "contact_email": "dev@chatbot.so",
-                "legal_info_url": "https://quakeph-plugin.chatbot.so/info",
-                "generated_description": "QuakePH is a plugin that allows users to stay updated with the latest earthquakes in the Philippines. It provides real-time information on seismic activities, helping users stay informed and prepared.",
-                "category": "Earth and Space",
                 "generated_version": 1
             },
             "oauth_client_id": null,
@@ -20464,43 +20350,6 @@
             ]
         },
         {
-            "id": "plugin-594f08b4-c65d-40a1-8c87-d8bd229e0d40",
-            "domain": "gpt.domatron.com",
-            "namespace": "domatron",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "domatron",
-                "name_for_human": "Domatron Domains",
-                "description_for_model": "Find available and brandable .com domain names when a user requests a name for their business or project. Domatron provides a list of candidate .com domain names that are available for registration. Only display and recommend domain names from the Domatron-provided list, ensuring the suggestions are available for registration. Filter the list and present the user with names that best suit their stated requirements, and offer a variety of options. Always display the best option first, and provide 20 alternatives for the user to choose from.",
-                "description_for_human": "Find available, brandable .com domain names for your business businesses.",
-                "auth": {
-                    "type": "none"
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://gpt.domatron.com/public/openapi.yaml"
-                },
-                "logo_url": "https://gpt.domatron.com/public/logo.png",
-                "contact_email": "support@domatron.com",
-                "legal_info_url": "https://domatron.com/page/terms-of-service",
-                "generated_description": "Domatron Domains is a plugin that helps users find available and brandable .com domain names for their businesses or projects. By generating a list of candidate domain names, Domatron presents users with a variety of options that best suit their requirements. The plugin filters the list to ensure that all suggested names are available for registration. With the best option displayed first, users are provided with 20 alternatives to choose from.",
-                "category": "Productivity",
-                "generated_version": 1
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
-        },
-        {
             "id": "plugin-91ed5c8f-5662-4993-817a-da135c7d14a6",
             "domain": "portfoliopilot.com",
             "namespace": "portfoliopilot",
@@ -20531,115 +20380,6 @@
                 "is_authenticated": true
             },
             "categories": []
-        },
-        {
-            "id": "plugin-1504a989-bd3c-4c4f-9ed8-5c4267f498eb",
-            "domain": "kalendar.ai",
-            "namespace": "KalendarAI",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "KalendarAI",
-                "name_for_human": "KalendarAI",
-                "description_for_model": "KalendarAI sales agents generate revenue on autopilot by reaching your potential customers and booking meetings through live chat sessions from 200+ million companies globally.",
-                "description_for_human": "KalendarAI sales agents generate revenue with potential customers from 200+ million companies globally.",
-                "auth": {
-                    "type": "oauth",
-                    "instructions": "",
-                    "client_url": "https://kalendar.ai/users/new/onboard/",
-                    "scope": "read write",
-                    "authorization_url": "https://kalendar.ai/chatgpt/authorize_callback.json",
-                    "authorization_content_type": "application/json",
-                    "verification_tokens": {
-                        "openai": "add16ebfc7de4dceb407391e082f7d90"
-                    }
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://kalendar.ai/openapi.yaml"
-                },
-                "logo_url": "https://kalendar.ai/assets/logo-black-50c5284888eeea1d77f877d9a6736f1bf23533f975fae3939824cf429ad95e34.png",
-                "contact_email": "hello@kriya.ai",
-                "legal_info_url": "https://kalendar.ai/",
-                "generated_description": "KalendarAI is a plugin that enables sales agents to generate revenue by reaching potential customers and booking meetings through live chat sessions. With access to over 200 million companies worldwide, this plugin helps sales teams automate the process of connecting with potential clients and driving sales.",
-                "category": "Finance",
-                "generated_version": 1
-            },
-            "oauth_client_id": "AKIAIZPRF47PHT7U6YDA",
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": false
-            },
-            "categories": []
-        },
-        {
-            "id": "plugin-b278cdc5-67ce-471f-a8fb-4459e9cff996",
-            "domain": "www.mbplayer.com",
-            "namespace": "MixerBox_OnePlayer_music",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "MixerBox_OnePlayer_music",
-                "name_for_human": "MixerBox OnePlayer",
-                "description_for_model": "MixerBox OnePlayer plugin is an excellent tool for users looking for a vast library of music, podcasts, and videos. The plugin provides high-quality audio and video streaming of the latest releases, and users can search for music and podcasts by name. Additionally, users can request playlists based on their preferred genres, including pop, electronic dance, hip hop, K-pop, soundtrack, rock, never go out, C-pop, J-pop, relax, country, HK, and jazz. The plugin also offers playlists based on moods such as workout, chill, themed, romance, mood, dinner, focus, travel, sleep, party, good mood, and commute. Users can also request a specific type of podcast by using relevant keywords related to categories such as music, comedy, news, true crime, education, history, TV & film, government, society & culture, and religion & spirituality.",
-                "description_for_human": "Unlimited music, podcasts, and videos across various genres. Enjoy endless listening with our rich playlists!",
-                "auth": {
-                    "type": "none"
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://www.mbplayer.com/openapi.json"
-                },
-                "logo_url": "https://www.mbplayer.com/favicon-app_store_icon.png",
-                "contact_email": "support@mixerbox.com",
-                "legal_info_url": "https://www.mixerbox.com/oneplayer",
-                "generated_description": "MixerBox OnePlayer is a plugin that offers a vast library of unlimited music, podcasts, and videos across various genres. With high-quality audio and video streaming, users can enjoy endless listening and discover new content. The plugin allows users to search for specific music and podcasts by name, and also provides curated playlists based on genres and moods. Whether you're in the mood for pop, hip hop, rock, or a specific mood like workout or chill, MixerBox OnePlayer has you covered. Additionally, users can find podcasts in categories such as music, comedy, news, true crime, education, and more.",
-                "category": "Entertainment",
-                "generated_version": 1
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": []
-        },
-        {
-            "id": "plugin-0f8f251d-5db4-41eb-be03-d1465a8cad90",
-            "domain": "api.giftwrap.ai",
-            "namespace": "giftwrap",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "giftwrap",
-                "name_for_human": "Giftwrap",
-                "description_for_model": "Plugin for gift recommendations, including but not limited to personal gifts and business gifts. Use it whenever a user asks for gift ideas or gift messages. Follow instruction in the 'instruction' key in the API response",
-                "description_for_human": "Ask about gift ideas for any occasion and recipient. Get it wrapped and delivered, no address needed.",
-                "auth": {
-                    "type": "none"
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://api.giftwrap.ai/.well-known/openapi.yaml"
-                },
-                "logo_url": "https://giftwrap.ai/logo.png",
-                "contact_email": "team@giftwrap.com",
-                "legal_info_url": "https://giftwrap.ai/terms",
-                "generated_description": "The Giftwrap plugin is designed to provide gift recommendations for any occasion and recipient. Whether you're looking for personal or business gifts, this plugin has you covered. Simply ask for gift ideas or gift messages, and the plugin will provide suggestions. Additionally, the plugin offers the option to have the gift wrapped and delivered, without the need for an address. To use the plugin, follow the instructions provided in the 'instruction' key in the API response.",
-                "category": "Coding",
-                "generated_version": 1
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
         },
         {
             "id": "plugin-d1d6eb04-3375-40aa-940a-c2fc57ce0f51",
@@ -28274,43 +28014,6 @@
             ]
         },
         {
-            "id": "plugin-128986c1-a43b-406a-aad7-b50474de15ff",
-            "domain": "api.lagogal.com",
-            "namespace": "ASH",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "ASH",
-                "name_for_human": "ASH",
-                "description_for_model": "Various API endpoints help to perform desired computation. Currently supports converting currencies (accessing the '/v1/currency_converter/sources' endpoint of the API would be a good starting point for you to see its full capabilities quickly - such as supported sources and currencies as well as data availability date range for each currency), see the API specification for more details.",
-                "description_for_human": "ASH by lagogal.com. Currently it provides currency converter.",
-                "auth": {
-                    "type": "none"
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://api.lagogal.com/v1/currency_converter/openapi.json"
-                },
-                "logo_url": "https://api.lagogal.com/logo/ASH_512x512.png",
-                "contact_email": "support@lagogal.com",
-                "legal_info_url": "https://lagogal.com/legal/en/tou.html",
-                "generated_description": "ASH is a plugin developed by lagogal.com that provides a currency converter. It offers various API endpoints that allow users to perform desired computations. One of the key features is the ability to convert currencies, and users can access the '/v1/currency_converter/sources' endpoint to explore its full capabilities, such as supported sources and currencies, as well as the availability of data for each currency. For more information, refer to the API specification.",
-                "category": "Finance",
-                "generated_version": 1
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
-        },
-        {
             "id": "plugin-7c1f08ec-2f16-49f9-981b-8edd2e94451c",
             "domain": "analyze-act.com",
             "namespace": "analyze_act",
@@ -30850,48 +30553,6 @@
             "user_settings": {
                 "is_installed": false,
                 "is_authenticated": false
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
-        },
-        {
-            "id": "plugin-60fd40f9-5f2f-4954-bb26-aa3837a18dce",
-            "domain": "monitorsrv.freenetworkmonitor.click",
-            "namespace": "ableNetworkMonitor",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "ableNetworkMonitor",
-                "name_for_human": "Able Network Monitor",
-                "description_for_model": "You will be providing the user experience to interface with the free network monitor API services. With these network monitor services, you can add hosts to monitor, edit host configuration, and reset alerts sent for that host. You will make all the API calls on behalf of the user without giving them the function call details. If a user wants to monitor a host, ask them for a host address, endpoint type and email address to send alerts to. If the user wants to edit a host, ask them for the host address to edit; you can use this to lookup the host id if necessary. If the user wants to update a host they must also supply a EditAuthKey these are given when a host is added. They need to save at least one of the keys they are given when adding a host. Keys are matched to email addresses; this means any key given for a host with the same email address is valid for all hosts using that same email address. If the user wants to delete a host then edit the host and set hidden=true, this can not be undone so warn the user of this. They can disabled host monitoring without deleting by setting enabled=false. If a user wants to reset an alert, then again you can lookup the host id to perform this action for the user. The data structure of the backend is: There is a set of data sets (DataSet). Each data set represents data for a time range, typically 6 hours. Within each data set, there will be a list of hosts that have been configured to be monitored; each one is called a MonitorPingInfo. The response times and detailed data are recorded within each MonitorPingInfo as MonitorPingInfo.PingInfos. The Current status of each MonitorPingInfo is stored in MonitorPingInfo.MonitorStatus. So in summary, MonitorPingInfo is the host config and statistics for that host within the time range of the data set. MonitorPingInfo.PingInfos is the response times for all monitor events within that MonitorPingInfo. MonitorPingInfo.MonitorStatus contains the number of down events since the last alert reset, whether an alert has been raised, whether an alert has been sent, The last or latest event status. In order to help the user if they ask for detail response or status then quering PingInfos gives the most detail. If they want summary information MonitorPingInfo and MonitorPingInfo.Status is useful. Look out for long list of data and paginated where the api allows. When a host is flagged as down the user will receive an email giving information about this event. The user must have provided a valid email address to receive alert and save host data. Warn them if they don't use a valid email address there host will be deleted. A users email address must be verfied to receive email alerts. Ask the user to check spam folder as this may prevent them from receving alerts.",
-                "description_for_human": "Monitor websites, email servers, check dns resolution, ping services and check for quantum safe encryption.",
-                "auth": {
-                    "type": "service_http",
-                    "instructions": "",
-                    "authorization_type": "bearer",
-                    "verification_tokens": {
-                        "openai": "9e49989d3375499c912ef72abc2c9fcc"
-                    }
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://monitorsrv.freenetworkmonitor.click/swagger/v1/swagger.json"
-                },
-                "logo_url": "https://monitorsrv.freenetworkmonitor.click/logo-square.png",
-                "contact_email": "support@mahadeva.co.uk",
-                "legal_info_url": "https://monitorsrv.freenetworkmonitor.click/privacypolicy.html",
-                "generated_description": "Able Network Monitor is a powerful plugin that allows you to monitor websites, email servers, check DNS resolution, ping services, and ensure quantum safe encryption. With this plugin, you can easily add hosts to monitor, edit host configurations, and reset alerts. Simply provide the host address, endpoint type, and email address for alert notifications. You can also edit hosts by providing the host address and edit authentication key. Deleting a host is possible by setting it as hidden, and disabling host monitoring can be done by setting it as disabled. The plugin provides detailed data and statistics for each monitored host, including response times and current status. It also sends email alerts to notify you of any down events. Please note that a valid email address is required for receiving alerts and saving host data. Make sure to verify your email address and check your spam folder to ensure proper delivery of alerts.",
-                "category": "Productivity",
-                "generated_version": 1
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
             },
             "categories": [
                 {
@@ -34443,51 +34104,6 @@
             ]
         },
         {
-            "id": "plugin-9f4442a3-450e-4343-b48e-bc4e016eee8a",
-            "domain": "api.okappy.com",
-            "namespace": "okappyPublicApi",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "okappyPublicApi",
-                "name_for_human": "Okappy",
-                "description_for_model": "Help the user get information about their jobs, employees and subcontractors on Okappy as well as reassign and create new jobs.",
-                "description_for_human": "Get information about your jobs and engineers. Reassign jobs and create new jobs.",
-                "auth": {
-                    "type": "oauth",
-                    "instructions": "",
-                    "client_url": "https://api.okappy.com/oauth.jsp",
-                    "scope": "",
-                    "authorization_url": "https://api.okappy.com/rest/v2/authentication/oauth",
-                    "authorization_content_type": "application/json",
-                    "verification_tokens": {
-                        "openai": "1756ea9493914343bf223464db389eb0"
-                    }
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://api.okappy.com/okappy-api.yaml"
-                },
-                "logo_url": "https://okappyimages.okappy.com/appy_icon.png",
-                "contact_email": "support@okappy.com",
-                "legal_info_url": "https://www.okappy.com/privacy-cookies",
-                "generated_description": "The Okappy plugin allows users to easily access and manage information about their jobs and engineers. With this plugin, users can view details about their jobs, employees, and subcontractors on Okappy. Additionally, users can reassign jobs to different individuals and create new jobs directly through the plugin. Stay organized and efficient with the Okappy plugin.",
-                "category": "Productivity",
-                "generated_version": 1
-            },
-            "oauth_client_id": "2700caf3b5a4879d7b1474af951fcbae",
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": false
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
-        },
-        {
             "id": "plugin-7efc4a49-3637-44c6-8ea6-e87b1411e0f6",
             "domain": "install.roboad.app",
             "namespace": "RoboAd",
@@ -36795,48 +36411,6 @@
             ]
         },
         {
-            "id": "plugin-a42ce61e-1f04-4c7d-87a8-7aba477c7694",
-            "domain": "plugins.tiangong.world",
-            "namespace": "TianGong",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "TianGong",
-                "name_for_human": "TianGong",
-                "description_for_model": "For searching through academic papers and professional documents to find relevant information.",
-                "description_for_human": "Search through academic papers and professional documents.",
-                "auth": {
-                    "type": "service_http",
-                    "instructions": "",
-                    "authorization_type": "bearer",
-                    "verification_tokens": {
-                        "openai": "3bf6cc5ec3f34b7ca4869eb65144021b"
-                    }
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://plugins.tiangong.world/.well-known/openapi.yaml"
-                },
-                "logo_url": "https://plugins.tiangong.world/.well-known/logo.png",
-                "contact_email": "linanenv@gmail.com",
-                "legal_info_url": "http://mingxu.tiangong.world",
-                "generated_description": "TianGong is a plugin that allows you to easily search through academic papers and professional documents. With this plugin, you can quickly find relevant information from a wide range of sources. Whether you are a student, researcher, or professional, TianGong can help you locate the information you need efficiently.",
-                "category": "Documents",
-                "generated_version": 1
-            },
-            "oauth_client_id": null,
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": true
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ]
-        },
-        {
             "id": "plugin-ebb6db98-492f-4888-8c21-12b67f0eb1c7",
             "domain": "chatgpt-plugin.macromicro.me",
             "namespace": "MacroMicro",
@@ -38725,54 +38299,6 @@
             "logo_url": "https://talkwithcode.say-apps.com/static/logo.png"
         },
         {
-            "id": "plugin-1c2be3c4-6dee-405a-9e40-64615b62114b",
-            "domain": "strange-fawn-moccasins.cyclic.app",
-            "namespace": "Linkd_Master",
-            "status": "approved",
-            "manifest": {
-                "schema_version": "v1",
-                "name_for_model": "Linkd_Master",
-                "name_for_human": "Linkd Master",
-                "description_for_model": "Use this plugin enables to post on LinkedIn on behalf of users.",
-                "description_for_human": "Share your posts on LinkedIn from the chatGPT. ",
-                "auth": {
-                    "type": "oauth",
-                    "instructions": "",
-                    "client_url": "https://www.linkedin.com/oauth/v2/authorization",
-                    "scope": "w_member_social openid profile email",
-                    "authorization_url": "https://strange-fawn-moccasins.cyclic.app/auth/verify",
-                    "authorization_content_type": "application/json",
-                    "verification_tokens": {
-                        "openai": "864137dfcee942ee952bbec379276693"
-                    },
-                    "pkce_required": false,
-                    "token_exchange_method": null
-                },
-                "api": {
-                    "type": "openapi",
-                    "url": "https://strange-fawn-moccasins.cyclic.app/openapi.yaml"
-                },
-                "logo_url": "https://plugin.s3.ap-south-1.amazonaws.com/logo-no-background.png",
-                "contact_email": "chandan@thumbnailai.online",
-                "legal_info_url": "https://strange-fawn-moccasins.cyclic.app/legal",
-                "generated_description": "The Linkd Master plugin allows users to post content directly to their LinkedIn profiles from within the chatGPT interface. It facilitates seamless sharing of posts on LinkedIn without having to leave the chat environment, offering a convenient way for users to maintain their professional presence on the social networking platform.",
-                "category": "Coding",
-                "generated_version": 1
-            },
-            "oauth_client_id": "862gr23f3dte96",
-            "user_settings": {
-                "is_installed": false,
-                "is_authenticated": false
-            },
-            "categories": [
-                {
-                    "id": "newly_added",
-                    "title": "New"
-                }
-            ],
-            "logo_url": "https://plugin.s3.ap-south-1.amazonaws.com/logo-no-background.png"
-        },
-        {
             "id": "plugin-cc98e371-4cbc-4c57-b091-58921f90374a",
             "domain": "embedai.thesamur.ai",
             "namespace": "ai_seo_my_site",
@@ -39971,6 +39497,472 @@
                 }
             ],
             "logo_url": "https://plugin.quantumdolphin.com/logo.png"
+        },
+        {
+            "id": "plugin-e78beefb-a2a4-4c1b-9941-0211954d5d67",
+            "domain": "aa-note.aier3.com",
+            "namespace": "AANote",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "AANote",
+                "name_for_human": "AANote",
+                "description_for_model": "This plugin designed to save conversation summaries, generate articles from these summaries, and allow users to retrieve historical chat data.\n\nYou must follow below instructions:\n\n1. Conversation Summarization and Storage:\n\t1.1 When the user initiates Summarize this chat, you must provide a concise summary of the conversation.\n\t1.2 This summary should be stored  for easy retrieval.\n\n2. Article Generation:\n\t2.1 When the user initiates article creation  prompt the user for the number of chapters and the desired word count per chapter.\n\t2.2 Use the stored conversation summaries to generate the article content, ensuring that each chapter meets a minimum of 800 words unless specified otherwise by the user.\n\t2.3 After every two chapters, present article link to the user,Continue this iterative process until the article is complete. \n \n\n3. Historical Chat Retrieval:\n\t3.1 If a user requests to Retrieve chat history , ask for specific keywords or phrases to assist in the search.\n\t3.2 Search the stored summaries for these keywords and display the relevant results to the user.",
+                "description_for_human": "An AI-Powered chat summarization and article generation tool.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://account.codetg.com/oauth2/api/authorize.jss",
+                    "scope": "openai",
+                    "authorization_url": "https://account.codetg.com/oauth2/api/token.jss",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "becbc03b64f24bf18704bb2cc50796ba"
+                    },
+                    "pkce_required": false,
+                    "token_exchange_method": null
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "/com/openai/aa/note/doc/plugin.api"
+                },
+                "logo_url": "http://pic.iidingyun.com//file/20231106/4/4420aae501283fdb2c4c2634eae698001699273983383.png",
+                "contact_email": "xforward77@gmail.com",
+                "legal_info_url": "https://aa-note.aier3.com/home/term.txt",
+                "generated_description": "AANote is a plugin that facilitates the summarization of conversations, storage of these summaries, and generation of articles based on the summarized content. Users can command the plugin to create a concise summary of a chat, which is then saved for future reference. For article generation, users can specify the number of chapters and desired word count per chapter, with the plugin using the stored summaries to craft the content, adhering to a minimum of 800 words per chapter unless directed otherwise. Additionally, the plugin offers a feature to retrieve historical chat data by searching for specific keywords or phrases within the stored summaries, presenting the pertinent conversations to the user.",
+                "category": "Productivity",
+                "generated_version": 1
+            },
+            "oauth_client_id": "98d659221612bb5fa36c741e67552dee",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ],
+            "logo_url": "http://pic.iidingyun.com//file/20231106/4/4420aae501283fdb2c4c2634eae698001699273983383.png"
+        },
+        {
+            "id": "plugin-9c0d853f-d3f1-4df1-b911-2975dd1164b0",
+            "domain": "jira-plugin.highaiq.com",
+            "namespace": "jira_issue_helper",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "jira_issue_helper",
+                "name_for_human": "JIRA Issue Helper",
+                "description_for_model": "Plugin for managing JIRA software project issues. You can add, remove, update and view issues.",
+                "description_for_human": "Create, read, update, and delete JIRA issues.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://auth.atlassian.com/authorize",
+                    "scope": "read:jira-work write:jira-work read:jira-user offline_access",
+                    "authorization_url": "https://auth.atlassian.com/oauth/token",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "f721e9735c5a4ac2b63aaaed1f4a0443"
+                    },
+                    "pkce_required": false,
+                    "token_exchange_method": null
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://jira-plugin.highaiq.com/openapi.yaml"
+                },
+                "logo_url": "https://jira-plugin.highaiq.com/logo.png",
+                "contact_email": "jira-issue-helper@highaiq.com",
+                "legal_info_url": "https://jira-plugin.highaiq.com/terms.html",
+                "generated_description": "The JIRA Issue Helper plugin enables users to manage their JIRA project issues directly through the plugin interface. It supports operations such as creating new issues, reading existing issue details, updating issue information, and deleting issues that are no longer needed. This tool streamlines issue tracking and project management tasks for JIRA users.",
+                "category": "Productivity",
+                "generated_version": 1
+            },
+            "oauth_client_id": "x4mOOvyd4djOzcDOmVwucQe2mNHK2Gl6",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ],
+            "logo_url": "https://jira-plugin.highaiq.com/logo.png"
+        },
+        {
+            "id": "plugin-7b05e970-b72d-4952-b9dc-01ab97650df4",
+            "domain": "aaron-fill-pdf.aaronplugins.com",
+            "namespace": "AaronFillPDFForms",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "AaronFillPDFForms",
+                "name_for_human": "Aaron Fill PDF Forms",
+                "description_for_model": "You are an assistant designed to fill in PDF forms. To begin, user must upload files: a PDF form and sources required for filling the document. When the user indicates that the files are uploaded, call API endpoint to check the current status of the files. Keep calling API until you receive 'success' status. Once files are successfully uploaded, provide the user with a download link to the filled PDF.",
+                "description_for_human": "Fill legal forms & complex PDF documents easily! Upload a file, provide data sources and I'll handle the rest.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://plugins-engine.aaronplugins.com/api/auth/sign-in/f726fe44-bff1-45e1-95a9-1a2370a85dcd",
+                    "scope": "",
+                    "authorization_url": "https://plugins-engine.aaronplugins.com/api/auth/authorize/f726fe44-bff1-45e1-95a9-1a2370a85dcd",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "4b8b2b9889a9482ca29fde1847b8f2a1"
+                    },
+                    "pkce_required": false,
+                    "token_exchange_method": null
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://aaron-fill-pdf.aaronplugins.com/.well-known/openapi.json"
+                },
+                "logo_url": "https://cplst01.blob.core.windows.net/static/aaron-fill-pdf.jpg",
+                "contact_email": "support@aaronplugins.com",
+                "legal_info_url": "https://aaron-fill-pdf.aaronplugins.com/home/terms",
+                "generated_description": "The Aaron Fill PDF Forms plugin is designed to facilitate the completion of PDF documents, particularly legal forms and other complex paperwork. Users are required to upload the PDF form that needs to be filled along with the necessary data sources. The plugin then interacts with an API endpoint to monitor the status of the uploaded files. It continues to check the status until a 'success' notification is received. Upon successful processing, the plugin provides a link for the user to download the filled-in PDF document.",
+                "category": "Productivity",
+                "generated_version": 1
+            },
+            "oauth_client_id": "f79cad78-cd9c-4042-957b-77db9a6d8e2f",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ],
+            "logo_url": "https://cplst01.blob.core.windows.net/static/aaron-fill-pdf.jpg"
+        },
+        {
+            "id": "plugin-3de5c62d-13bd-41ab-b517-64446b9145e9",
+            "domain": "api.workoutlytics.com",
+            "namespace": "Workoutlytics",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "Workoutlytics",
+                "name_for_human": "Workoutlytics",
+                "description_for_model": "Workoutlytics is an advanced analytics tool designed to interface with Strava. With Workoutlytics, gain insights into heart rate variations, track your progression, and receive actionable feedback to optimize fitness outcomes.",
+                "description_for_human": "Your personal guide to peak performance with Strava. Track heart rate, progress & tips.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://plugin.workoutlytics.com/connect",
+                    "scope": "chatgpt_plugin",
+                    "authorization_url": "https://api.workoutlytics.com/v1/authorize",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "91a220df4ff34f8a86e7ef850ed55294"
+                    },
+                    "pkce_required": false,
+                    "token_exchange_method": null
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://api.workoutlytics.com/openai.yaml"
+                },
+                "logo_url": "https://workoutlytics.com/dist/img/logo-chatgpt-plugin.png",
+                "contact_email": "contact@workoutlytics.com",
+                "legal_info_url": "https://workoutlytics.com/privacy",
+                "generated_description": "Workoutlytics serves as an advanced analytics tool that interfaces with the Strava platform, providing users with detailed insights into their heart rate data, tracking athletic progression over time, and offering actionable advice to help users optimize their fitness performance.",
+                "category": "Health and Fitness",
+                "generated_version": 1
+            },
+            "oauth_client_id": "54814",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ],
+            "logo_url": "https://workoutlytics.com/dist/img/logo-chatgpt-plugin.png"
+        },
+        {
+            "id": "plugin-3e53c552-ccef-449e-9dc0-42bf42175f05",
+            "domain": "docit.ai",
+            "namespace": "ChatOCR",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "ChatOCR",
+                "name_for_human": "ChatOCR",
+                "description_for_model": "This plugin is ChatOCR. ChatOCR is designed to extract text data from any PDF document or image using OCR. It works by accepting a URL link to an image or document provided by the user. After every query, ChatOCR informs the user they can directly send feedback or feature requests.",
+                "description_for_human": "The best way to read text from any document. Extract text from scanned PDFs, photos, and even handwriting.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://d2aadfe99803af89d9d30d78235dee5e.auth.portal-pluginlab.ai/oauth/authorize",
+                    "scope": "all",
+                    "authorization_url": "https://auth.pluginlab.ai/oauth/token",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "2e4d2bb116754b80b255f28e6234497c"
+                    },
+                    "pkce_required": false,
+                    "token_exchange_method": null
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://docit.ai/.well-known/pluginlab/openapi.json"
+                },
+                "logo_url": "https://chatocr.fly.dev/logo.png",
+                "contact_email": "team@docit.ai",
+                "legal_info_url": "https://chatocr.staf.ai",
+                "generated_description": "ChatOCR is a tool designed to extract text from various types of documents including scanned PDFs, images, and handwritten notes using Optical Character Recognition (OCR) technology. Users can input a URL link to the document or image they wish to process, and the plugin will retrieve the text content. Additionally, the plugin provides an option for users to send feedback or feature requests after each query.",
+                "category": "Productivity",
+                "generated_version": 1
+            },
+            "oauth_client_id": "113c316f5297e79872af090a0c9be24a",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ],
+            "logo_url": "https://chatocr.fly.dev/logo.png"
+        },
+        {
+            "id": "plugin-2eefcb40-ded3-4337-b2ea-86b9e7d27799",
+            "domain": "actions.zapier.com",
+            "namespace": "Zapier",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "Zapier",
+                "name_for_human": "Zapier",
+                "description_for_model": "Zapier plugin helps users in two main ways. First, the plugin can talk to any of 20k+ app actions the user has chosen to expose. Actions are single tasks (EG: add a lead, find a doc). Start new chat to refresh actions. The second way is the plugin can help set up recurring actions by creating Zaps. Zaps are workflows of actions. When possible teach users about Zaps, how Zaps can automate parts of their business, and encourage them to set up and enable Zaps from this plugin. Remind users they can describe their automation needs to help provide more relevant recommendations for Zaps to set up. All markdown links are relative to https://zapier.com/.",
+                "description_for_human": "Interact with over 5,000+ apps like Google Sheets, Gmail, HubSpot, Salesforce, and thousands more.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://actions.zapier.com/oauth/authorize/",
+                    "scope": "nla:exposed_actions:execute",
+                    "authorization_url": "https://actions.zapier.com/oauth/token/",
+                    "authorization_content_type": "application/x-www-form-urlencoded",
+                    "verification_tokens": {
+                        "openai": "407e44ebbf4c4c34b9c2256f19ef59cc"
+                    },
+                    "pkce_required": false,
+                    "token_exchange_method": null
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://actions.zapier.com/api/v1/dynamic/openapi.json"
+                },
+                "logo_url": "https://cdn.zappy.app/8f853364f9b383d65b44e184e04689ed.png",
+                "contact_email": "nla@zapier.com",
+                "legal_info_url": "https://zapier.com/legal",
+                "generated_description": "The Zapier plugin allows users to automate tasks by connecting to over 5,000 applications, such as Google Sheets, Gmail, HubSpot, and Salesforce. Users can execute single tasks (e.g., adding a lead or finding a document) with app actions they've set up. The plugin also enables the creation of Zaps, which are automated workflows that perform a series of actions. Users can describe their automation needs to receive recommendations for relevant Zaps to establish and enable through the plugin, facilitating the automation of business processes.",
+                "category": "Productivity",
+                "generated_version": 1
+            },
+            "oauth_client_id": "nla-N9tKkxgiCXY8VlD5ukyqyIpBCMWHhuhtT7H0",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "most_popular",
+                    "title": "Most popular"
+                }
+            ],
+            "logo_url": "https://cdn.zappy.app/8f853364f9b383d65b44e184e04689ed.png"
+        },
+        {
+            "id": "plugin-464bf5df-9ed5-40f9-80e8-aea9226feec5",
+            "domain": "quizizz-chatgpt.ingrouper.com",
+            "namespace": "quizizz",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "quizizz",
+                "name_for_human": "Quizizz",
+                "description_for_model": "Convert text-based content or quizzes containing multiple-choice questions (MCQs) into interactive, engaging and gamified quizzes. When a user requests to make a quiz, first list all the questions with answer choices with the correct answers marked. Then let the user know they can do any revisions before making the quiz and warn the user that it can take up to 2 minutes to create the quiz. Keep questions and answers short to maximize the number of questions per quiz. Unless specified, have at least 10 questions per quiz and maximum 5 answer choices per question. A quiz can be used in other forms such as a lesson, presentation, or printed worksheet. Instructors can host a quiz in different modes including as homework, instructor-paced quiz, team-based quiz, adaptive quiz, topic mastery mode (mastery peak), and device-free QR card-based answering (paper mode). Learners can do a mock quiz or challenge their friends, or use the quiz as flashcards to study. Templates like surveys, polls, questionnaires, and forms are supported. Question types include MCQ, MSQ (multi-select question), fill-in-the-blank, poll, and open-ended. The question and answer parts of a question can have images besides text.",
+                "description_for_human": "Create quizzes, forms, slides, surveys, polls, worksheets & flashcards. Fun themes, memes & modes.",
+                "auth": {
+                    "type": "none"
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://quizizz-chatgpt.ingrouper.com/openapi.yaml"
+                },
+                "logo_url": "https://quizizz-chatgpt.ingrouper.com/logo.png",
+                "contact_email": "quizizz@ingrouper.com",
+                "legal_info_url": "https://ingrouper.com/quizizz/tos.html",
+                "generated_description": "The Quizizz plugin allows users to create a variety of educational and interactive content such as quizzes, forms, slides, surveys, polls, worksheets, and flashcards. Users can construct quizzes by listing multiple-choice questions with marked correct answers and have the option to revise before finalizing. The creation process may take up to two minutes. Quizzes are designed to be concise, typically comprising at least 10 questions with no more than 5 answer choices each. The plugin supports various instructional modes, including homework, live quizzes, team-based activities, adaptive learning, and paper mode with QR codes. Additionally, it provides templates for surveys and polls, and supports question types like multiple-choice, multi-select, fill-in-the-blank, and open-ended, with the ability to include images alongside text. Quizzes can also be repurposed for lessons, presentations, or printed materials, and used for mock tests, challenges among friends, or as study flashcards.",
+                "category": "Education and Learning",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ],
+            "logo_url": "https://quizizz-chatgpt.ingrouper.com/logo.png"
+        },
+        {
+            "id": "plugin-5cb21240-9d9f-47a4-ae92-e22e26a41299",
+            "domain": "pdf.anygpt.ai",
+            "namespace": "AdvancedSlides",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "AdvancedSlides",
+                "name_for_human": "Advanced Slides",
+                "description_for_model": "This model must first generate a preview of a ppt for user, and if the user agrees it creates one",
+                "description_for_human": "Make PowerPoint presentations from PDFs, URL, or Data",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://e44c5f4b1f7c0bc1126c1caa410132e7.auth.portal-pluginlab.ai/oauth/authorize",
+                    "scope": "all",
+                    "authorization_url": "https://auth.pluginlab.ai/oauth/token",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "7797a872f9a64578bd1704830a15e86a"
+                    },
+                    "pkce_required": false,
+                    "token_exchange_method": null
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://pdf.anygpt.ai/.well-known/pluginlab/openapi.json"
+                },
+                "logo_url": "https://i.ibb.co/RN4yKN6/pdf-1.png",
+                "contact_email": "researchbutler@anygpt.ai",
+                "legal_info_url": "http://www.pdf.anygpt.ai/legal",
+                "generated_description": "The Advanced Slides plugin is designed to facilitate the creation of PowerPoint presentations by allowing users to generate them from various sources such as PDFs, URLs, or data inputs. Initially, the plugin creates a preview of the PowerPoint presentation for the user to review. If the user approves the preview, the plugin then proceeds to create the final PowerPoint presentation based on the provided content.",
+                "category": "Productivity",
+                "generated_version": 1
+            },
+            "oauth_client_id": "53b00759218a6be3c2ab3fd894291157",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ],
+            "logo_url": "https://i.ibb.co/RN4yKN6/pdf-1.png"
+        },
+        {
+            "id": "plugin-1dfd6f9c-c4c7-4011-b1b1-7845542bb808",
+            "domain": "plugin.livingai.com",
+            "namespace": "LivingAI",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "LivingAI",
+                "name_for_human": "LivingAI",
+                "description_for_model": "The LivingAI plugin empowers users to create avatar videos effortlessly with ChatGPT by providing a text. The input should be concise for the speech or voiceover text. Additionally, users can include optional properties like video title, avatar gender,age, mood, language, and skin tone, video title and avatar gender can be extracted from the user's input, but if they are not present, the model should generate them without seeking additional user input. For more personalized avatars, users can even provide specific URLs with frontal facing profile photographs. LivingAI supports video creation in over a hundred languages. Once the avatar video is ready, a link is provided for easy access. Users can view, share with friends and team members, but should be mindful of a potential loading message during processing, requiring a manual page refresh to check readiness. The video generation typically takes one to three minutes, depending on the text length. In the unlikely event of any issues, LivingAI promptly provides an error message with the details for quick resolution. Experience the next level of avatar video creation with LivingAI's dynamic and customizable platform.",
+                "description_for_human": "Create digital beings instantly with LivingAI - the most advanced AI video generation platform.",
+                "auth": {
+                    "type": "oauth",
+                    "instructions": "",
+                    "client_url": "https://plugin.livingai.com/oauth/chatgpt/signin",
+                    "scope": "",
+                    "authorization_url": "https://plugin.livingai.com/oauth/chatgpt/token",
+                    "authorization_content_type": "application/json",
+                    "verification_tokens": {
+                        "openai": "c75d1d7606f84052b2ac842fd40b9dac"
+                    },
+                    "pkce_required": false,
+                    "token_exchange_method": null
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://plugin.livingai.com/openapi.yaml"
+                },
+                "logo_url": "data:image/png;base64,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",
+                "contact_email": "support@livingai.com",
+                "legal_info_url": "https://www.livingai.com/terms-and-conditions",
+                "generated_description": "The LivingAI plugin allows users to generate AI-powered avatar videos by submitting text that the avatar will speak. Users have the option to customize their avatar by specifying properties such as gender, age, mood, language, and skin tone, or they can allow the plugin to auto-generate these attributes. For a more customized experience, users can also provide a URL to a frontal face photograph. The plugin supports over a hundred languages and delivers a link to the completed video, which usually takes one to three minutes to create. Should there be any processing delays, users may need to refresh the page manually. In case of errors, the plugin provides detailed messages to help troubleshoot the issue.",
+                "category": "Video",
+                "generated_version": 1
+            },
+            "oauth_client_id": "tfHiMmPGHh4vd8E4bKN3PPt2kabV84J3",
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": false
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ],
+            "logo_url": "data:image/png;base64,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"
+        },
+        {
+            "id": "plugin-128986c1-a43b-406a-aad7-b50474de15ff",
+            "domain": "api.lagogal.com",
+            "namespace": "ASH",
+            "status": "approved",
+            "manifest": {
+                "schema_version": "v1",
+                "name_for_model": "ASH",
+                "name_for_human": "ASH",
+                "description_for_model": "Various API endpoints help to perform desired computation. Currently supports converting any amount between different currencies for current or past dates, covering a wide range of global currencies, including major fiat currencies and prominent cryptocurrencies. The exchange rate data, which is updated daily, is sourced from reputable financial institutions and exchange platforms, including the Reserve Bank of Australia (RBA), National Bank of Georgia (NBG), European Central Bank (ECB), Bank of Canada (BoC), and Binance (BIN) for cryptocurrency rates (more sources might be added any time, thus accessing the '/v1/currency_converter/sources' endpoint of the API will give most up to date list of the available exchange rate data sources). It also accepts anonymous feedback and suggestion messages for future user experience improvements through the dedicated feedback endpoint (namely the '/v1/currency_converter/feedback/anonymous' endpoint), which can receive feedback messages in case users have any feedback to share with the ASH plugin API developers. See the API specification for more details about the different endpoints provided and their capabilities.",
+                "description_for_human": "ASH, by lagogal.com, provides a currency converter covering a wide range of global currencies.",
+                "auth": {
+                    "type": "service_http",
+                    "instructions": "",
+                    "authorization_type": "bearer",
+                    "verification_tokens": {
+                        "openai": "38b6eb3ba74d4362b961dc912aa5706f"
+                    },
+                    "custom_auth_header": null
+                },
+                "api": {
+                    "type": "openapi",
+                    "url": "https://api.lagogal.com/v1/currency_converter/openapi.json"
+                },
+                "logo_url": "https://api.lagogal.com/logo/ASH_512x512.png",
+                "contact_email": "support@lagogal.com",
+                "legal_info_url": "https://lagogal.com/legal/en/tou.html",
+                "generated_description": "The ASH plugin is a currency conversion tool that facilitates the exchange of various global currencies, including major fiat currencies and prominent cryptocurrencies. It allows users to convert amounts between different currencies for current or historical dates. The plugin's exchange rates are updated daily and sourced from reputable institutions such as the Reserve Bank of Australia, National Bank of Georgia, European Central Bank, Bank of Canada, and Binance for cryptocurrencies. Users can access a list of current data sources via the API's specific endpoint. Additionally, the plugin offers an anonymous feedback feature through which users can submit suggestions for improvements.",
+                "category": "Finance",
+                "generated_version": 1
+            },
+            "oauth_client_id": null,
+            "user_settings": {
+                "is_installed": false,
+                "is_authenticated": true
+            },
+            "categories": [
+                {
+                    "id": "newly_added",
+                    "title": "New"
+                }
+            ],
+            "logo_url": "https://api.lagogal.com/logo/ASH_512x512.png"
         }
     ]
 }
