@@ -2,6 +2,12 @@
 
 A curated list of awesome ChatGPT Plugins (Official ChatGPT Plus and Unofficial Plugins) detailed descriptions, links, usage examples, and related plugin resources.
 
+## Note: (May 05, 2024)
+
+OpenAI has effectively replaced ChatGPT plugins with [OpenAI Custom GPTs](https://openai.com/index/introducing-gpts). This repository is being retained for historical reference and future updates in case the purpose of plugins re-appears. In the meantime, Custom GPTs are the new Plugins.
+
+This repo contains useful code I created to interact with the OpenAI API, retrieve json information from a 3rd party service, used Python Jupyter Notebooks to process that information, and used that information to query a OpenAI GPT model to display more useful information in an efficient way.
+
 ## Using ChatGPT Plugins
 
 To use a ChatGPT plugin,
